@@ -28,25 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtNumero2 = new System.Windows.Forms.TextBox();
-            this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // txtNumero2
-            // 
-            this.txtNumero2.Location = new System.Drawing.Point(118, 23);
-            this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(100, 20);
-            this.txtNumero2.TabIndex = 11;
-            // 
-            // txtNumero1
-            // 
-            this.txtNumero1.Location = new System.Drawing.Point(12, 23);
-            this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(100, 20);
-            this.txtNumero1.TabIndex = 10;
             // 
             // label2
             // 
@@ -71,8 +55,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.txtNumero2);
-            this.Controls.Add(this.txtNumero1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmDivisao";
@@ -84,8 +66,6 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtNumero2;
-        private System.Windows.Forms.TextBox txtNumero1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }
