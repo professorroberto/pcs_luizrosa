@@ -23,6 +23,7 @@ namespace Calculadora
 
             int resultsub = N1 - N2;
 
+            lblResultado.Text = resultsub.ToString();
         }
     }
 }
