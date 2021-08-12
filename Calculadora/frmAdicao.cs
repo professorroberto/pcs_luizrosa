@@ -18,7 +18,12 @@ namespace Calculadora
 
         private void btnResultado_Click(object sender, EventArgs e)
         {
-
+            int resultado;
+            int valor1;
+            int valor2;
+            valor1 = int.Parse(txtNumero1.Text);
+            valor2 = int.Parse(txtNumero2.Text);
+            resultado = valor1 + valor2;
         }
     }
 }
