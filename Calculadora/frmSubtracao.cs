@@ -15,5 +15,20 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void btnResultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNumero1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNumero2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

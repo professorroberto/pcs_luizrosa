@@ -20,5 +20,10 @@ namespace Calculadora
         {
 
         }
+
+        private void frmAdicao_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
