@@ -15,5 +15,40 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void frmDivisao_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNumero1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnResultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNumero2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

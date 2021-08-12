@@ -30,12 +30,16 @@
         {
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtNumero2 = new System.Windows.Forms.TextBox();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.btnResultado = new System.Windows.Forms.Button();
+            this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(115, 7);
+            this.label2.Location = new System.Drawing.Point(139, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 7;
@@ -44,21 +48,64 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 7);
+            this.label1.Location = new System.Drawing.Point(27, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Número 1";
             // 
+            // txtNumero2
+            // 
+            this.txtNumero2.Location = new System.Drawing.Point(131, 37);
+            this.txtNumero2.Name = "txtNumero2";
+            this.txtNumero2.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero2.TabIndex = 13;
+            this.txtNumero2.TextChanged += new System.EventHandler(this.txtNumero2_TextChanged);
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(25, 126);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(206, 41);
+            this.lblResultado.TabIndex = 10;
+            this.lblResultado.Text = "lblResultado";
+            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
+            // 
+            // btnResultado
+            // 
+            this.btnResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResultado.Location = new System.Drawing.Point(25, 74);
+            this.btnResultado.Name = "btnResultado";
+            this.btnResultado.Size = new System.Drawing.Size(206, 39);
+            this.btnResultado.TabIndex = 11;
+            this.btnResultado.Text = "Resultado";
+            this.btnResultado.UseVisualStyleBackColor = true;
+            this.btnResultado.Click += new System.EventHandler(this.btnResultado_Click);
+            // 
+            // txtNumero1
+            // 
+            this.txtNumero1.Location = new System.Drawing.Point(25, 37);
+            this.txtNumero1.Name = "txtNumero1";
+            this.txtNumero1.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero1.TabIndex = 12;
+            this.txtNumero1.TextChanged += new System.EventHandler(this.txtNumero1_TextChanged);
+            // 
             // frmDivisao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(248, 209);
+            this.Controls.Add(this.txtNumero2);
+            this.Controls.Add(this.txtNumero1);
+            this.Controls.Add(this.btnResultado);
+            this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmDivisao";
             this.Text = "frmDivisao";
+            this.Load += new System.EventHandler(this.frmDivisao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -68,5 +115,9 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtNumero2;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button btnResultado;
+        private System.Windows.Forms.TextBox txtNumero1;
     }
 }
