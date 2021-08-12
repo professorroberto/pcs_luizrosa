@@ -15,5 +15,10 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void btnResultado_Click(object sender, EventArgs e)
+        {
+            float result = float.Parse(txtNumero1.Text) - float.Parse(txtNumero2.Text);
+        }
     }
 }
