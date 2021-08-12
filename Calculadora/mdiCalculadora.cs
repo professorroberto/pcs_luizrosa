@@ -11,7 +11,7 @@ namespace Calculadora
 {
     public partial class mdiCalculadora : Form
     {
-        public mdiCalculadora()
+                public mdiCalculadora()
         {
             InitializeComponent();
         }
@@ -21,11 +21,22 @@ namespace Calculadora
             frmAdicao frm = new frmAdicao();
             frm.Show();
         }
-
+        private void mnuDivisao_Click(object sender, EventArgs e)
+        {
+            frmDivisao frm = new frmDivisao();
+            frm.Show();
+        }
         private void mnuSubtracao_Click(object sender, EventArgs e)
         {
             frmSubtracao frm = new frmSubtracao();
             frm.Show();
         }
+
+
+        private void mdiCalculadora_Load(object sender, EventArgs e)
+        {
+        
+        }
+        
     }
 }
