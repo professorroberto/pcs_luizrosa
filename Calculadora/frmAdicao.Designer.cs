@@ -44,6 +44,7 @@
             this.label1.Size = new System.Drawing.Size(53, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Número 1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -53,6 +54,7 @@
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Número 2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // lblResultado
             // 
@@ -63,6 +65,7 @@
             this.lblResultado.TabIndex = 2;
             this.lblResultado.Text = "lblResultado";
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // btnResultado
             // 
@@ -81,6 +84,7 @@
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(100, 20);
             this.txtNumero1.TabIndex = 4;
+            this.txtNumero1.TextChanged += new System.EventHandler(this.txtNumero1_TextChanged);
             // 
             // txtNumero2
             // 
@@ -88,6 +92,7 @@
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(100, 20);
             this.txtNumero2.TabIndex = 5;
+            this.txtNumero2.TextChanged += new System.EventHandler(this.txtNumero2_TextChanged);
             // 
             // frmAdicao
             // 

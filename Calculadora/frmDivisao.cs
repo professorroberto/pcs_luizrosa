@@ -9,11 +9,27 @@ using System.Windows.Forms;
 
 namespace Calculadora
 {
+    
     public partial class frmDivisao : Form
     {
+        double resul = 0;
         public frmDivisao()
         {
             InitializeComponent();
+        }
+
+        private void btnResultado_Click(object sender, EventArgs e)
+        {
+            double valor1 = double.Parse(txtNumero1.Text);
+            double valor2 = double.Parse(txtNumero2.Text);
+
+            resul = valor1 / valor2;
+            lblResultado.Text = "Resultado: " + resul.ToString();
+        }
+
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
