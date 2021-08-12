@@ -30,6 +30,10 @@
         {
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.btnResultado = new System.Windows.Forms.Button();
+            this.txtNumero2 = new System.Windows.Forms.TextBox();
+            this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label2
@@ -50,11 +54,49 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Número 1";
             // 
+            // lblResultado
+            // 
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(12, 115);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(188, 41);
+            this.lblResultado.TabIndex = 15;
+            this.lblResultado.Text = "lblResultado";
+            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnResultado
+            // 
+            this.btnResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResultado.Location = new System.Drawing.Point(12, 63);
+            this.btnResultado.Name = "btnResultado";
+            this.btnResultado.Size = new System.Drawing.Size(188, 39);
+            this.btnResultado.TabIndex = 14;
+            this.btnResultado.Text = "Resultado";
+            this.btnResultado.UseVisualStyleBackColor = true;
+            // 
+            // txtNumero2
+            // 
+            this.txtNumero2.Location = new System.Drawing.Point(118, 25);
+            this.txtNumero2.Name = "txtNumero2";
+            this.txtNumero2.Size = new System.Drawing.Size(82, 20);
+            this.txtNumero2.TabIndex = 13;
+            // 
+            // txtNumero1
+            // 
+            this.txtNumero1.Location = new System.Drawing.Point(12, 25);
+            this.txtNumero1.Name = "txtNumero1";
+            this.txtNumero1.Size = new System.Drawing.Size(82, 20);
+            this.txtNumero1.TabIndex = 12;
+            // 
             // frmSubtracao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(250, 167);
+            this.ClientSize = new System.Drawing.Size(416, 362);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.btnResultado);
+            this.Controls.Add(this.txtNumero2);
+            this.Controls.Add(this.txtNumero1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmSubtracao";
@@ -68,5 +110,9 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button btnResultado;
+        private System.Windows.Forms.TextBox txtNumero2;
+        private System.Windows.Forms.TextBox txtNumero1;
     }
 }
