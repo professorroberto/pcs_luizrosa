@@ -15,5 +15,10 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void frmSubtracao_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
