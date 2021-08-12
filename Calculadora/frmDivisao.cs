@@ -22,6 +22,8 @@ namespace Calculadora
             int N2 = int.Parse(txtNumero2.Text);
 
             int resultdiv = N1 / N2;
+
+            lblResultado.Text = resultdiv.ToString();
         }
     }
 }
