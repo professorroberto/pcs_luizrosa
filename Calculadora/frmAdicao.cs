@@ -18,6 +18,10 @@ namespace Calculadora
 
         private void btnResultado_Click(object sender, EventArgs e)
         {
+            int N1 = int.Parse(txtNumero1.Text);
+            int N2 = int.Parse(txtNumero2.Text);
+
+            int result = N1 + N2; 
 
         }
     }
