@@ -18,12 +18,16 @@ namespace Calculadora
 
         private void btnResultado_Click(object sender, EventArgs e)
         {
-            int N1 = int.Parse(txtNumero1.Text);
-            int N2 = int.Parse(txtNumero2.Text);
+            if (txtNumero1.Text == "" || txtNumero2.Text == "")
+                MessageBox.Show("Favor, preencher todos os campos!");
+            else
+            {
+                int N1 = int.Parse(txtNumero1.Text);
+                int N2 = int.Parse(txtNumero2.Text);
 
-            int resultdiv = N1 / N2;
-
-            lblResultado.Text = resultdiv.ToString();
+                int resultdiv = N1 / N2;
+                lblResultado.Text = resultdiv.ToString();
+            }
         }
     }
 }
