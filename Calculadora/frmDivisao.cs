@@ -11,6 +11,7 @@ namespace Calculadora
 {
     public partial class frmDivisao : Form
     {
+        int res;
         public frmDivisao()
         {
             InitializeComponent();
@@ -33,7 +34,8 @@ namespace Calculadora
 
         private void btnResultado_Click(object sender, EventArgs e)
         {
-
+            res = int.Parse(txtNumero1.Text) / int.Parse(txtNumero2.Text);
+            lblResultado.Text = res.ToString();
         }
 
         private void lblResultado_Click(object sender, EventArgs e)
