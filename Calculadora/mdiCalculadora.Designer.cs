@@ -32,8 +32,8 @@
             this.operaçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuAdicao = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSubtracao = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuDivisao = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuMultiplicacao = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuDivisao = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuOperacoes.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,6 +46,7 @@
             this.mnuOperacoes.Size = new System.Drawing.Size(396, 24);
             this.mnuOperacoes.TabIndex = 1;
             this.mnuOperacoes.Text = "menuStrip1";
+            this.mnuOperacoes.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mnuOperacoes_ItemClicked);
             // 
             // operaçõesToolStripMenuItem
             // 
@@ -61,7 +62,7 @@
             // mnuAdicao
             // 
             this.mnuAdicao.Name = "mnuAdicao";
-            this.mnuAdicao.Size = new System.Drawing.Size(152, 22);
+            this.mnuAdicao.Size = new System.Drawing.Size(146, 22);
             this.mnuAdicao.Text = "Adição";
             this.mnuAdicao.Click += new System.EventHandler(this.mnuAdicao_Click);
             // 
@@ -70,18 +71,21 @@
             this.mnuSubtracao.Name = "mnuSubtracao";
             this.mnuSubtracao.Size = new System.Drawing.Size(152, 22);
             this.mnuSubtracao.Text = "Subtração";
-            // 
-            // mnuDivisao
-            // 
-            this.mnuDivisao.Name = "mnuDivisao";
-            this.mnuDivisao.Size = new System.Drawing.Size(152, 22);
-            this.mnuDivisao.Text = "Divisão";
+            this.mnuSubtracao.Click += new System.EventHandler(this.mnuSubtracao_Click);
             // 
             // mnuMultiplicacao
             // 
             this.mnuMultiplicacao.Name = "mnuMultiplicacao";
             this.mnuMultiplicacao.Size = new System.Drawing.Size(152, 22);
             this.mnuMultiplicacao.Text = "Multiplicação";
+            this.mnuMultiplicacao.Click += new System.EventHandler(this.mnuMultiplicacao_Click);
+            // 
+            // mnuDivisao
+            // 
+            this.mnuDivisao.Name = "mnuDivisao";
+            this.mnuDivisao.Size = new System.Drawing.Size(152, 22);
+            this.mnuDivisao.Text = "Divisão";
+            this.mnuDivisao.Click += new System.EventHandler(this.mnuDivisao_Click);
             // 
             // mdiCalculadora
             // 
@@ -96,6 +100,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.mdiCalculadora_Load);
             this.mnuOperacoes.ResumeLayout(false);
             this.mnuOperacoes.PerformLayout();
             this.ResumeLayout(false);
