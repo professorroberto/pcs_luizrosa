@@ -21,8 +21,10 @@ namespace Calculadora
             int N1 = int.Parse(txtNumero1.Text);
             int N2 = int.Parse(txtNumero2.Text);
 
-            int result = N1 + N2; 
+            int result = N1 + N2;
 
+            lblResultado.Text = result.ToString();
         }
+
     }
 }
