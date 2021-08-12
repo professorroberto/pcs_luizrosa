@@ -37,6 +37,12 @@ namespace Calculadora
             frmMultiplicacao frm = new frmMultiplicacao();
             frm.Show();
         }
+
+        private void mnuDivisao_Click_1(object sender, EventArgs e)
+        {
+            frmDivisao frm = new frmDivisao();
+            frm.Show();
+        }
         
     }
 }

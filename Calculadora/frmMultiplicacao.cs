@@ -19,6 +19,11 @@ namespace Calculadora
         double resultado = 0;
         private void btnResultado_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnResultado_Click_1(object sender, EventArgs e)
+        {
             double mN1 = double.Parse(txtNumero1.Text);
             double mN2 = double.Parse(txtNumero2.Text);
 

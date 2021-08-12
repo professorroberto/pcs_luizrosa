@@ -84,6 +84,7 @@
             this.mnuDivisao.Name = "mnuDivisao";
             this.mnuDivisao.Size = new System.Drawing.Size(152, 22);
             this.mnuDivisao.Text = "Divisão";
+            this.mnuDivisao.Click += new System.EventHandler(this.mnuDivisao_Click_1);
             // 
             // mdiCalculadora
             // 
