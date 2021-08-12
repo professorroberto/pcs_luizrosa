@@ -32,10 +32,10 @@ namespace Calculadora
             frm.Show();
         }
 
-
-        private void mdiCalculadora_Load(object sender, EventArgs e)
+        private void mnuMultiplicacao_Click(object sender, EventArgs e)
         {
-        
+            frmMultiplicacao frm = new frmMultiplicacao();
+            frm.Show();
         }
         
     }
