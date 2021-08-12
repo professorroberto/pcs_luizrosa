@@ -8,7 +8,10 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace Calculadora
+
 {
+    //Leozao códigos - 2200037-1
+    //Luis Felipe - 2200032-2
     public partial class frmAdicao : Form
     {
         double resul = 0;
