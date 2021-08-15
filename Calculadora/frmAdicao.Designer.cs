@@ -81,6 +81,7 @@
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(100, 20);
             this.txtNumero1.TabIndex = 4;
+
             // 
             // txtNumero2
             // 
@@ -88,6 +89,7 @@
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(100, 20);
             this.txtNumero2.TabIndex = 5;
+
             // 
             // frmAdicao
             // 
