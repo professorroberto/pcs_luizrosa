@@ -77,6 +77,7 @@
             this.btnResultado.TabIndex = 11;
             this.btnResultado.Text = "Resultado";
             this.btnResultado.UseVisualStyleBackColor = true;
+            this.btnResultado.Click += new System.EventHandler(this.btnResultado_Click);
             // 
             // lblResultado
             // 
