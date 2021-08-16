@@ -57,7 +57,6 @@
             this.operaçõesToolStripMenuItem.Name = "operaçõesToolStripMenuItem";
             this.operaçõesToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.operaçõesToolStripMenuItem.Text = "Operações";
-
             // 
             // mnuAdicao
             // 
@@ -77,6 +76,7 @@
             this.mnuMultiplicacao.Name = "mnuMultiplicacao";
             this.mnuMultiplicacao.Size = new System.Drawing.Size(152, 22);
             this.mnuMultiplicacao.Text = "Multiplicação";
+            this.mnuMultiplicacao.Click += new System.EventHandler(this.mnuMultiplicacao_Click);
             // 
             // mnuDivisao
             // 
