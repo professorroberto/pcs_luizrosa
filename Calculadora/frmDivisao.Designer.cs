@@ -76,6 +76,7 @@
             this.btnResultado.TabIndex = 8;
             this.btnResultado.Text = "Resultado";
             this.btnResultado.UseVisualStyleBackColor = true;
+            this.btnResultado.Click += new System.EventHandler(this.btnResultado_Click);
             // 
             // frmDivisao
             // 

@@ -30,7 +30,6 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblResultado = new System.Windows.Forms.Label();
             this.btnResultado = new System.Windows.Forms.Button();
             this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.txtNumero2 = new System.Windows.Forms.TextBox();
@@ -53,16 +52,6 @@
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Número 2";
-            // 
-            // lblResultado
-            // 
-            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(12, 114);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(206, 41);
-            this.lblResultado.TabIndex = 2;
-            this.lblResultado.Text = "lblResultado";
-            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnResultado
             // 
@@ -97,7 +86,6 @@
             this.Controls.Add(this.txtNumero2);
             this.Controls.Add(this.txtNumero1);
             this.Controls.Add(this.btnResultado);
-            this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmAdicao";
@@ -112,7 +100,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnResultado;
         private System.Windows.Forms.TextBox txtNumero1;
         private System.Windows.Forms.TextBox txtNumero2;
