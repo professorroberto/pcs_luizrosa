@@ -20,26 +20,6 @@ namespace Calculadora
         {
             frmAdicao frm = new frmAdicao();
             frm.Show();
-        }
-
-        private void mnuSubtracao_Click(object sender, EventArgs e)
-        {
-            frmSubtracao sub = new frmSubtracao();
-            sub.Show();
-        }
-
-        private void mnuMultiplicacao_Click(object sender, EventArgs e)
-        {
-            frmMultiplicacao mul = new frmMultiplicacao();
-            mul.Show();
-        }
-
-        private void mnuDivisao_Click(object sender, EventArgs e)
-        {
-            frmDivisao div = new frmDivisao();
-            div.Show();
-        }
-
-        
+        }        
     }
 }
