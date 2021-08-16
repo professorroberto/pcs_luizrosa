@@ -15,5 +15,15 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void btnResultado_Click(object sender, EventArgs e)
+        {
+            double resultado;
+            if (txtNumero1.Text != "" | txtNumero2.Text != "")
+            {
+                resultado = Convert.ToDouble(txtNumero1.Text) + Convert.ToDouble(txtNumero1.Text);
+
+            }
+        }
     }
 }
