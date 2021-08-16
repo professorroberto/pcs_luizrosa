@@ -20,9 +20,15 @@ namespace Calculadora
         {
             double resultado;
             if (txtNumero1.Text != "" | txtNumero2.Text != "")
-            { 
-                resultado = Convert.ToDouble(txtNumero1.Text) + Convert.ToDouble(txtNumero1.Text) 
+            {
+                resultado = Convert.ToDouble(txtNumero1.Text) + Convert.ToDouble(txtNumero1.Text);
+            }
+            else
+            {
+                lblResultado.Text = Convert.ToString(resultado);
             }
         }
+
+        
     }
 }
