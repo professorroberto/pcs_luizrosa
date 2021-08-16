@@ -18,8 +18,17 @@ namespace Calculadora
 
         private void btnResultado_Click(object sender, EventArgs e)
         {
-            float result = float.Parse(txtNumero1.Text) - float.Parse(txtNumero2.Text);
-            lblResultado.Text = result.ToString();
-        }
+            if (txtNumero1.Text == "" || txtNumero2.Text == "")
+                MessageBox.Show("Insira os números");
+            else
+            {
+                int N1 = int.Parse(txtNumero1.Text);
+                int N2 = int.Parse(txtNumero2.Text);
+
+                int result = N1 - N2;
+                lblResultado.Text = result.ToString();
+            }
+        }        
+
     }
 }

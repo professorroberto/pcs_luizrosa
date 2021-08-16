@@ -22,32 +22,24 @@ namespace Calculadora
             frm.Show();
         }
 
-        private void mnuOperacoes_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void mdiCalculadora_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void mnuSubtracao_Click(object sender, EventArgs e)
         {
-            frmSubtracao frm = new frmSubtracao();
-            frm.Show();
+            frmSubtracao sub = new frmSubtracao();
+            sub.Show();
         }
 
         private void mnuMultiplicacao_Click(object sender, EventArgs e)
         {
-            frmMultiplicacao frm = new frmMultiplicacao();
-            frm.Show();
+            frmMultiplicacao mul = new frmMultiplicacao();
+            mul.Show();
         }
 
         private void mnuDivisao_Click(object sender, EventArgs e)
         {
-            frmDivisao frm = new frmDivisao();
-            frm.Show();
+            frmDivisao div = new frmDivisao();
+            div.Show();
         }
+
+        
     }
 }

@@ -46,7 +46,6 @@
             this.mnuOperacoes.Size = new System.Drawing.Size(396, 24);
             this.mnuOperacoes.TabIndex = 1;
             this.mnuOperacoes.Text = "menuStrip1";
-            this.mnuOperacoes.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mnuOperacoes_ItemClicked);
             // 
             // operaçõesToolStripMenuItem
             // 
@@ -58,11 +57,12 @@
             this.operaçõesToolStripMenuItem.Name = "operaçõesToolStripMenuItem";
             this.operaçõesToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.operaçõesToolStripMenuItem.Text = "Operações";
+
             // 
             // mnuAdicao
             // 
             this.mnuAdicao.Name = "mnuAdicao";
-            this.mnuAdicao.Size = new System.Drawing.Size(146, 22);
+            this.mnuAdicao.Size = new System.Drawing.Size(152, 22);
             this.mnuAdicao.Text = "Adição";
             this.mnuAdicao.Click += new System.EventHandler(this.mnuAdicao_Click);
             // 
@@ -100,7 +100,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.mdiCalculadora_Load);
             this.mnuOperacoes.ResumeLayout(false);
             this.mnuOperacoes.PerformLayout();
             this.ResumeLayout(false);

@@ -102,6 +102,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmAdicao";
             this.Text = "frmAdicao";
+            this.Load += new System.EventHandler(this.frmAdicao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
