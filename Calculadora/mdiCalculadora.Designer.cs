@@ -32,8 +32,8 @@
             this.operaçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuAdicao = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSubtracao = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuDivisao = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuMultiplicacao = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuDivisao = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuOperacoes.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,7 +43,8 @@
             this.operaçõesToolStripMenuItem});
             this.mnuOperacoes.Location = new System.Drawing.Point(0, 0);
             this.mnuOperacoes.Name = "mnuOperacoes";
-            this.mnuOperacoes.Size = new System.Drawing.Size(396, 24);
+            this.mnuOperacoes.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.mnuOperacoes.Size = new System.Drawing.Size(528, 28);
             this.mnuOperacoes.TabIndex = 1;
             this.mnuOperacoes.Text = "menuStrip1";
             // 
@@ -55,42 +56,46 @@
             this.mnuMultiplicacao,
             this.mnuDivisao});
             this.operaçõesToolStripMenuItem.Name = "operaçõesToolStripMenuItem";
-            this.operaçõesToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.operaçõesToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
             this.operaçõesToolStripMenuItem.Text = "Operações";
             // 
             // mnuAdicao
             // 
             this.mnuAdicao.Name = "mnuAdicao";
-            this.mnuAdicao.Size = new System.Drawing.Size(152, 22);
+            this.mnuAdicao.Size = new System.Drawing.Size(168, 24);
             this.mnuAdicao.Text = "Adição";
             this.mnuAdicao.Click += new System.EventHandler(this.mnuAdicao_Click);
             // 
             // mnuSubtracao
             // 
             this.mnuSubtracao.Name = "mnuSubtracao";
-            this.mnuSubtracao.Size = new System.Drawing.Size(152, 22);
+            this.mnuSubtracao.Size = new System.Drawing.Size(168, 24);
             this.mnuSubtracao.Text = "Subtração";
-            // 
-            // mnuDivisao
-            // 
-            this.mnuDivisao.Name = "mnuDivisao";
-            this.mnuDivisao.Size = new System.Drawing.Size(152, 22);
-            this.mnuDivisao.Text = "Divisão";
+            this.mnuSubtracao.Click += new System.EventHandler(this.mnuSubtracao_Click);
             // 
             // mnuMultiplicacao
             // 
             this.mnuMultiplicacao.Name = "mnuMultiplicacao";
-            this.mnuMultiplicacao.Size = new System.Drawing.Size(152, 22);
+            this.mnuMultiplicacao.Size = new System.Drawing.Size(168, 24);
             this.mnuMultiplicacao.Text = "Multiplicação";
+            this.mnuMultiplicacao.Click += new System.EventHandler(this.mnuMultiplicacao_Click);
+            // 
+            // mnuDivisao
+            // 
+            this.mnuDivisao.Name = "mnuDivisao";
+            this.mnuDivisao.Size = new System.Drawing.Size(168, 24);
+            this.mnuDivisao.Text = "Divisão";
+            this.mnuDivisao.Click += new System.EventHandler(this.mnuDivisao_Click);
             // 
             // mdiCalculadora
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 368);
+            this.ClientSize = new System.Drawing.Size(528, 453);
             this.Controls.Add(this.mnuOperacoes);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnuOperacoes;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "mdiCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
