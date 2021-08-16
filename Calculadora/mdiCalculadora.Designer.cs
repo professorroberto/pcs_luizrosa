@@ -71,18 +71,21 @@
             this.mnuSubtracao.Name = "mnuSubtracao";
             this.mnuSubtracao.Size = new System.Drawing.Size(152, 22);
             this.mnuSubtracao.Text = "Subtração";
+            this.mnuSubtracao.Click += new System.EventHandler(this.mnuSubtracao_Click);
             // 
             // mnuMultiplicacao
             // 
             this.mnuMultiplicacao.Name = "mnuMultiplicacao";
             this.mnuMultiplicacao.Size = new System.Drawing.Size(152, 22);
             this.mnuMultiplicacao.Text = "Multiplicação";
+            this.mnuMultiplicacao.Click += new System.EventHandler(this.mnuMultiplicacao_Click);
             // 
             // mnuDivisao
             // 
             this.mnuDivisao.Name = "mnuDivisao";
             this.mnuDivisao.Size = new System.Drawing.Size(152, 22);
             this.mnuDivisao.Text = "Divisão";
+            this.mnuDivisao.Click += new System.EventHandler(this.mnuDivisao_Click);
             // 
             // mdiCalculadora
             // 
