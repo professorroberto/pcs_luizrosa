@@ -21,7 +21,7 @@ namespace Calculadora
             double resultado;
             if (txtNumero1.Text != "" | txtNumero2.Text != "")
             {
-                resultado = Convert.ToDouble(txtNumero1.Text) + Convert.ToDouble(txtNumero2.Text);
+                resultado = Convert.ToDouble(txtNumero1.Text) - Convert.ToDouble(txtNumero2.Text);
                 lblResultado.Text = resultado.ToString();
             }
         }
