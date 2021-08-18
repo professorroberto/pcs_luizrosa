@@ -142,12 +142,6 @@
     <Compile Include="frmPEDRO.Designer.cs">
       <DependentUpon>frmPEDRO.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPROFESSOR_ROBERTO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmPROFESSOR_ROBERTO.Designer.cs">
-      <DependentUpon>frmPROFESSOR_ROBERTO.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmRENAN.cs">
       <SubType>Form</SubType>
     </Compile>
