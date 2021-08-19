@@ -35,9 +35,9 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Numero3 = new System.Windows.Forms.TextBox();
+            this.Numero2 = new System.Windows.Forms.TextBox();
+            this.Numero1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblresultado
@@ -84,6 +84,7 @@
             this.button3.TabIndex = 15;
             this.button3.Text = "Multiplicar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -103,32 +104,32 @@
             this.button1.Text = "Somar";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // Numero3
             // 
-            this.textBox3.Location = new System.Drawing.Point(208, 77);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(57, 20);
-            this.textBox3.TabIndex = 12;
+            this.Numero3.Location = new System.Drawing.Point(208, 77);
+            this.Numero3.Name = "Numero3";
+            this.Numero3.Size = new System.Drawing.Size(57, 20);
+            this.Numero3.TabIndex = 12;
             // 
-            // textBox2
+            // Numero2
             // 
-            this.textBox2.Location = new System.Drawing.Point(140, 77);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(62, 20);
-            this.textBox2.TabIndex = 11;
+            this.Numero2.Location = new System.Drawing.Point(140, 77);
+            this.Numero2.Name = "Numero2";
+            this.Numero2.Size = new System.Drawing.Size(62, 20);
+            this.Numero2.TabIndex = 11;
             // 
-            // textBox1
+            // Numero1
             // 
-            this.textBox1.Location = new System.Drawing.Point(78, 77);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(56, 20);
-            this.textBox1.TabIndex = 10;
+            this.Numero1.Location = new System.Drawing.Point(78, 77);
+            this.Numero1.Name = "Numero1";
+            this.Numero1.Size = new System.Drawing.Size(56, 20);
+            this.Numero1.TabIndex = 10;
             // 
             // frmBRUNO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(342, 261);
+            this.ClientSize = new System.Drawing.Size(413, 311);
             this.Controls.Add(this.lblresultado);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -136,9 +137,9 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Numero3);
+            this.Controls.Add(this.Numero2);
+            this.Controls.Add(this.Numero1);
             this.Name = "frmBRUNO";
             this.Text = "Bruno Skajko Sacciotti 2200002-2";
             this.Load += new System.EventHandler(this.frmBRUNO_Load);
@@ -156,9 +157,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Numero3;
+        private System.Windows.Forms.TextBox Numero2;
+        private System.Windows.Forms.TextBox Numero1;
 
 
 
