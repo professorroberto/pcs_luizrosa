@@ -28,86 +28,88 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnsoma = new System.Windows.Forms.Button();
+            this.btnsub = new System.Windows.Forms.Button();
+            this.btnmult = new System.Windows.Forms.Button();
+            this.num2 = new System.Windows.Forms.TextBox();
+            this.num3 = new System.Windows.Forms.TextBox();
+            this.num1 = new System.Windows.Forms.TextBox();
+            this.lblres = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnsoma
             // 
-            this.button1.Location = new System.Drawing.Point(13, 80);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "SOmar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnsoma.Location = new System.Drawing.Point(13, 80);
+            this.btnsoma.Name = "btnsoma";
+            this.btnsoma.Size = new System.Drawing.Size(75, 23);
+            this.btnsoma.TabIndex = 0;
+            this.btnsoma.Text = "SOmar";
+            this.btnsoma.UseVisualStyleBackColor = true;
+            this.btnsoma.Click += new System.EventHandler(this.btnsoma_Click);
             // 
-            // button2
+            // btnsub
             // 
-            this.button2.Location = new System.Drawing.Point(107, 80);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Subtrair";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnsub.Location = new System.Drawing.Point(107, 80);
+            this.btnsub.Name = "btnsub";
+            this.btnsub.Size = new System.Drawing.Size(75, 23);
+            this.btnsub.TabIndex = 1;
+            this.btnsub.Text = "Subtrair";
+            this.btnsub.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnmult
             // 
-            this.button3.Location = new System.Drawing.Point(211, 80);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Multiplicar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnmult.Location = new System.Drawing.Point(211, 80);
+            this.btnmult.Name = "btnmult";
+            this.btnmult.Size = new System.Drawing.Size(75, 23);
+            this.btnmult.TabIndex = 2;
+            this.btnmult.Text = "Multiplicar";
+            this.btnmult.UseVisualStyleBackColor = true;
+            this.btnmult.Click += new System.EventHandler(this.btnmult_Click);
             // 
-            // textBox2
+            // num2
             // 
-            this.textBox2.Location = new System.Drawing.Point(107, 33);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(75, 20);
-            this.textBox2.TabIndex = 4;
+            this.num2.Location = new System.Drawing.Point(107, 33);
+            this.num2.Name = "num2";
+            this.num2.Size = new System.Drawing.Size(75, 20);
+            this.num2.TabIndex = 4;
             // 
-            // textBox3
+            // num3
             // 
-            this.textBox3.Location = new System.Drawing.Point(209, 33);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(77, 20);
-            this.textBox3.TabIndex = 5;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.num3.Location = new System.Drawing.Point(209, 33);
+            this.num3.Name = "num3";
+            this.num3.Size = new System.Drawing.Size(77, 20);
+            this.num3.TabIndex = 5;
+            this.num3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox4
+            // num1
             // 
-            this.textBox4.Location = new System.Drawing.Point(13, 33);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(75, 20);
-            this.textBox4.TabIndex = 6;
+            this.num1.Location = new System.Drawing.Point(13, 33);
+            this.num1.Name = "num1";
+            this.num1.Size = new System.Drawing.Size(75, 20);
+            this.num1.TabIndex = 6;
             // 
-            // label1
+            // lblres
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(107, 147);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Resultado";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblres.AutoSize = true;
+            this.lblres.Location = new System.Drawing.Point(107, 147);
+            this.lblres.Name = "lblres";
+            this.lblres.Size = new System.Drawing.Size(55, 13);
+            this.lblres.TabIndex = 7;
+            this.lblres.Text = "Resultado";
+            this.lblres.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmLUIS_FELIPE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(297, 261);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblres);
+            this.Controls.Add(this.num1);
+            this.Controls.Add(this.num3);
+            this.Controls.Add(this.num2);
+            this.Controls.Add(this.btnmult);
+            this.Controls.Add(this.btnsub);
+            this.Controls.Add(this.btnsoma);
             this.Name = "frmLUIS_FELIPE";
             this.Text = "2200032-2";
             this.Load += new System.EventHandler(this.frmLUIS_FELIPE_Load);
@@ -118,12 +120,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnsoma;
+        private System.Windows.Forms.Button btnsub;
+        private System.Windows.Forms.Button btnmult;
+        private System.Windows.Forms.TextBox num2;
+        private System.Windows.Forms.TextBox num3;
+        private System.Windows.Forms.TextBox num1;
+        private System.Windows.Forms.Label lblres;
     }
 }
