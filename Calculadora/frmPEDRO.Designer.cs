@@ -58,12 +58,13 @@
             // 
             // btnSoma
             // 
+            this.btnSoma.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSoma.Location = new System.Drawing.Point(79, 195);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(104, 51);
             this.btnSoma.TabIndex = 2;
             this.btnSoma.Text = "Soma";
-            this.btnSoma.UseVisualStyleBackColor = true;
+            this.btnSoma.UseVisualStyleBackColor = false;
             this.btnSoma.Click += new System.EventHandler(this.btnSoma_Click);
             // 
             // label2
@@ -110,22 +111,24 @@
             // 
             // btnSubtraçao
             // 
+            this.btnSubtraçao.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSubtraçao.Location = new System.Drawing.Point(306, 195);
             this.btnSubtraçao.Name = "btnSubtraçao";
             this.btnSubtraçao.Size = new System.Drawing.Size(104, 51);
             this.btnSubtraçao.TabIndex = 8;
             this.btnSubtraçao.Text = "Subtraçao";
-            this.btnSubtraçao.UseVisualStyleBackColor = true;
+            this.btnSubtraçao.UseVisualStyleBackColor = false;
             this.btnSubtraçao.Click += new System.EventHandler(this.btnSubtraçao_Click);
             // 
             // btnMultiplicar
             // 
+            this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnMultiplicar.Location = new System.Drawing.Point(194, 195);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(104, 51);
             this.btnMultiplicar.TabIndex = 9;
             this.btnMultiplicar.Text = "Multiplicar";
-            this.btnMultiplicar.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.UseVisualStyleBackColor = false;
             this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
             // frmPEDRO
