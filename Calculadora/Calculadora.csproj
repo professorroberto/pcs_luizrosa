@@ -171,11 +171,59 @@
     <EmbeddedResource Include="frmBRUNO.resx">
       <DependentUpon>frmBRUNO.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmENZO.resx">
+      <DependentUpon>frmENZO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFELIPPO.resx">
+      <DependentUpon>frmFELIPPO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGUILHERME.resx">
+      <DependentUpon>frmGUILHERME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHEITOR.resx">
+      <DependentUpon>frmHEITOR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJONAS.resx">
+      <DependentUpon>frmJONAS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKAUA.resx">
+      <DependentUpon>frmKAUA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLEONARDO_FERREIRA.resx">
+      <DependentUpon>frmLEONARDO_FERREIRA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLEONARDO_TEIXEIRA.resx">
+      <DependentUpon>frmLEONARDO_TEIXEIRA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLUCAS_DE_PAULA.resx">
+      <DependentUpon>frmLUCAS_DE_PAULA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLUCAS_PANICO.resx">
+      <DependentUpon>frmLUCAS_PANICO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLUIS_FELIPE.resx">
+      <DependentUpon>frmLUIS_FELIPE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLUIS_HENRIQUE.resx">
+      <DependentUpon>frmLUIS_HENRIQUE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMATHEUS.resx">
+      <DependentUpon>frmMATHEUS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNICOLAS.resx">
       <DependentUpon>frmNICOLAS.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPEDRO.resx">
+      <DependentUpon>frmPEDRO.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRENAN.resx">
       <DependentUpon>frmRENAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSAMUEL.resx">
+      <DependentUpon>frmSAMUEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTIAGO.resx">
+      <DependentUpon>frmTIAGO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mdiCalculadora.resx">
       <DependentUpon>mdiCalculadora.cs</DependentUpon>
