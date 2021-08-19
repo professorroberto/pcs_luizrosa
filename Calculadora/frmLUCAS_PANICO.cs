@@ -44,4 +44,9 @@ namespace Calculadora
                 lblResultado.Text = result.ToString();
         }
     }
+
+        private void btnSubtrair_Click(object sender, EventArgs e)
+        {
+        
+        }
 }
