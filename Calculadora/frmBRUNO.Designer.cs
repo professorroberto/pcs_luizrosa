@@ -140,7 +140,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "frmBRUNO";
-            this.Text = "Bruno Skajko Sacciotti";
+            this.Text = "Bruno Skajko Sacciotti 2200002-2";
             this.Load += new System.EventHandler(this.frmBRUNO_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
