@@ -22,5 +22,10 @@ namespace Calculadora
         {
             label4.Text = Convert.ToString(int.Parse(textBox1.Text) * int.Parse(textBox2.Text) * int.Parse(textBox3.Text));
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label4.Text = Convert.ToString(int.Parse(textBox1.Text) + int.Parse(textBox2.Text) + int.Parse(textBox3.Text));
+        }
     }
 }
