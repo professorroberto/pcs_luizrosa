@@ -27,7 +27,7 @@ namespace Calculadora
             int n2 = int.Parse(textBox2.Text);
             int n3 = int.Parse(textBox3.Text);
             int resultado = n1 * n2 * n3;
-            label4.Text = resultado.ToString();
+            label1.Text = resultado.ToString();
 
 
         }
@@ -38,7 +38,7 @@ namespace Calculadora
             int n2 = int.Parse(textBox2.Text);
             int n3 = int.Parse(textBox3.Text);
             int resultado = n1 + n2 + n3;
-            label4.Text = resultado.ToString();
+            label1.Text = resultado.ToString();
         }
     }
 }
