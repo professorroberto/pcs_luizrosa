@@ -28,101 +28,102 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnSomar = new System.Windows.Forms.Button();
+            this.btnSubtrair = new System.Windows.Forms.Button();
+            this.btnMultiplicar = new System.Windows.Forms.Button();
+            this.txtNumero1 = new System.Windows.Forms.TextBox();
+            this.txtNumero2 = new System.Windows.Forms.TextBox();
+            this.txtNumero3 = new System.Windows.Forms.TextBox();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnSomar
             // 
-            this.button1.Location = new System.Drawing.Point(18, 169);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 60);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "SOMAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSomar.Location = new System.Drawing.Point(18, 169);
+            this.btnSomar.Name = "btnSomar";
+            this.btnSomar.Size = new System.Drawing.Size(132, 60);
+            this.btnSomar.TabIndex = 0;
+            this.btnSomar.Text = "SOMAR";
+            this.btnSomar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnSubtrair
             // 
-            this.button3.Location = new System.Drawing.Point(244, 169);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(132, 60);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "SUBTRAIR";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSubtrair.Location = new System.Drawing.Point(244, 169);
+            this.btnSubtrair.Name = "btnSubtrair";
+            this.btnSubtrair.Size = new System.Drawing.Size(132, 60);
+            this.btnSubtrair.TabIndex = 2;
+            this.btnSubtrair.Text = "SUBTRAIR";
+            this.btnSubtrair.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnMultiplicar
             // 
-            this.button4.Location = new System.Drawing.Point(469, 169);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(132, 60);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "MULTIPLICAR";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.Location = new System.Drawing.Point(469, 169);
+            this.btnMultiplicar.Name = "btnMultiplicar";
+            this.btnMultiplicar.Size = new System.Drawing.Size(132, 60);
+            this.btnMultiplicar.TabIndex = 3;
+            this.btnMultiplicar.Text = "MULTIPLICAR";
+            this.btnMultiplicar.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
-            // textBox1
+            // txtNumero1
             // 
-            this.textBox1.Location = new System.Drawing.Point(18, 90);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 22);
-            this.textBox1.TabIndex = 4;
+            this.txtNumero1.Location = new System.Drawing.Point(18, 90);
+            this.txtNumero1.Name = "txtNumero1";
+            this.txtNumero1.Size = new System.Drawing.Size(132, 22);
+            this.txtNumero1.TabIndex = 4;
             // 
-            // textBox2
+            // txtNumero2
             // 
-            this.textBox2.Location = new System.Drawing.Point(244, 90);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(132, 22);
-            this.textBox2.TabIndex = 5;
+            this.txtNumero2.Location = new System.Drawing.Point(244, 90);
+            this.txtNumero2.Name = "txtNumero2";
+            this.txtNumero2.Size = new System.Drawing.Size(132, 22);
+            this.txtNumero2.TabIndex = 5;
             // 
-            // textBox3
+            // txtNumero3
             // 
-            this.textBox3.Location = new System.Drawing.Point(469, 90);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(132, 22);
-            this.textBox3.TabIndex = 6;
+            this.txtNumero3.Location = new System.Drawing.Point(469, 90);
+            this.txtNumero3.Name = "txtNumero3";
+            this.txtNumero3.Size = new System.Drawing.Size(132, 22);
+            this.txtNumero3.TabIndex = 6;
             // 
-            // label1
+            // lblResultado
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(281, 271);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "label1";
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Location = new System.Drawing.Point(281, 271);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(93, 17);
+            this.lblResultado.TabIndex = 7;
+            this.lblResultado.Text = "RESULTADO";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(466, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(70, 17);
             this.label2.TabIndex = 8;
-            this.label2.Text = "label2";
+            this.label2.Text = "Numero 3";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(241, 50);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.Size = new System.Drawing.Size(70, 17);
             this.label3.TabIndex = 9;
-            this.label3.Text = "label3";
+            this.label3.Text = "Numero 2";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(39, 50);
+            this.label4.Location = new System.Drawing.Point(12, 50);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
+            this.label4.Size = new System.Drawing.Size(70, 17);
             this.label4.TabIndex = 10;
-            this.label4.Text = "label4";
+            this.label4.Text = "Numero 1";
             // 
             // frmLUCAS_PANICO
             // 
@@ -132,13 +133,13 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.txtNumero3);
+            this.Controls.Add(this.txtNumero2);
+            this.Controls.Add(this.txtNumero1);
+            this.Controls.Add(this.btnMultiplicar);
+            this.Controls.Add(this.btnSubtrair);
+            this.Controls.Add(this.btnSomar);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmLUCAS_PANICO";
             this.Text = "2200005";
@@ -149,13 +150,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnSomar;
+        private System.Windows.Forms.Button btnSubtrair;
+        private System.Windows.Forms.Button btnMultiplicar;
+        private System.Windows.Forms.TextBox txtNumero1;
+        private System.Windows.Forms.TextBox txtNumero2;
+        private System.Windows.Forms.TextBox txtNumero3;
+        private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
