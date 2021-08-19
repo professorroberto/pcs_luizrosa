@@ -69,6 +69,7 @@
             this.btnSomar.TabIndex = 3;
             this.btnSomar.Text = "Somar";
             this.btnSomar.UseVisualStyleBackColor = true;
+            this.btnSomar.Click += new System.EventHandler(this.btnSomar_Click);
             // 
             // btnSubtrair
             // 
@@ -120,7 +121,7 @@
             // 
             this.lblresultado.AutoSize = true;
             this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblresultado.Location = new System.Drawing.Point(96, 145);
+            this.lblresultado.Location = new System.Drawing.Point(66, 144);
             this.lblresultado.Name = "lblresultado";
             this.lblresultado.Size = new System.Drawing.Size(153, 31);
             this.lblresultado.TabIndex = 9;
