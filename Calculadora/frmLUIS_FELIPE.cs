@@ -14,6 +14,16 @@ namespace Calculadora
         public frmLUIS_FELIPE()
         {
             InitializeComponent();
+            //2200032-2
+            //2200032-2
+            //2200032-2
+            //2200032-2
+
+        }
+
+        private void frmLUIS_FELIPE_Load(object sender, EventArgs e)
+        {
+            //2200032-2
         }
     }
 }
