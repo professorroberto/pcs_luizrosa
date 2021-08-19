@@ -31,19 +31,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.txtNum1 = new System.Windows.Forms.TextBox();
+            this.txtNum2 = new System.Windows.Forms.TextBox();
+            this.txtNum3 = new System.Windows.Forms.TextBox();
+            this.btnSomar = new System.Windows.Forms.Button();
+            this.btnSubtrair = new System.Windows.Forms.Button();
+            this.btnMultiplicar = new System.Windows.Forms.Button();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(63, 59);
+            this.label1.Location = new System.Drawing.Point(63, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 17);
             this.label1.TabIndex = 0;
@@ -61,81 +61,82 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(387, 66);
+            this.label3.Location = new System.Drawing.Point(387, 60);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "Numero 3";
             // 
-            // textBox1
+            // txtNum1
             // 
-            this.textBox1.Location = new System.Drawing.Point(68, 107);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(75, 22);
-            this.textBox1.TabIndex = 4;
+            this.txtNum1.Location = new System.Drawing.Point(66, 110);
+            this.txtNum1.Name = "txtNum1";
+            this.txtNum1.Size = new System.Drawing.Size(110, 22);
+            this.txtNum1.TabIndex = 4;
             // 
-            // textBox2
+            // txtNum2
             // 
-            this.textBox2.Location = new System.Drawing.Point(218, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(103, 22);
-            this.textBox2.TabIndex = 5;
+            this.txtNum2.Location = new System.Drawing.Point(221, 110);
+            this.txtNum2.Name = "txtNum2";
+            this.txtNum2.Size = new System.Drawing.Size(121, 22);
+            this.txtNum2.TabIndex = 5;
             // 
-            // textBox3
+            // txtNum3
             // 
-            this.textBox3.Location = new System.Drawing.Point(384, 110);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 6;
+            this.txtNum3.Location = new System.Drawing.Point(390, 110);
+            this.txtNum3.Name = "txtNum3";
+            this.txtNum3.Size = new System.Drawing.Size(118, 22);
+            this.txtNum3.TabIndex = 6;
             // 
-            // button1
+            // btnSomar
             // 
-            this.button1.Location = new System.Drawing.Point(75, 166);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 55);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "somar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSomar.Location = new System.Drawing.Point(66, 166);
+            this.btnSomar.Name = "btnSomar";
+            this.btnSomar.Size = new System.Drawing.Size(110, 55);
+            this.btnSomar.TabIndex = 7;
+            this.btnSomar.Text = "somar";
+            this.btnSomar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnSubtrair
             // 
-            this.button2.Location = new System.Drawing.Point(215, 173);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 47);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "subtrair";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSubtrair.Location = new System.Drawing.Point(221, 166);
+            this.btnSubtrair.Name = "btnSubtrair";
+            this.btnSubtrair.Size = new System.Drawing.Size(121, 55);
+            this.btnSubtrair.TabIndex = 8;
+            this.btnSubtrair.Text = "subtrair";
+            this.btnSubtrair.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnMultiplicar
             // 
-            this.button3.Location = new System.Drawing.Point(386, 165);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 55);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "multiplicar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.Location = new System.Drawing.Point(390, 166);
+            this.btnMultiplicar.Name = "btnMultiplicar";
+            this.btnMultiplicar.Size = new System.Drawing.Size(118, 55);
+            this.btnMultiplicar.TabIndex = 9;
+            this.btnMultiplicar.Text = "multiplicar";
+            this.btnMultiplicar.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
-            // label4
+            // lblResultado
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(233, 257);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 17);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "resultado";
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Location = new System.Drawing.Point(247, 267);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(67, 17);
+            this.lblResultado.TabIndex = 10;
+            this.lblResultado.Text = "resultado";
             // 
             // frmTIAGO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(801, 340);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(558, 340);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.btnMultiplicar);
+            this.Controls.Add(this.btnSubtrair);
+            this.Controls.Add(this.btnSomar);
+            this.Controls.Add(this.txtNum3);
+            this.Controls.Add(this.txtNum2);
+            this.Controls.Add(this.txtNum1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -152,12 +153,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtNum1;
+        private System.Windows.Forms.TextBox txtNum2;
+        private System.Windows.Forms.TextBox txtNum3;
+        private System.Windows.Forms.Button btnSomar;
+        private System.Windows.Forms.Button btnSubtrair;
+        private System.Windows.Forms.Button btnMultiplicar;
+        private System.Windows.Forms.Label lblResultado;
     }
 }
