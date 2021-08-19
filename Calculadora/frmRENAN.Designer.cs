@@ -119,9 +119,10 @@
             // lblRES
             // 
             this.lblRES.AutoSize = true;
+            this.lblRES.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRES.Location = new System.Drawing.Point(163, 163);
             this.lblRES.Name = "lblRES";
-            this.lblRES.Size = new System.Drawing.Size(67, 17);
+            this.lblRES.Size = new System.Drawing.Size(157, 39);
             this.lblRES.TabIndex = 9;
             this.lblRES.Text = "resultado";
             // 
