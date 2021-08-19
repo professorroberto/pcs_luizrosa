@@ -32,12 +32,12 @@
             // 
             // frmNICOLAS
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(212, 206);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ClientSize = new System.Drawing.Size(283, 254);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmNICOLAS";
-            this.Text = "1";
+            this.Text = "2200092-2";
             this.Load += new System.EventHandler(this.frmNICOLAS_Load);
             this.ResumeLayout(false);
 

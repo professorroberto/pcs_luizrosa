@@ -15,5 +15,10 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void frmBRUNO_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
