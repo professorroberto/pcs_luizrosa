@@ -28,5 +28,20 @@ namespace Calculadora
             lblRes.Text = res.ToString();
 >>>>>>> 50adc3cff4e67e89ed18f2850db97c9f1b7359bf
         }
+
+        private void btnSomar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSubtrair_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDividir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
