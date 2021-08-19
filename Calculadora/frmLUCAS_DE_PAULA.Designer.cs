@@ -34,9 +34,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt1 = new System.Windows.Forms.TextBox();
+            this.txt2 = new System.Windows.Forms.TextBox();
+            this.txt3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -56,6 +56,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Multiplicar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -93,35 +94,35 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Número 3";
             // 
-            // textBox1
+            // txt1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 62);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(103, 20);
-            this.textBox1.TabIndex = 6;
+            this.txt1.Location = new System.Drawing.Point(12, 62);
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(103, 20);
+            this.txt1.TabIndex = 6;
             // 
-            // textBox2
+            // txt2
             // 
-            this.textBox2.Location = new System.Drawing.Point(121, 62);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(103, 20);
-            this.textBox2.TabIndex = 7;
+            this.txt2.Location = new System.Drawing.Point(121, 62);
+            this.txt2.Name = "txt2";
+            this.txt2.Size = new System.Drawing.Size(103, 20);
+            this.txt2.TabIndex = 7;
             // 
-            // textBox3
+            // txt3
             // 
-            this.textBox3.Location = new System.Drawing.Point(230, 62);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(103, 20);
-            this.textBox3.TabIndex = 8;
+            this.txt3.Location = new System.Drawing.Point(230, 62);
+            this.txt3.Name = "txt3";
+            this.txt3.Size = new System.Drawing.Size(103, 20);
+            this.txt3.TabIndex = 8;
             // 
             // frmLUCAS_DE_PAULA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 261);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt3);
+            this.Controls.Add(this.txt2);
+            this.Controls.Add(this.txt1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -143,8 +144,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt1;
+        private System.Windows.Forms.TextBox txt2;
+        private System.Windows.Forms.TextBox txt3;
     }
 }
