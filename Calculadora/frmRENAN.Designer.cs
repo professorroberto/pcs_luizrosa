@@ -34,7 +34,7 @@
             this.txtN1 = new System.Windows.Forms.TextBox();
             this.txtN2 = new System.Windows.Forms.TextBox();
             this.txtN3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSOMA = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.lblRES = new System.Windows.Forms.Label();
@@ -88,14 +88,15 @@
             this.txtN3.Size = new System.Drawing.Size(85, 22);
             this.txtN3.TabIndex = 5;
             // 
-            // button1
+            // btnSOMA
             // 
-            this.button1.Location = new System.Drawing.Point(42, 93);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 33);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "SOMAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSOMA.Location = new System.Drawing.Point(42, 93);
+            this.btnSOMA.Name = "btnSOMA";
+            this.btnSOMA.Size = new System.Drawing.Size(83, 33);
+            this.btnSOMA.TabIndex = 6;
+            this.btnSOMA.Text = "SOMAR";
+            this.btnSOMA.UseVisualStyleBackColor = true;
+            this.btnSOMA.Click += new System.EventHandler(this.btnSOMA_Click);
             // 
             // button2
             // 
@@ -122,7 +123,7 @@
             this.lblRES.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRES.Location = new System.Drawing.Point(163, 163);
             this.lblRES.Name = "lblRES";
-            this.lblRES.Size = new System.Drawing.Size(157, 39);
+            this.lblRES.Size = new System.Drawing.Size(151, 38);
             this.lblRES.TabIndex = 9;
             this.lblRES.Text = "resultado";
             // 
@@ -134,7 +135,7 @@
             this.Controls.Add(this.lblRES);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSOMA);
             this.Controls.Add(this.txtN3);
             this.Controls.Add(this.txtN2);
             this.Controls.Add(this.txtN1);
@@ -158,7 +159,7 @@
         private System.Windows.Forms.TextBox txtN1;
         private System.Windows.Forms.TextBox txtN2;
         private System.Windows.Forms.TextBox txtN3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSOMA;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Label lblRES;

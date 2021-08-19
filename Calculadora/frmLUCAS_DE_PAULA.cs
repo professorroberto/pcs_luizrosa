@@ -20,5 +20,10 @@ namespace Calculadora
         {
              lblRes.Text = Convert.ToString(Convert.ToDouble(txt1.Text) * Convert.ToDouble(txt2.Text) * Convert.ToDouble(txt1.Text));
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            blRes.Text = Convert.ToString(Convert.ToDouble(txt1.Text) + Convert.ToDouble(txt2.Text) + Convert.ToDouble(txt1.Text));
+        }
     }
 }
