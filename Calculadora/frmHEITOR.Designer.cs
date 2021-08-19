@@ -59,12 +59,13 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button3.Location = new System.Drawing.Point(223, 89);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(84, 27);
             this.button3.TabIndex = 17;
             this.button3.Text = "Multiplicar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
@@ -85,12 +86,13 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button2.Location = new System.Drawing.Point(119, 89);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 27);
             this.button2.TabIndex = 14;
             this.button2.Text = "Subtrair";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -110,12 +112,14 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button1.Location = new System.Drawing.Point(15, 89);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 27);
             this.button1.TabIndex = 11;
             this.button1.Text = "Somar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
