@@ -37,6 +37,8 @@
             this.txt1 = new System.Windows.Forms.TextBox();
             this.txt2 = new System.Windows.Forms.TextBox();
             this.txt3 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblRes = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -115,11 +117,31 @@
             this.txt3.Size = new System.Drawing.Size(103, 20);
             this.txt3.TabIndex = 8;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(19, 159);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "resultado";
+            // 
+            // lblRes
+            // 
+            this.lblRes.AutoSize = true;
+            this.lblRes.Location = new System.Drawing.Point(84, 159);
+            this.lblRes.Name = "lblRes";
+            this.lblRes.Size = new System.Drawing.Size(35, 13);
+            this.lblRes.TabIndex = 10;
+            this.lblRes.Text = "label5";
+            // 
             // frmLUCAS_DE_PAULA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 261);
+            this.Controls.Add(this.lblRes);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.txt3);
             this.Controls.Add(this.txt2);
             this.Controls.Add(this.txt1);
@@ -147,5 +169,7 @@
         private System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.TextBox txt2;
         private System.Windows.Forms.TextBox txt3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblRes;
     }
 }
