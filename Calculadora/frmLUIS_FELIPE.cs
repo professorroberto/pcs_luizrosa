@@ -18,7 +18,7 @@ namespace Calculadora
             //2200032-2
             //2200032-2
             //2200032-2
-            int res;
+
         }
 
         private void frmLUIS_FELIPE_Load(object sender, EventArgs e)
@@ -38,11 +38,34 @@ namespace Calculadora
 
         private void btnsoma_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+            //string numero1;
+            //string numero2;
+            //string numero3;
+
+            //num1.Text = numero1;
+            //num2.Text = numero2;
+            //num3.Text = numero3;
+
+            //res
+=======
+>>>>>>> 50adc3cff4e67e89ed18f2850db97c9f1b7359bf
             
         }
 
         private void btnmult_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+            //string numero1;
+            //string numero2;
+            //string numero3;
+
+            //num1.Text = numero1;
+            //num2.Text = numero2;
+            //num3.Text = numero3;
+
+            //lblres.Text = numero1 * numero2 * numero3;
+=======
             int numero1;
             int numero2;
             int numero3;
@@ -52,6 +75,7 @@ namespace Calculadora
             numero3 = int.Parse(num3.Text);
 
             lblres.Text = (numero1 * numero2 * numero3).ToString();
+>>>>>>> 50adc3cff4e67e89ed18f2850db97c9f1b7359bf
         }
     }
 }
