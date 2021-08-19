@@ -32,7 +32,7 @@
             this.txtnum2 = new System.Windows.Forms.TextBox();
             this.btncalcS = new System.Windows.Forms.Button();
             this.lblresult = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtnum3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.Btncalc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -69,17 +69,17 @@
             this.lblresult.AutoSize = true;
             this.lblresult.Location = new System.Drawing.Point(155, 151);
             this.lblresult.Name = "lblresult";
-            this.lblresult.Size = new System.Drawing.Size(35, 13);
+            this.lblresult.Size = new System.Drawing.Size(73, 13);
             this.lblresult.TabIndex = 3;
-            this.lblresult.Text = "label1";
+            this.lblresult.Text = "RESULTADO";
             // 
-            // textBox1
+            // txtnum3
             // 
-            this.textBox1.Location = new System.Drawing.Point(224, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtnum3.Location = new System.Drawing.Point(224, 38);
+            this.txtnum3.Name = "txtnum3";
+            this.txtnum3.Size = new System.Drawing.Size(100, 20);
+            this.txtnum3.TabIndex = 4;
+            this.txtnum3.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -89,6 +89,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "MULTIPLICAR";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Btncalc
             // 
@@ -136,7 +137,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Btncalc);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtnum3);
             this.Controls.Add(this.lblresult);
             this.Controls.Add(this.btncalcS);
             this.Controls.Add(this.txtnum2);
@@ -154,7 +155,7 @@
         private System.Windows.Forms.TextBox txtnum2;
         private System.Windows.Forms.Button btncalcS;
         private System.Windows.Forms.Label lblresult;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtnum3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Btncalc;
         private System.Windows.Forms.Label label1;
