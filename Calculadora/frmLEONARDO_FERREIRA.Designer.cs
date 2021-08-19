@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Name = "frmLEONARDO_FERREIRA";
-            this.Text = "1";
+            this.Text = "2200068-8";
             this.ResumeLayout(false);
 
         }
