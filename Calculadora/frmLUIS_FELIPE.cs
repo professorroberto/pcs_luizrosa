@@ -18,7 +18,6 @@ namespace Calculadora
             //2200032-2
             //2200032-2
             //2200032-2
-            int res;
         }
 
         private void frmLUIS_FELIPE_Load(object sender, EventArgs e)
@@ -52,6 +51,11 @@ namespace Calculadora
             numero3 = int.Parse(num3.Text);
 
             lblres.Text = (numero1 * numero2 * numero3).ToString();
+        }
+
+        private void btnsub_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
