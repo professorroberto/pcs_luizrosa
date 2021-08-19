@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtN1 = new System.Windows.Forms.TextBox();
+            this.txtN2 = new System.Windows.Forms.TextBox();
+            this.txtN3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -40,26 +40,26 @@
             this.lblresultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtN1
             // 
-            this.textBox1.Location = new System.Drawing.Point(36, 34);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(56, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtN1.Location = new System.Drawing.Point(36, 34);
+            this.txtN1.Name = "txtN1";
+            this.txtN1.Size = new System.Drawing.Size(56, 20);
+            this.txtN1.TabIndex = 0;
             // 
-            // textBox2
+            // txtN2
             // 
-            this.textBox2.Location = new System.Drawing.Point(98, 34);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(62, 20);
-            this.textBox2.TabIndex = 1;
+            this.txtN2.Location = new System.Drawing.Point(98, 34);
+            this.txtN2.Name = "txtN2";
+            this.txtN2.Size = new System.Drawing.Size(62, 20);
+            this.txtN2.TabIndex = 1;
             // 
-            // textBox3
+            // txtN3
             // 
-            this.textBox3.Location = new System.Drawing.Point(166, 34);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(57, 20);
-            this.textBox3.TabIndex = 2;
+            this.txtN3.Location = new System.Drawing.Point(166, 34);
+            this.txtN3.Name = "txtN3";
+            this.txtN3.Size = new System.Drawing.Size(57, 20);
+            this.txtN3.TabIndex = 2;
             // 
             // button1
             // 
@@ -87,6 +87,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Multiplicar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 
@@ -136,9 +137,9 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtN3);
+            this.Controls.Add(this.txtN2);
+            this.Controls.Add(this.txtN1);
             this.Name = "frmENZO";
             this.Text = "22000469";
             this.ResumeLayout(false);
@@ -148,9 +149,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtN1;
+        private System.Windows.Forms.TextBox txtN2;
+        private System.Windows.Forms.TextBox txtN3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
