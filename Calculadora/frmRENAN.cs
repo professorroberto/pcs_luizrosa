@@ -11,6 +11,7 @@ namespace Calculadora
 {
     public partial class frmRENAN : Form
     {
+        int res;
         //RA: 2200060-6
         public frmRENAN()
         {
@@ -20,6 +21,12 @@ namespace Calculadora
         private void frmRENAN_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            res = int.Parse(txtN1.Text) * int.Parse(txtN2.Text) * int.Parse(txtN3.Text);
+            lblRES.Text = res.ToString();
         }
     }
 }
