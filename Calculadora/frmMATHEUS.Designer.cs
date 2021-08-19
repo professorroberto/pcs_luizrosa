@@ -38,6 +38,7 @@
             this.lblRes = new System.Windows.Forms.Label();
             this.txtN3 = new System.Windows.Forms.TextBox();
             this.btnMult = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -80,6 +81,7 @@
             this.btnSomar.TabIndex = 4;
             this.btnSomar.Text = "Somar";
             this.btnSomar.UseVisualStyleBackColor = true;
+            this.btnSomar.Click += new System.EventHandler(this.btnSomar_Click);
             // 
             // btnSubtrair
             // 
@@ -89,6 +91,7 @@
             this.btnSubtrair.TabIndex = 5;
             this.btnSubtrair.Text = "subtrair";
             this.btnSubtrair.UseVisualStyleBackColor = true;
+            this.btnSubtrair.Click += new System.EventHandler(this.btnSubtrair_Click);
             // 
             // btnDividir
             // 
@@ -98,13 +101,15 @@
             this.btnDividir.TabIndex = 6;
             this.btnDividir.Text = "dividir";
             this.btnDividir.UseVisualStyleBackColor = true;
+            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
             // 
             // lblRes
             // 
             this.lblRes.AutoSize = true;
+            this.lblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRes.Location = new System.Drawing.Point(145, 201);
             this.lblRes.Name = "lblRes";
-            this.lblRes.Size = new System.Drawing.Size(67, 17);
+            this.lblRes.Size = new System.Drawing.Size(157, 39);
             this.lblRes.TabIndex = 7;
             this.lblRes.Text = "resultado";
             // 
@@ -125,11 +130,21 @@
             this.btnMult.UseVisualStyleBackColor = true;
             this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(252, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 17);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "numero 3";
+            // 
             // frmMATHEUS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(379, 321);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnMult);
             this.Controls.Add(this.txtN3);
             this.Controls.Add(this.lblRes);
@@ -160,5 +175,6 @@
         private System.Windows.Forms.Label lblRes;
         private System.Windows.Forms.TextBox txtN3;
         private System.Windows.Forms.Button btnMult;
+        private System.Windows.Forms.Label label3;
     }
 }
