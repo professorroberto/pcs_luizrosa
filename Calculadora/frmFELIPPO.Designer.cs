@@ -56,12 +56,13 @@
             // 
             // btncalcS
             // 
+            this.btncalcS.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btncalcS.Location = new System.Drawing.Point(23, 76);
             this.btncalcS.Name = "btncalcS";
             this.btncalcS.Size = new System.Drawing.Size(75, 23);
             this.btncalcS.TabIndex = 2;
             this.btncalcS.Text = "SOMAR";
-            this.btncalcS.UseVisualStyleBackColor = true;
+            this.btncalcS.UseVisualStyleBackColor = false;
             this.btncalcS.Click += new System.EventHandler(this.btncalc_Click);
             // 
             // lblresult
@@ -84,22 +85,24 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button1.Location = new System.Drawing.Point(234, 76);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 5;
             this.button1.Text = "MULTIPLICAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Btncalc
             // 
+            this.Btncalc.BackColor = System.Drawing.Color.LightSteelBlue;
             this.Btncalc.Location = new System.Drawing.Point(132, 76);
             this.Btncalc.Name = "Btncalc";
             this.Btncalc.Size = new System.Drawing.Size(75, 23);
             this.Btncalc.TabIndex = 6;
             this.Btncalc.Text = "SUBTRAIR";
-            this.Btncalc.UseVisualStyleBackColor = true;
+            this.Btncalc.UseVisualStyleBackColor = false;
             this.Btncalc.Click += new System.EventHandler(this.Btncalc_Click_1);
             // 
             // label1
