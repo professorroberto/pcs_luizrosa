@@ -90,30 +90,34 @@
             // 
             // btnSoma
             // 
+            this.btnSoma.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSoma.Location = new System.Drawing.Point(7, 54);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(93, 32);
             this.btnSoma.TabIndex = 6;
             this.btnSoma.Text = "SOMAR";
-            this.btnSoma.UseVisualStyleBackColor = true;
+            this.btnSoma.UseVisualStyleBackColor = false;
+            this.btnSoma.Click += new System.EventHandler(this.btnSoma_Click);
             // 
             // btnSub
             // 
+            this.btnSub.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSub.Location = new System.Drawing.Point(106, 54);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(90, 32);
             this.btnSub.TabIndex = 7;
             this.btnSub.Text = "SUBTRAIR";
-            this.btnSub.UseVisualStyleBackColor = true;
+            this.btnSub.UseVisualStyleBackColor = false;
             // 
             // btnMult
             // 
+            this.btnMult.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnMult.Location = new System.Drawing.Point(202, 54);
             this.btnMult.Name = "btnMult";
             this.btnMult.Size = new System.Drawing.Size(87, 32);
             this.btnMult.TabIndex = 8;
             this.btnMult.Text = "MULTIPLICAR";
-            this.btnMult.UseVisualStyleBackColor = true;
+            this.btnMult.UseVisualStyleBackColor = false;
             this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
             // lblResult
