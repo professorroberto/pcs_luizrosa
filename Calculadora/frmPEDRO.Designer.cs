@@ -30,13 +30,13 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtNumero1 = new System.Windows.Forms.TextBox();
-            this.SOMA = new System.Windows.Forms.Button();
+            this.btnSoma = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
             this.txtNumero2 = new System.Windows.Forms.TextBox();
             this.txtNumero3 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSubtraçao = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -56,14 +56,15 @@
             this.txtNumero1.Size = new System.Drawing.Size(86, 20);
             this.txtNumero1.TabIndex = 1;
             // 
-            // SOMA
+            // btnSoma
             // 
-            this.SOMA.Location = new System.Drawing.Point(79, 195);
-            this.SOMA.Name = "SOMA";
-            this.SOMA.Size = new System.Drawing.Size(104, 51);
-            this.SOMA.TabIndex = 2;
-            this.SOMA.Text = "btnSOMA";
-            this.SOMA.UseVisualStyleBackColor = true;
+            this.btnSoma.Location = new System.Drawing.Point(79, 195);
+            this.btnSoma.Name = "btnSoma";
+            this.btnSoma.Size = new System.Drawing.Size(104, 51);
+            this.btnSoma.TabIndex = 2;
+            this.btnSoma.Text = "Soma";
+            this.btnSoma.UseVisualStyleBackColor = true;
+            this.btnSoma.Click += new System.EventHandler(this.btnSoma_Click);
             // 
             // label2
             // 
@@ -86,9 +87,10 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(231, 272);
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(211, 272);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(55, 13);
+            this.lblResultado.Size = new System.Drawing.Size(137, 31);
             this.lblResultado.TabIndex = 5;
             this.lblResultado.Text = "Resultado";
             // 
@@ -106,14 +108,15 @@
             this.txtNumero3.Size = new System.Drawing.Size(88, 20);
             this.txtNumero3.TabIndex = 7;
             // 
-            // button2
+            // btnSubtraçao
             // 
-            this.button2.Location = new System.Drawing.Point(306, 195);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 51);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSubtraçao.Location = new System.Drawing.Point(306, 195);
+            this.btnSubtraçao.Name = "btnSubtraçao";
+            this.btnSubtraçao.Size = new System.Drawing.Size(104, 51);
+            this.btnSubtraçao.TabIndex = 8;
+            this.btnSubtraçao.Text = "Subtraçao";
+            this.btnSubtraçao.UseVisualStyleBackColor = true;
+            this.btnSubtraçao.Click += new System.EventHandler(this.btnSubtraçao_Click);
             // 
             // btnMultiplicar
             // 
@@ -131,13 +134,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(639, 448);
             this.Controls.Add(this.btnMultiplicar);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnSubtraçao);
             this.Controls.Add(this.txtNumero3);
             this.Controls.Add(this.txtNumero2);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.SOMA);
+            this.Controls.Add(this.btnSoma);
             this.Controls.Add(this.txtNumero1);
             this.Controls.Add(this.label1);
             this.Name = "frmPEDRO";
@@ -151,13 +154,13 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNumero1;
-        private System.Windows.Forms.Button SOMA;
+        private System.Windows.Forms.Button btnSoma;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.TextBox txtNumero2;
         private System.Windows.Forms.TextBox txtNumero3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSubtraçao;
         private System.Windows.Forms.Button btnMultiplicar;
     }
 }
