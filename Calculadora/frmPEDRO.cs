@@ -28,5 +28,15 @@ namespace Calculadora
             resultado = n1 * n2 * n3;
             lblResultado.Text = resultado.ToString();
         }
+
+        private void btnSoma_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSubtraçao_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

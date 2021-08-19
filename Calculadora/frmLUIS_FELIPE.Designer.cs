@@ -55,6 +55,7 @@
             this.btnsub.TabIndex = 1;
             this.btnsub.Text = "Subtrair";
             this.btnsub.UseVisualStyleBackColor = true;
+            this.btnsub.Click += new System.EventHandler(this.btnsub_Click);
             // 
             // btnmult
             // 
@@ -91,9 +92,10 @@
             // lblres
             // 
             this.lblres.AutoSize = true;
+            this.lblres.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblres.Location = new System.Drawing.Point(107, 147);
             this.lblres.Name = "lblres";
-            this.lblres.Size = new System.Drawing.Size(55, 13);
+            this.lblres.Size = new System.Drawing.Size(137, 31);
             this.lblres.TabIndex = 7;
             this.lblres.Text = "Resultado";
             this.lblres.Click += new System.EventHandler(this.label1_Click);
