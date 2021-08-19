@@ -25,5 +25,15 @@ namespace Calculadora
         {
             //2200032-2
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
