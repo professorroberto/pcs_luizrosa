@@ -90,31 +90,34 @@
             // 
             // btnSomar
             // 
+            this.btnSomar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSomar.Location = new System.Drawing.Point(66, 166);
             this.btnSomar.Name = "btnSomar";
             this.btnSomar.Size = new System.Drawing.Size(110, 55);
             this.btnSomar.TabIndex = 7;
             this.btnSomar.Text = "somar";
-            this.btnSomar.UseVisualStyleBackColor = true;
+            this.btnSomar.UseVisualStyleBackColor = false;
             this.btnSomar.Click += new System.EventHandler(this.btnSomar_Click);
             // 
             // btnSubtrair
             // 
+            this.btnSubtrair.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSubtrair.Location = new System.Drawing.Point(221, 166);
             this.btnSubtrair.Name = "btnSubtrair";
             this.btnSubtrair.Size = new System.Drawing.Size(121, 55);
             this.btnSubtrair.TabIndex = 8;
             this.btnSubtrair.Text = "subtrair";
-            this.btnSubtrair.UseVisualStyleBackColor = true;
+            this.btnSubtrair.UseVisualStyleBackColor = false;
             // 
             // btnMultiplicar
             // 
+            this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnMultiplicar.Location = new System.Drawing.Point(390, 166);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(118, 55);
             this.btnMultiplicar.TabIndex = 9;
             this.btnMultiplicar.Text = "multiplicar";
-            this.btnMultiplicar.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.UseVisualStyleBackColor = false;
             this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
             // lblResultado
