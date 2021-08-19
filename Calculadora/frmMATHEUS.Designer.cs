@@ -75,32 +75,35 @@
             // 
             // btnSomar
             // 
+            this.btnSomar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSomar.Location = new System.Drawing.Point(38, 133);
             this.btnSomar.Name = "btnSomar";
             this.btnSomar.Size = new System.Drawing.Size(92, 34);
             this.btnSomar.TabIndex = 4;
             this.btnSomar.Text = "Somar";
-            this.btnSomar.UseVisualStyleBackColor = true;
+            this.btnSomar.UseVisualStyleBackColor = false;
             this.btnSomar.Click += new System.EventHandler(this.btnSomar_Click);
             // 
             // btnSubtrair
             // 
+            this.btnSubtrair.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSubtrair.Location = new System.Drawing.Point(158, 132);
             this.btnSubtrair.Name = "btnSubtrair";
             this.btnSubtrair.Size = new System.Drawing.Size(92, 34);
             this.btnSubtrair.TabIndex = 5;
             this.btnSubtrair.Text = "subtrair";
-            this.btnSubtrair.UseVisualStyleBackColor = true;
+            this.btnSubtrair.UseVisualStyleBackColor = false;
             this.btnSubtrair.Click += new System.EventHandler(this.btnSubtrair_Click);
             // 
             // btnDividir
             // 
+            this.btnDividir.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnDividir.Location = new System.Drawing.Point(270, 133);
             this.btnDividir.Name = "btnDividir";
             this.btnDividir.Size = new System.Drawing.Size(87, 34);
             this.btnDividir.TabIndex = 6;
             this.btnDividir.Text = "dividir";
-            this.btnDividir.UseVisualStyleBackColor = true;
+            this.btnDividir.UseVisualStyleBackColor = false;
             this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
             // 
             // lblRes
@@ -109,7 +112,7 @@
             this.lblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRes.Location = new System.Drawing.Point(145, 201);
             this.lblRes.Name = "lblRes";
-            this.lblRes.Size = new System.Drawing.Size(157, 39);
+            this.lblRes.Size = new System.Drawing.Size(151, 38);
             this.lblRes.TabIndex = 7;
             this.lblRes.Text = "resultado";
             // 
@@ -122,12 +125,13 @@
             // 
             // btnMult
             // 
+            this.btnMult.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnMult.Location = new System.Drawing.Point(141, 254);
             this.btnMult.Name = "btnMult";
             this.btnMult.Size = new System.Drawing.Size(81, 31);
             this.btnMult.TabIndex = 9;
             this.btnMult.Text = "Multiplicar";
-            this.btnMult.UseVisualStyleBackColor = true;
+            this.btnMult.UseVisualStyleBackColor = false;
             this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
             // label3
