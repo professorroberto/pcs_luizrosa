@@ -36,13 +36,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(342, 261);
             this.Name = "frmBRUNO";
-            this.Text = "Bruno Skajko Sacciotti";
+            this.Text = "Bruno Skajko Sacciotti 2200002-2";
             this.Load += new System.EventHandler(this.frmBRUNO_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
 
 
     }
