@@ -23,15 +23,12 @@ namespace Calculadora
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string num1;
-                string num2;
-                    string  num3;
-                    string  resultado;
-                        num1 = textBox1.Text;
-                            num2 = textBox2.Text;
-                            num3 = textBox3.Text;
-                            resultado =  num1 * num2 * num3;
-                            label4.Text = resultado;
+            int n1 = int.Parse(textBox1.Text);
+            int n2 = int.Parse(textBox2.Text);
+            int n3 = int.Parse(textBox3.Text);
+            int resultado = n1 * n2 * n3;
+            label4.Text = resultado.ToString();
+
 
         }
     }
