@@ -21,7 +21,7 @@ namespace Calculadora
             int res;
 
             res = int.Parse(txtN1.Text) * int.Parse(txtN2.Text) * int.Parse(txtN3.Text);
-            lblRes.text = res.ToString();
+            lblRes.Text = res.ToString();
         }
     }
 }
