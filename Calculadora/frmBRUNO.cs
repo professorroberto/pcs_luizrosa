@@ -48,12 +48,12 @@ namespace Calculadora
 
                 int result = N1 - N2 - N3;
                 lblresultado.Text = result.ToString();
+            }
         }
-    }
 
         private void button1_Click(object sender, EventArgs e)
         {
-         if (Numero1.Text == "" || Numero2.Text == "" || Numero3.Text == "")
+            if (Numero1.Text == "" || Numero2.Text == "" || Numero3.Text == "")
                 MessageBox.Show("Preencha todos os campos");
             else
             {
@@ -63,5 +63,7 @@ namespace Calculadora
 
                 int result = N1 + N2 + N3;
                 lblresultado.Text = result.ToString();
+            }
         }
-}}
+    }
+}
