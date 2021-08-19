@@ -171,6 +171,9 @@
     <EmbeddedResource Include="frmBRUNO.resx">
       <DependentUpon>frmBRUNO.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRENAN.resx">
+      <DependentUpon>frmRENAN.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mdiCalculadora.resx">
       <DependentUpon>mdiCalculadora.cs</DependentUpon>
     </EmbeddedResource>

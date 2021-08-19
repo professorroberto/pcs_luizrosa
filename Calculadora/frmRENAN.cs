@@ -11,9 +11,15 @@ namespace Calculadora
 {
     public partial class frmRENAN : Form
     {
+        //RA: 2200060-6
         public frmRENAN()
         {
             InitializeComponent();
+        }
+
+        private void frmRENAN_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
