@@ -114,6 +114,7 @@
             this.btnMult.TabIndex = 8;
             this.btnMult.Text = "MULTIPLICAR";
             this.btnMult.UseVisualStyleBackColor = true;
+            this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
             // lblResult
             // 

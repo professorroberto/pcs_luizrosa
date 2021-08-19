@@ -18,12 +18,19 @@ namespace Calculadora
 
         private void btncalc_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double res;
+            res = double.Parse(txtnum1.Text) * double.Parse(txtnum2.Text) * double.Parse(txtnum3.Text);
+            lblresult.Text = res.ToString();
         }
     }
 }
