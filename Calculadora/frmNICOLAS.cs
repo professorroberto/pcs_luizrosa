@@ -31,5 +31,14 @@ namespace Calculadora
 
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int n1 = int.Parse(textBox1.Text);
+            int n2 = int.Parse(textBox2.Text);
+            int n3 = int.Parse(textBox3.Text);
+            int resultado = n1 + n2 + n3;
+            label4.Text = resultado.ToString();
+        }
     }
 }
