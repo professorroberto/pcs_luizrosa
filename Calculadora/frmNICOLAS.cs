@@ -15,5 +15,10 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void frmNICOLAS_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
