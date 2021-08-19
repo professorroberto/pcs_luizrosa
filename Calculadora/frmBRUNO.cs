@@ -20,5 +20,19 @@ namespace Calculadora
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (Numero1.Text == "" || Numero2.Text == "")
+                MessageBox.Show("Preencha todos os campos");
+            else
+            {
+                int N1 = int.Parse(Numero1.Text);
+                int N2 = int.Parse(Numero2.Text);
+
+                int result = N1 * N2;
+                lblresultado.Text = result.ToString();
+            }
+        }
     }
 }
