@@ -96,6 +96,7 @@
             this.btnSoma.TabIndex = 6;
             this.btnSoma.Text = "SOMAR";
             this.btnSoma.UseVisualStyleBackColor = true;
+            this.btnSoma.Click += new System.EventHandler(this.btnSoma_Click);
             // 
             // btnSub
             // 
