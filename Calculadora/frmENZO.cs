@@ -26,6 +26,13 @@ namespace Calculadora
             lblresultado.Text = Convert.ToString(int.Parse(txtN1.Text) + int.Parse(txtN2.Text) + int.Parse(txtN3.Text));
         }
 
+        private void frmENZO_Load(object sender, EventArgs e)
+        {
+            btnSomar.BackColor = Color.LightSteelBlue;
+            btnSubtrair.BackColor = Color.LightSteelBlue;
+            button3.BackColor = Color.LightSteelBlue;
+        }
+
        
     }
 }
