@@ -43,44 +43,50 @@
             // lblresultado
             // 
             this.lblresultado.AutoSize = true;
-            this.lblresultado.Location = new System.Drawing.Point(138, 188);
+            this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblresultado.Location = new System.Drawing.Point(184, 231);
+            this.lblresultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblresultado.Name = "lblresultado";
-            this.lblresultado.Size = new System.Drawing.Size(60, 13);
+            this.lblresultado.Size = new System.Drawing.Size(153, 31);
             this.lblresultado.TabIndex = 19;
             this.lblresultado.Text = "lblresultado";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(136, 61);
+            this.label3.Location = new System.Drawing.Point(181, 75);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.Size = new System.Drawing.Size(69, 16);
             this.label3.TabIndex = 18;
             this.label3.Text = "Numero 2:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(205, 61);
+            this.label2.Location = new System.Drawing.Point(274, 75);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 13);
+            this.label2.Size = new System.Drawing.Size(69, 16);
             this.label2.TabIndex = 17;
             this.label2.Text = "Numero 3:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(74, 60);
+            this.label1.Location = new System.Drawing.Point(99, 74);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.Size = new System.Drawing.Size(69, 16);
             this.label1.TabIndex = 16;
             this.label1.Text = "Numero 1:";
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(208, 134);
+            this.button3.Location = new System.Drawing.Point(277, 165);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(62, 23);
+            this.button3.Size = new System.Drawing.Size(83, 28);
             this.button3.TabIndex = 15;
             this.button3.Text = "Multiplicar";
             this.button3.UseVisualStyleBackColor = true;
@@ -88,9 +94,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(140, 134);
+            this.button2.Location = new System.Drawing.Point(187, 165);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(62, 23);
+            this.button2.Size = new System.Drawing.Size(83, 28);
             this.button2.TabIndex = 14;
             this.button2.Text = "Subtrair";
             this.button2.UseVisualStyleBackColor = true;
@@ -98,9 +105,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(72, 134);
+            this.button1.Location = new System.Drawing.Point(96, 165);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(62, 23);
+            this.button1.Size = new System.Drawing.Size(83, 28);
             this.button1.TabIndex = 13;
             this.button1.Text = "Somar";
             this.button1.UseVisualStyleBackColor = true;
@@ -108,30 +116,33 @@
             // 
             // Numero3
             // 
-            this.Numero3.Location = new System.Drawing.Point(208, 77);
+            this.Numero3.Location = new System.Drawing.Point(277, 94);
+            this.Numero3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Numero3.Name = "Numero3";
-            this.Numero3.Size = new System.Drawing.Size(57, 20);
+            this.Numero3.Size = new System.Drawing.Size(75, 22);
             this.Numero3.TabIndex = 12;
             // 
             // Numero2
             // 
-            this.Numero2.Location = new System.Drawing.Point(140, 77);
+            this.Numero2.Location = new System.Drawing.Point(187, 94);
+            this.Numero2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Numero2.Name = "Numero2";
-            this.Numero2.Size = new System.Drawing.Size(62, 20);
+            this.Numero2.Size = new System.Drawing.Size(81, 22);
             this.Numero2.TabIndex = 11;
             // 
             // Numero1
             // 
-            this.Numero1.Location = new System.Drawing.Point(78, 77);
+            this.Numero1.Location = new System.Drawing.Point(104, 94);
+            this.Numero1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Numero1.Name = "Numero1";
-            this.Numero1.Size = new System.Drawing.Size(56, 20);
+            this.Numero1.Size = new System.Drawing.Size(73, 22);
             this.Numero1.TabIndex = 10;
             // 
             // frmBRUNO
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(413, 311);
+            this.ClientSize = new System.Drawing.Size(551, 382);
             this.Controls.Add(this.lblresultado);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -142,6 +153,8 @@
             this.Controls.Add(this.Numero3);
             this.Controls.Add(this.Numero2);
             this.Controls.Add(this.Numero1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmBRUNO";
             this.Text = "Bruno Skajko Sacciotti 2200002-2";
             this.Load += new System.EventHandler(this.frmBRUNO_Load);
