@@ -92,9 +92,10 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.Location = new System.Drawing.Point(281, 271);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(93, 17);
+            this.lblResultado.Size = new System.Drawing.Size(227, 39);
             this.lblResultado.TabIndex = 7;
             this.lblResultado.Text = "RESULTADO";
             // 

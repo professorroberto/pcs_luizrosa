@@ -22,8 +22,13 @@ namespace Calculadora
             int N2 = int.Parse(txtNumero2.Text);
             int N3 = int.Parse(txtNumero3.Text);
 
-            int result = N1 * N2;
+            int result = N1 * N2 * N3 ;
             lblResultado.Text = result.ToString();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

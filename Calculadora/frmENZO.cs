@@ -18,7 +18,14 @@ namespace Calculadora
 
         private void button3_Click(object sender, EventArgs e)
         {
+            lblresultado.Text = Convert.ToString(int.Parse(txtN1.Text) * int.Parse(txtN2.Text) * int.Parse(txtN3.Text));
+        }
+
+        private void btnSomar_Click(object sender, EventArgs e)
+        {
             lblresultado.Text = Convert.ToString(int.Parse(txtN1.Text) + int.Parse(txtN2.Text) + int.Parse(txtN3.Text));
         }
+
+       
     }
 }

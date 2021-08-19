@@ -18,7 +18,10 @@ namespace Calculadora
             //2200032-2
             //2200032-2
             //2200032-2
+<<<<<<< HEAD
+=======
 
+>>>>>>> be146eab932e185ceb83308e06df29e11a3f890a
         }
 
         private void frmLUIS_FELIPE_Load(object sender, EventArgs e)
@@ -76,6 +79,11 @@ namespace Calculadora
 
             lblres.Text = (numero1 * numero2 * numero3).ToString();
 >>>>>>> 50adc3cff4e67e89ed18f2850db97c9f1b7359bf
+        }
+
+        private void btnsub_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
