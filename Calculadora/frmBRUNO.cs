@@ -53,6 +53,15 @@ namespace Calculadora
 
         private void button1_Click(object sender, EventArgs e)
         {
-         
+         if (Numero1.Text == "" || Numero2.Text == "" || Numero3.Text == "")
+                MessageBox.Show("Preencha todos os campos");
+            else
+            {
+                int N1 = int.Parse(Numero1.Text);
+                int N2 = int.Parse(Numero2.Text);
+                int N3 = int.Parse(Numero3.Text);
+
+                int result = N1 + N2 + N3;
+                lblresultado.Text = result.ToString();
         }
 }}
