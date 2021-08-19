@@ -129,9 +129,10 @@
             // lblRes
             // 
             this.lblRes.AutoSize = true;
+            this.lblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRes.Location = new System.Drawing.Point(84, 159);
             this.lblRes.Name = "lblRes";
-            this.lblRes.Size = new System.Drawing.Size(35, 13);
+            this.lblRes.Size = new System.Drawing.Size(86, 31);
             this.lblRes.TabIndex = 10;
             this.lblRes.Text = "label5";
             // 

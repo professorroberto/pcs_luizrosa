@@ -43,9 +43,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(150, 190);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(86, 31);
             this.label4.TabIndex = 19;
             this.label4.Text = "label4";
             // 
@@ -62,7 +63,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(84, 27);
             this.button3.TabIndex = 17;
-            this.button3.Text = "button3";
+            this.button3.Text = "Multiplicar";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -88,7 +89,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 27);
             this.button2.TabIndex = 14;
-            this.button2.Text = "button2";
+            this.button2.Text = "Subtrair";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -113,7 +114,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 27);
             this.button1.TabIndex = 11;
-            this.button1.Text = "button1";
+            this.button1.Text = "Somar";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
