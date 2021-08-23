@@ -45,6 +45,23 @@ namespace Calculadora
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (int.Parse(txtN1.Text) > int.Parse(txtN2.Text))
+            {
+                if (int.Parse(txtN1.Text) > int.Parse(txtN3.Text))
+                {
+                    MessageBox.Show("N1");
+                }
+                else
+                    MessageBox.Show("N3");
+            }
+            else if (int.Parse(txtN2.Text) > int.Parse(txtN3.Text))
+            {
+                MessageBox.Show("N2");
+            }
+        }
+
 
     }
 }

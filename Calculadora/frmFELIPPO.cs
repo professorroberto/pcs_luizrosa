@@ -52,5 +52,20 @@ namespace Calculadora
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (int.Parse(txtnum1.Text) > int.Parse(txtnum2.Text))
+            {
+                if (int.Parse(txtnum1.Text) > int.Parse(txtnum3.Text))
+                    MessageBox.Show("Número 1 é o maior");
+                else
+                    MessageBox.Show("Número 3 é o maior");
+            }
+            else if (int.Parse(txtnum2.Text) > int.Parse(txtnum3.Text))
+            {
+                MessageBox.Show("Número 2 é o maior");
+            }
+        }
     }
 }
