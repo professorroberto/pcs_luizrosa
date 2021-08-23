@@ -38,6 +38,7 @@
             this.btnSub = new System.Windows.Forms.Button();
             this.btnMult = new System.Windows.Forms.Button();
             this.lblResult = new System.Windows.Forms.Label();
+            this.btnMaior = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -132,11 +133,22 @@
             this.lblResult.TabIndex = 9;
             this.lblResult.Text = "RESULTADO";
             // 
+            // btnMaior
+            // 
+            this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMaior.Location = new System.Drawing.Point(295, 58);
+            this.btnMaior.Name = "btnMaior";
+            this.btnMaior.Size = new System.Drawing.Size(61, 24);
+            this.btnMaior.TabIndex = 10;
+            this.btnMaior.Text = "MAIOR";
+            this.btnMaior.UseVisualStyleBackColor = false;
+            // 
             // frmKAUA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 436);
+            this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.btnMult);
             this.Controls.Add(this.btnSub);
@@ -166,5 +178,6 @@
         private System.Windows.Forms.Button btnSub;
         private System.Windows.Forms.Button btnMult;
         private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.Button btnMaior;
     }
 }
