@@ -44,6 +44,11 @@ namespace Calculadora
             lblRes.Text = res.ToString();
         }
 
+        private void frmMATHEUS_Load(object sender, EventArgs e)
+        {
+            
+        }
+
 
     }
 }
