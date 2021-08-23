@@ -39,6 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtnum1
@@ -140,12 +141,23 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button2.Location = new System.Drawing.Point(295, 158);
+            this.button2.Location = new System.Drawing.Point(286, 156);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(69, 50);
             this.button2.TabIndex = 10;
             this.button2.Text = "MAIOR";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button3.Location = new System.Drawing.Point(10, 156);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(69, 50);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "MENOR";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // frmFELIPPO
             // 
@@ -153,6 +165,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(386, 261);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -185,5 +198,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }

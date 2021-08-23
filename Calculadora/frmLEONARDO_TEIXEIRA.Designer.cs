@@ -39,6 +39,7 @@
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnMaior = new System.Windows.Forms.Button();
+            this.btnMenor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -140,12 +141,22 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(196, 169);
+            this.btnMaior.Location = new System.Drawing.Point(158, 169);
             this.btnMaior.Name = "btnMaior";
             this.btnMaior.Size = new System.Drawing.Size(90, 42);
             this.btnMaior.TabIndex = 10;
             this.btnMaior.Text = "MAIOR";
             this.btnMaior.UseVisualStyleBackColor = false;
+            // 
+            // btnMenor
+            // 
+            this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMenor.Location = new System.Drawing.Point(266, 169);
+            this.btnMenor.Name = "btnMenor";
+            this.btnMenor.Size = new System.Drawing.Size(90, 42);
+            this.btnMenor.TabIndex = 11;
+            this.btnMenor.Text = "MENOR";
+            this.btnMenor.UseVisualStyleBackColor = false;
             // 
             // frmLEONARDO_TEIXEIRA
             // 
@@ -153,6 +164,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(529, 400);
+            this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnMultiplicar);
@@ -185,5 +197,6 @@
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnMaior;
+        private System.Windows.Forms.Button btnMenor;
     }
 }
