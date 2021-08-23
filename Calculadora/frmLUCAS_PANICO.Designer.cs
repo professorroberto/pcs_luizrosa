@@ -79,26 +79,29 @@
             // 
             // txtNumero1
             // 
+            this.txtNumero1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero1.Location = new System.Drawing.Point(14, 73);
             this.txtNumero1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero1.Size = new System.Drawing.Size(100, 39);
             this.txtNumero1.TabIndex = 4;
             // 
             // txtNumero2
             // 
+            this.txtNumero2.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero2.Location = new System.Drawing.Point(183, 73);
             this.txtNumero2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero2.Size = new System.Drawing.Size(100, 39);
             this.txtNumero2.TabIndex = 5;
             // 
             // txtNumero3
             // 
+            this.txtNumero3.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero3.Location = new System.Drawing.Point(352, 73);
             this.txtNumero3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNumero3.Name = "txtNumero3";
-            this.txtNumero3.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero3.Size = new System.Drawing.Size(100, 39);
             this.txtNumero3.TabIndex = 6;
             // 
             // lblResultado
@@ -106,7 +109,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.DarkGreen;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(193, 285);
+            this.lblResultado.Location = new System.Drawing.Point(146, 291);
             this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(181, 31);
@@ -146,7 +149,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Location = new System.Drawing.Point(229, 208);
+            this.button1.Location = new System.Drawing.Point(183, 210);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 49);
@@ -158,7 +161,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 316);
+            this.BackColor = System.Drawing.Color.GhostWhite;
+            this.ClientSize = new System.Drawing.Size(530, 399);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -172,6 +176,7 @@
             this.Controls.Add(this.btnSomar);
             this.Name = "frmLUCAS_PANICO";
             this.Text = "2200005";
+            this.Load += new System.EventHandler(this.frmLUCAS_PANICO_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

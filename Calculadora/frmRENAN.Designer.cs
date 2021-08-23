@@ -101,7 +101,7 @@
             // btnSOMA
             // 
             this.btnSOMA.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnSOMA.Location = new System.Drawing.Point(32, 76);
+            this.btnSOMA.Location = new System.Drawing.Point(31, 91);
             this.btnSOMA.Margin = new System.Windows.Forms.Padding(2);
             this.btnSOMA.Name = "btnSOMA";
             this.btnSOMA.Size = new System.Drawing.Size(62, 27);
@@ -113,7 +113,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button2.Location = new System.Drawing.Point(109, 76);
+            this.button2.Location = new System.Drawing.Point(109, 91);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(78, 27);
@@ -125,7 +125,7 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMultiplicar.Location = new System.Drawing.Point(191, 76);
+            this.btnMultiplicar.Location = new System.Drawing.Point(191, 91);
             this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(78, 27);
@@ -152,7 +152,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(94, 185);
+            this.label4.Location = new System.Drawing.Point(94, 186);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 31);
@@ -163,6 +163,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(463, 384);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblRES);
