@@ -35,6 +35,7 @@
             this.num3 = new System.Windows.Forms.TextBox();
             this.num1 = new System.Windows.Forms.TextBox();
             this.lblres = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnsoma
@@ -103,7 +104,7 @@
             this.lblres.AutoSize = true;
             this.lblres.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblres.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblres.Location = new System.Drawing.Point(95, 177);
+            this.lblres.Location = new System.Drawing.Point(117, 223);
             this.lblres.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblres.Name = "lblres";
             this.lblres.Size = new System.Drawing.Size(171, 39);
@@ -111,11 +112,23 @@
             this.lblres.Text = "Resultado";
             this.lblres.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Location = new System.Drawing.Point(148, 146);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 28);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Maior";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // frmLUIS_FELIPE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(396, 321);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblres);
             this.Controls.Add(this.num1);
             this.Controls.Add(this.num3);
@@ -141,5 +154,6 @@
         private System.Windows.Forms.TextBox num3;
         private System.Windows.Forms.TextBox num1;
         private System.Windows.Forms.Label lblres;
+        private System.Windows.Forms.Button button1;
     }
 }
