@@ -39,6 +39,7 @@
             this.txt3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.lblRes = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -140,12 +141,24 @@
             this.lblRes.TabIndex = 10;
             this.lblRes.Text = "label5";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button4.Location = new System.Drawing.Point(339, 100);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(103, 25);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "Menor";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // frmLUCAS_DE_PAULA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(349, 261);
+            this.ClientSize = new System.Drawing.Size(455, 261);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.lblRes);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txt3);
@@ -177,5 +190,6 @@
         private System.Windows.Forms.TextBox txt3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblRes;
+        private System.Windows.Forms.Button button4;
     }
 }
