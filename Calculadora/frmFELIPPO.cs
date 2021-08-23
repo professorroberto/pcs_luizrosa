@@ -37,7 +37,9 @@ namespace Calculadora
 
         private void Btncalc_Click_1(object sender, EventArgs e)
         {
-            
+            double res;
+            res = double.Parse(txtnum1.Text) - double.Parse(txtnum2.Text) - double.Parse(txtnum3.Text);
+            lblresult.Text = res.ToString(); 
         }
     }
 }

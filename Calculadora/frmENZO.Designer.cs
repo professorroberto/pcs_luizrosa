@@ -79,6 +79,7 @@
             this.btnSubtrair.TabIndex = 4;
             this.btnSubtrair.Text = "Subtrair";
             this.btnSubtrair.UseVisualStyleBackColor = true;
+            this.btnSubtrair.Click += new System.EventHandler(this.btnSubtrair_Click);
             // 
             // button3
             // 
@@ -126,6 +127,7 @@
             this.lblresultado.Size = new System.Drawing.Size(153, 31);
             this.lblresultado.TabIndex = 9;
             this.lblresultado.Text = "lblresultado";
+            this.lblresultado.Click += new System.EventHandler(this.lblresultado_Click);
             // 
             // frmENZO
             // 

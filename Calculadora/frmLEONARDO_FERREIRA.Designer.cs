@@ -109,6 +109,7 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "SUBTRAIR";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 

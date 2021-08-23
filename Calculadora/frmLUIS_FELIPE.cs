@@ -64,7 +64,15 @@ namespace Calculadora
 
         private void btnsub_Click(object sender, EventArgs e)
         {
+            int numero1;
+            int numero2;
+            int numero3;
 
+            numero1 = int.Parse(num1.Text);
+            numero2 = int.Parse(num2.Text);
+            numero3 = int.Parse(num3.Text);
+
+            lblres.Text = (numero1 - numero2 - numero3).ToString();
         }
     }
 }

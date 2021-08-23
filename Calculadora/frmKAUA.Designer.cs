@@ -108,6 +108,7 @@
             this.btnSub.TabIndex = 7;
             this.btnSub.Text = "SUBTRAIR";
             this.btnSub.UseVisualStyleBackColor = false;
+            this.btnSub.Click += new System.EventHandler(this.btnSub_Click);
             // 
             // btnMult
             // 
