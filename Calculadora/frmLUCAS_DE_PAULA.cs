@@ -26,9 +26,16 @@ namespace Calculadora
             lblRes.Text = Convert.ToString(Convert.ToDouble(txt1.Text) + Convert.ToDouble(txt2.Text) + Convert.ToDouble(txt1.Text));
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
 
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (Convert.ToDouble(txt1.Text) > Convert.ToDouble(txt2.Text) || Convert.ToDouble(txt1.Text) > Convert.ToDouble(txt3.Text));
+            { MessageBox.Show("1Maior"); }
+            if (Convert.ToDouble(txt2.Text) > Convert.ToDouble(txt1.Text) || Convert.ToDouble(txt2.Text) > Convert.ToDouble(txt3.Text));
+            { MessageBox.Show("2Maior"); }
+            if (Convert.ToDouble(txt3.Text) > Convert.ToDouble(txt2.Text) || Convert.ToDouble(txt3.Text) > Convert.ToDouble(txt1.Text));
+            { MessageBox.Show("1Maior"); }
         }
     }
 }

@@ -42,26 +42,19 @@ namespace Calculadora
 
         private void lblresultado_Click(object sender, EventArgs e)
         {
-
+          
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (int.Parse(txtN1.Text) > int.Parse(txtN2.Text))
-            {
-                if (int.Parse(txtN1.Text) > int.Parse(txtN3.Text))
-                {
-                    MessageBox.Show("N1");
-                }
-                else
-                    MessageBox.Show("N3");
-            }
-            else if (int.Parse(txtN2.Text) > int.Parse(txtN3.Text))
-            {
-                MessageBox.Show("N2");
-            }
-        }
+            List<int> Listinha = new List<int>();
 
+            Listinha.Add(int.Parse(txtN1.Text));
+            Listinha.Add(int.Parse(txtN2.Text));
+            Listinha.Add(int.Parse(txtN3.Text));
+
+            MessageBox.Show( "" + Listinha.Max());
+        }
 
     }
 }
