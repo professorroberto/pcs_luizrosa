@@ -28,6 +28,11 @@ namespace Calculadora
 
         private void button2_Click(object sender, EventArgs e)
         {
+            int n1 = int.Parse(Num1.Text);
+            int n2 = int.Parse(Num2.Text);
+            int n3 = int.Parse(Num3.Text);
+            int result = n1 - n2 - n3;
+            label4.Text = result.ToString;
 
         }
 
