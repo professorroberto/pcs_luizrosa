@@ -38,8 +38,8 @@
             this.btnSubtrair = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnMaior = new System.Windows.Forms.Button();
+            this.btnMenor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -147,25 +147,26 @@
             this.lblResultado.TabIndex = 10;
             this.lblResultado.Text = "resultado";
             // 
-            // button1
+            // btnMaior
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Location = new System.Drawing.Point(167, 212);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 45);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Maior";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMaior.Location = new System.Drawing.Point(167, 212);
+            this.btnMaior.Name = "btnMaior";
+            this.btnMaior.Size = new System.Drawing.Size(90, 45);
+            this.btnMaior.TabIndex = 11;
+            this.btnMaior.Text = "Maior";
+            this.btnMaior.UseVisualStyleBackColor = false;
+            this.btnMaior.Click += new System.EventHandler(this.btnMaior_Click);
             // 
-            // button2
+            // btnMenor
             // 
-            this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button2.Location = new System.Drawing.Point(293, 212);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 45);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "menor";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMenor.Location = new System.Drawing.Point(293, 212);
+            this.btnMenor.Name = "btnMenor";
+            this.btnMenor.Size = new System.Drawing.Size(90, 45);
+            this.btnMenor.TabIndex = 12;
+            this.btnMenor.Text = "menor";
+            this.btnMenor.UseVisualStyleBackColor = false;
             // 
             // frmTIAGO
             // 
@@ -173,8 +174,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(418, 362);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnMenor);
+            this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.btnSubtrair);
@@ -204,7 +205,7 @@
         private System.Windows.Forms.Button btnSubtrair;
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Label lblResultado;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnMaior;
+        private System.Windows.Forms.Button btnMenor;
     }
 }
