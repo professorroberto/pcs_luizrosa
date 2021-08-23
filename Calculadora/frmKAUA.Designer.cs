@@ -125,6 +125,7 @@
             // 
             this.lblResult.AutoSize = true;
             this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblResult.Location = new System.Drawing.Point(57, 89);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(181, 31);
