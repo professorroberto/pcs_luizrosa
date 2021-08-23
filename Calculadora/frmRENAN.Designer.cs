@@ -38,6 +38,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.lblRES = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -72,26 +73,29 @@
             // 
             // txtN1
             // 
+            this.txtN1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtN1.Location = new System.Drawing.Point(31, 48);
             this.txtN1.Margin = new System.Windows.Forms.Padding(2);
             this.txtN1.Name = "txtN1";
-            this.txtN1.Size = new System.Drawing.Size(65, 20);
+            this.txtN1.Size = new System.Drawing.Size(65, 39);
             this.txtN1.TabIndex = 3;
             // 
             // txtN2
             // 
+            this.txtN2.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtN2.Location = new System.Drawing.Point(109, 48);
             this.txtN2.Margin = new System.Windows.Forms.Padding(2);
             this.txtN2.Name = "txtN2";
-            this.txtN2.Size = new System.Drawing.Size(65, 20);
+            this.txtN2.Size = new System.Drawing.Size(65, 39);
             this.txtN2.TabIndex = 4;
             // 
             // txtN3
             // 
+            this.txtN3.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtN3.Location = new System.Drawing.Point(190, 48);
             this.txtN3.Margin = new System.Windows.Forms.Padding(2);
             this.txtN3.Name = "txtN3";
-            this.txtN3.Size = new System.Drawing.Size(65, 20);
+            this.txtN3.Size = new System.Drawing.Size(65, 39);
             this.txtN3.TabIndex = 5;
             // 
             // btnSOMA
@@ -143,11 +147,24 @@
             this.lblRES.Text = "resultado";
             this.lblRES.Click += new System.EventHandler(this.lblRES_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(94, 185);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 31);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "MAIOR";
+            // 
             // frmRENAN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 384);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lblRES);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.button2);
@@ -160,7 +177,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmRENAN";
-            this.Text = "a";
+            this.Text = "22000606";
             this.Load += new System.EventHandler(this.frmRENAN_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -179,5 +196,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Label lblRES;
+        private System.Windows.Forms.Label label4;
     }
 }
