@@ -59,5 +59,10 @@ namespace Calculadora
                 lblResultado.Text = result.ToString();
             }
         }
+
+        private void frmLUCAS_PANICO_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
