@@ -20,7 +20,7 @@ namespace Calculadora
         {
             double res;
             res = double.Parse(txtnum1.Text) + double.Parse(txtnum2.Text) + double.Parse(txtnum3.Text);
-            lblresult.Text = res.ToString();
+            lblresult.Text = res.ToString();  
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -45,5 +45,12 @@ namespace Calculadora
         private void frmFELIPPO_Load(object sender, EventArgs e)
         {
             lblresult.BackColor = Color.DarkGreen;
+            button2.BackColor = Color.LightSteelBlue;
+        }
+
+        private void lblresult_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
