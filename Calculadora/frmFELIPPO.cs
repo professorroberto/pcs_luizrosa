@@ -66,6 +66,7 @@ namespace Calculadora
             {
                 MessageBox.Show("Número 2 é o maior");
             }
+            else MessageBox.Show("Numero 3 é o maior");
         }
     }
 }
