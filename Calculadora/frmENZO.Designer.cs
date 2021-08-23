@@ -43,23 +43,27 @@
             // 
             // txtN1
             // 
+            this.txtN1.BackColor = System.Drawing.Color.White;
+            this.txtN1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtN1.Location = new System.Drawing.Point(36, 34);
             this.txtN1.Name = "txtN1";
-            this.txtN1.Size = new System.Drawing.Size(56, 20);
+            this.txtN1.Size = new System.Drawing.Size(56, 39);
             this.txtN1.TabIndex = 0;
             // 
             // txtN2
             // 
+            this.txtN2.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtN2.Location = new System.Drawing.Point(98, 34);
             this.txtN2.Name = "txtN2";
-            this.txtN2.Size = new System.Drawing.Size(62, 20);
+            this.txtN2.Size = new System.Drawing.Size(62, 39);
             this.txtN2.TabIndex = 1;
             // 
             // txtN3
             // 
+            this.txtN3.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtN3.Location = new System.Drawing.Point(166, 34);
             this.txtN3.Name = "txtN3";
-            this.txtN3.Size = new System.Drawing.Size(57, 20);
+            this.txtN3.Size = new System.Drawing.Size(57, 39);
             this.txtN3.TabIndex = 2;
             // 
             // btnSomar
