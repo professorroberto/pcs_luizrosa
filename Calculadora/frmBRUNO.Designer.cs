@@ -47,7 +47,7 @@
             this.lblresultado.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblresultado.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblresultado.Location = new System.Drawing.Point(346, 270);
+            this.lblresultado.Location = new System.Drawing.Point(352, 151);
             this.lblresultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblresultado.Name = "lblresultado";
             this.lblresultado.Size = new System.Drawing.Size(192, 39);
@@ -88,10 +88,10 @@
             // 
             this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button3.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(82, 158);
+            this.button3.Location = new System.Drawing.Point(104, 123);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(83, 28);
+            this.button3.Size = new System.Drawing.Size(240, 46);
             this.button3.TabIndex = 15;
             this.button3.Text = "Multiplicar";
             this.button3.UseVisualStyleBackColor = false;
@@ -101,10 +101,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button2.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(173, 149);
+            this.button2.Location = new System.Drawing.Point(104, 177);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 81);
+            this.button2.Size = new System.Drawing.Size(240, 47);
             this.button2.TabIndex = 14;
             this.button2.Text = "Subtrair";
             this.button2.UseVisualStyleBackColor = false;
@@ -114,10 +114,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button1.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(313, 149);
+            this.button1.Location = new System.Drawing.Point(104, 232);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 81);
+            this.button1.Size = new System.Drawing.Size(240, 42);
             this.button1.TabIndex = 13;
             this.button1.Text = "Somar";
             this.button1.UseVisualStyleBackColor = false;
@@ -151,9 +151,9 @@
             // 
             this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button4.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(173, 239);
+            this.button4.Location = new System.Drawing.Point(104, 281);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 88);
+            this.button4.Size = new System.Drawing.Size(240, 44);
             this.button4.TabIndex = 20;
             this.button4.Text = "MAIOR";
             this.button4.UseVisualStyleBackColor = false;
@@ -162,6 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(551, 382);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.lblresultado);
