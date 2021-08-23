@@ -107,7 +107,7 @@
             // btnSubtrair
             // 
             this.btnSubtrair.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnSubtrair.Location = new System.Drawing.Point(196, 106);
+            this.btnSubtrair.Location = new System.Drawing.Point(196, 107);
             this.btnSubtrair.Name = "btnSubtrair";
             this.btnSubtrair.Size = new System.Drawing.Size(90, 34);
             this.btnSubtrair.TabIndex = 7;
@@ -131,7 +131,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblResultado.Location = new System.Drawing.Point(167, 236);
+            this.lblResultado.Location = new System.Drawing.Point(166, 259);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(181, 31);
             this.lblResultado.TabIndex = 9;
@@ -140,17 +140,18 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(196, 154);
+            this.btnMaior.Location = new System.Drawing.Point(196, 169);
             this.btnMaior.Name = "btnMaior";
             this.btnMaior.Size = new System.Drawing.Size(90, 42);
             this.btnMaior.TabIndex = 10;
-            this.btnMaior.Text = "Maior";
+            this.btnMaior.Text = "MAIOR";
             this.btnMaior.UseVisualStyleBackColor = false;
             // 
             // frmLEONARDO_TEIXEIRA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(529, 400);
             this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.lblResultado);
