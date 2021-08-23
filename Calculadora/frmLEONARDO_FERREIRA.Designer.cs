@@ -39,6 +39,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -92,7 +93,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Location = new System.Drawing.Point(44, 212);
+            this.button1.Location = new System.Drawing.Point(57, 174);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
@@ -103,7 +104,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button2.Location = new System.Drawing.Point(206, 212);
+            this.button2.Location = new System.Drawing.Point(219, 174);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 7;
@@ -114,7 +115,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button3.Location = new System.Drawing.Point(370, 212);
+            this.button3.Location = new System.Drawing.Point(383, 174);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 8;
@@ -136,18 +137,29 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.DarkGreen;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(154, 248);
+            this.label5.Location = new System.Drawing.Point(162, 257);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(181, 31);
             this.label5.TabIndex = 10;
             this.label5.Text = "RESULTADO";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button4.Location = new System.Drawing.Point(219, 215);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "Maior";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // frmLEONARDO_FERREIRA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(530, 297);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
@@ -179,5 +191,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button4;
     }
 }

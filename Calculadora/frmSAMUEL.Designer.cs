@@ -120,6 +120,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.DarkGreen;
             this.label4.Location = new System.Drawing.Point(181, 160);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 13);
