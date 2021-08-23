@@ -37,5 +37,16 @@ namespace Calculadora
 
             lblResult.Text = result.ToString(); 
         }
+
+        private void btnSub_Click(object sender, EventArgs e)
+        {
+            int n1 = int.Parse(txtNum1.Text);
+            int n2 = int.Parse(txtNum2.Text);
+            int n3 = int.Parse(txtNum3.Text);
+
+            int result = n1 - n2 - n3;
+
+            lblResult.Text = result.ToString(); 
+        }
     }
 }
