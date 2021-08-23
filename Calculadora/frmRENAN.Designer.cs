@@ -73,7 +73,7 @@
             // txtN1
             // 
             this.txtN1.Location = new System.Drawing.Point(31, 48);
-            this.txtN1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtN1.Margin = new System.Windows.Forms.Padding(2);
             this.txtN1.Name = "txtN1";
             this.txtN1.Size = new System.Drawing.Size(65, 20);
             this.txtN1.TabIndex = 3;
@@ -81,7 +81,7 @@
             // txtN2
             // 
             this.txtN2.Location = new System.Drawing.Point(109, 48);
-            this.txtN2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtN2.Margin = new System.Windows.Forms.Padding(2);
             this.txtN2.Name = "txtN2";
             this.txtN2.Size = new System.Drawing.Size(65, 20);
             this.txtN2.TabIndex = 4;
@@ -89,7 +89,7 @@
             // txtN3
             // 
             this.txtN3.Location = new System.Drawing.Point(190, 48);
-            this.txtN3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtN3.Margin = new System.Windows.Forms.Padding(2);
             this.txtN3.Name = "txtN3";
             this.txtN3.Size = new System.Drawing.Size(65, 20);
             this.txtN3.TabIndex = 5;
@@ -98,7 +98,7 @@
             // 
             this.btnSOMA.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSOMA.Location = new System.Drawing.Point(32, 76);
-            this.btnSOMA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSOMA.Margin = new System.Windows.Forms.Padding(2);
             this.btnSOMA.Name = "btnSOMA";
             this.btnSOMA.Size = new System.Drawing.Size(62, 27);
             this.btnSOMA.TabIndex = 6;
@@ -110,7 +110,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button2.Location = new System.Drawing.Point(109, 76);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(78, 27);
             this.button2.TabIndex = 7;
@@ -122,7 +122,7 @@
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnMultiplicar.Location = new System.Drawing.Point(191, 76);
-            this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(78, 27);
             this.btnMultiplicar.TabIndex = 8;
@@ -133,6 +133,7 @@
             // lblRES
             // 
             this.lblRES.AutoSize = true;
+            this.lblRES.BackColor = System.Drawing.Color.DarkGreen;
             this.lblRES.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRES.Location = new System.Drawing.Point(94, 133);
             this.lblRES.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -157,7 +158,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmRENAN";
             this.Text = "a";
             this.Load += new System.EventHandler(this.frmRENAN_Load);
