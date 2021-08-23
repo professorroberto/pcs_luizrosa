@@ -38,6 +38,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.lblRES = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -143,11 +144,24 @@
             this.lblRES.Text = "resultado";
             this.lblRES.Click += new System.EventHandler(this.lblRES_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(94, 185);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 31);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "MAIOR";
+            // 
             // frmRENAN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 384);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lblRES);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.button2);
@@ -179,5 +193,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Label lblRES;
+        private System.Windows.Forms.Label label4;
     }
 }
