@@ -51,5 +51,10 @@ namespace Calculadora
             lblResultado.Text = result.ToString();
 
         }
+
+        private void frmLEONARDO_TEIXEIRA_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
