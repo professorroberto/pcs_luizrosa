@@ -29,6 +29,7 @@ namespace Calculadora
 
         private void btnSomar_Click(object sender, EventArgs e)
         {
+            
             int res;
             res = int.Parse(txtN1.Text) + int.Parse(txtN2.Text) + int.Parse(txtN3.Text);
 

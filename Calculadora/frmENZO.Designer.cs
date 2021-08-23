@@ -127,6 +127,7 @@
             this.lblresultado.Size = new System.Drawing.Size(153, 31);
             this.lblresultado.TabIndex = 9;
             this.lblresultado.Text = "lblresultado";
+            this.lblresultado.Click += new System.EventHandler(this.lblresultado_Click);
             // 
             // frmENZO
             // 
