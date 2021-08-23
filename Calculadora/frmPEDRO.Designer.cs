@@ -38,6 +38,7 @@
             this.txtNumero3 = new System.Windows.Forms.TextBox();
             this.btnSubtraçao = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
+            this.btnMaior = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -142,11 +143,23 @@
             this.btnMultiplicar.UseVisualStyleBackColor = false;
             this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
+            // btnMaior
+            // 
+            this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMaior.Location = new System.Drawing.Point(302, 400);
+            this.btnMaior.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMaior.Name = "btnMaior";
+            this.btnMaior.Size = new System.Drawing.Size(139, 63);
+            this.btnMaior.TabIndex = 10;
+            this.btnMaior.Text = "MAIOR";
+            this.btnMaior.UseVisualStyleBackColor = false;
+            // 
             // frmPEDRO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(852, 551);
+            this.ClientSize = new System.Drawing.Size(800, 556);
+            this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.btnSubtraçao);
             this.Controls.Add(this.txtNumero3);
@@ -177,5 +190,6 @@
         private System.Windows.Forms.TextBox txtNumero3;
         private System.Windows.Forms.Button btnSubtraçao;
         private System.Windows.Forms.Button btnMultiplicar;
+        private System.Windows.Forms.Button btnMaior;
     }
 }
