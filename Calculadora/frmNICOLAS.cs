@@ -55,6 +55,35 @@ namespace Calculadora
 
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int n1 = int.Parse(textBox1.Text);
+            int n2 = int.Parse(textBox2.Text);
+            int n3 = int.Parse(textBox3.Text);
+
+            if (n1 > n2)
+            {
+                if (n1 > n3)
+                {
+                    label1.Text = Convert.ToString (n1);
+                }
+            }
+            else if (n2 > n1)
+            {
+                if (n2 > n3)
+                {
+                    label1.Text = Convert.ToString(n2);
+                }
+            }
+            else if (n3 > n1)
+            {
+                if (n3 > n2)
+                {
+                    label1.Text = Convert.ToString(n3);
+                }
+            }
+        }
+
         
     }
 }
