@@ -38,6 +38,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblresultado = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtN1
@@ -129,11 +130,22 @@
             this.lblresultado.Text = "lblresultado";
             this.lblresultado.Click += new System.EventHandler(this.lblresultado_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Location = new System.Drawing.Point(111, 119);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(62, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Maior";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // frmENZO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblresultado);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -164,5 +176,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblresultado;
+        private System.Windows.Forms.Button button1;
     }
 }
