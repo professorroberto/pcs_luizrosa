@@ -43,22 +43,24 @@
             // 
             // txtnum1
             // 
+            this.txtnum1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnum1.Location = new System.Drawing.Point(12, 38);
             this.txtnum1.Name = "txtnum1";
-            this.txtnum1.Size = new System.Drawing.Size(100, 20);
+            this.txtnum1.Size = new System.Drawing.Size(100, 39);
             this.txtnum1.TabIndex = 0;
             // 
             // txtnum2
             // 
+            this.txtnum2.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnum2.Location = new System.Drawing.Point(118, 38);
             this.txtnum2.Name = "txtnum2";
-            this.txtnum2.Size = new System.Drawing.Size(100, 20);
+            this.txtnum2.Size = new System.Drawing.Size(100, 39);
             this.txtnum2.TabIndex = 1;
             // 
             // btncalcS
             // 
             this.btncalcS.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btncalcS.Location = new System.Drawing.Point(23, 76);
+            this.btncalcS.Location = new System.Drawing.Point(23, 83);
             this.btncalcS.Name = "btncalcS";
             this.btncalcS.Size = new System.Drawing.Size(75, 23);
             this.btncalcS.TabIndex = 2;
@@ -79,16 +81,17 @@
             // 
             // txtnum3
             // 
+            this.txtnum3.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnum3.Location = new System.Drawing.Point(224, 38);
             this.txtnum3.Name = "txtnum3";
-            this.txtnum3.Size = new System.Drawing.Size(100, 20);
+            this.txtnum3.Size = new System.Drawing.Size(100, 39);
             this.txtnum3.TabIndex = 4;
             this.txtnum3.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Location = new System.Drawing.Point(234, 76);
+            this.button1.Location = new System.Drawing.Point(236, 83);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 5;
@@ -99,7 +102,7 @@
             // Btncalc
             // 
             this.Btncalc.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Btncalc.Location = new System.Drawing.Point(132, 76);
+            this.Btncalc.Location = new System.Drawing.Point(133, 83);
             this.Btncalc.Name = "Btncalc";
             this.Btncalc.Size = new System.Drawing.Size(75, 23);
             this.Btncalc.TabIndex = 6;
@@ -136,17 +139,19 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button2.Location = new System.Drawing.Point(295, 158);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(69, 50);
             this.button2.TabIndex = 10;
             this.button2.Text = "MAIOR";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // frmFELIPPO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(386, 261);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);

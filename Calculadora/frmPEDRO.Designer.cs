@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(111, 189);
+            this.label1.Location = new System.Drawing.Point(111, 187);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 17);
@@ -53,17 +53,18 @@
             // 
             // txtNumero1
             // 
-            this.txtNumero1.Location = new System.Drawing.Point(108, 209);
-            this.txtNumero1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumero1.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumero1.Location = new System.Drawing.Point(108, 210);
+            this.txtNumero1.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(136, 22);
+            this.txtNumero1.Size = new System.Drawing.Size(136, 46);
             this.txtNumero1.TabIndex = 1;
             // 
             // btnSoma
             // 
             this.btnSoma.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnSoma.Location = new System.Drawing.Point(105, 240);
-            this.btnSoma.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSoma.Location = new System.Drawing.Point(105, 258);
+            this.btnSoma.Margin = new System.Windows.Forms.Padding(4);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(139, 63);
             this.btnSoma.TabIndex = 2;
@@ -74,7 +75,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(413, 189);
+            this.label2.Location = new System.Drawing.Point(413, 187);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 17);
@@ -84,7 +85,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(263, 189);
+            this.label3.Location = new System.Drawing.Point(263, 187);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 17);
@@ -96,7 +97,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.DarkGreen;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(281, 335);
+            this.lblResultado.Location = new System.Drawing.Point(281, 353);
             this.lblResultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(171, 39);
@@ -105,25 +106,27 @@
             // 
             // txtNumero2
             // 
-            this.txtNumero2.Location = new System.Drawing.Point(260, 209);
-            this.txtNumero2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumero2.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumero2.Location = new System.Drawing.Point(260, 210);
+            this.txtNumero2.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(138, 22);
+            this.txtNumero2.Size = new System.Drawing.Size(138, 46);
             this.txtNumero2.TabIndex = 6;
             // 
             // txtNumero3
             // 
-            this.txtNumero3.Location = new System.Drawing.Point(410, 209);
-            this.txtNumero3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumero3.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumero3.Location = new System.Drawing.Point(408, 210);
+            this.txtNumero3.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumero3.Name = "txtNumero3";
-            this.txtNumero3.Size = new System.Drawing.Size(137, 22);
+            this.txtNumero3.Size = new System.Drawing.Size(137, 46);
             this.txtNumero3.TabIndex = 7;
             // 
             // btnSubtraçao
             // 
             this.btnSubtraçao.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnSubtraçao.Location = new System.Drawing.Point(406, 240);
-            this.btnSubtraçao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSubtraçao.Location = new System.Drawing.Point(406, 258);
+            this.btnSubtraçao.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubtraçao.Name = "btnSubtraçao";
             this.btnSubtraçao.Size = new System.Drawing.Size(139, 63);
             this.btnSubtraçao.TabIndex = 8;
@@ -134,8 +137,8 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMultiplicar.Location = new System.Drawing.Point(259, 240);
-            this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMultiplicar.Location = new System.Drawing.Point(259, 258);
+            this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(4);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(139, 63);
             this.btnMultiplicar.TabIndex = 9;
@@ -146,10 +149,10 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(302, 400);
+            this.btnMaior.Location = new System.Drawing.Point(288, 421);
             this.btnMaior.Margin = new System.Windows.Forms.Padding(4);
             this.btnMaior.Name = "btnMaior";
-            this.btnMaior.Size = new System.Drawing.Size(139, 63);
+            this.btnMaior.Size = new System.Drawing.Size(164, 63);
             this.btnMaior.TabIndex = 10;
             this.btnMaior.Text = "MAIOR";
             this.btnMaior.UseVisualStyleBackColor = false;
@@ -158,6 +161,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(800, 556);
             this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.btnMultiplicar);
@@ -170,7 +174,7 @@
             this.Controls.Add(this.btnSoma);
             this.Controls.Add(this.txtNumero1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmPEDRO";
             this.Text = " 22000396";
             this.ResumeLayout(false);
