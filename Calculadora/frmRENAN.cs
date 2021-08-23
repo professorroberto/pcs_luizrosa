@@ -17,36 +17,31 @@ namespace Calculadora
         {
             InitializeComponent();
         }
-
         private void frmRENAN_Load(object sender, EventArgs e)
         {
 
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
+
             res = int.Parse(txtN1.Text) * int.Parse(txtN2.Text) * int.Parse(txtN3.Text);
             lblRES.Text = res.ToString();
         }
-
         private void btnSOMA_Click(object sender, EventArgs e)
         {
             int res;
             res = int.Parse(txtN1.Text) + int.Parse(txtN2.Text) + int.Parse(txtN3.Text);
             lblRES.Text = res.ToString();
         }
-
         private void lblRES_Click(object sender, EventArgs e)
         {
 
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             int res;
             res = int.Parse(txtN1.Text) - int.Parse(txtN2.Text) - int.Parse(txtN3.Text);
             lblRES.Text = res.ToString();
-
         }
     }
 }
