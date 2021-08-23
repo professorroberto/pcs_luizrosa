@@ -36,6 +36,7 @@
             this.num1 = new System.Windows.Forms.TextBox();
             this.lblres = new System.Windows.Forms.Label();
             this.txtMaior = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnsoma
@@ -110,7 +111,7 @@
             this.lblres.AutoSize = true;
             this.lblres.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblres.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblres.Location = new System.Drawing.Point(117, 340);
+            this.lblres.Location = new System.Drawing.Point(123, 344);
             this.lblres.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblres.Name = "lblres";
             this.lblres.Size = new System.Drawing.Size(171, 39);
@@ -122,7 +123,7 @@
             // 
             this.txtMaior.BackColor = System.Drawing.Color.LightSteelBlue;
             this.txtMaior.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaior.Location = new System.Drawing.Point(145, 216);
+            this.txtMaior.Location = new System.Drawing.Point(97, 216);
             this.txtMaior.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaior.Name = "txtMaior";
             this.txtMaior.Size = new System.Drawing.Size(122, 107);
@@ -131,12 +132,25 @@
             this.txtMaior.UseVisualStyleBackColor = false;
             this.txtMaior.Click += new System.EventHandler(this.txtMaior_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(244, 216);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(122, 107);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Menor";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // frmLUIS_FELIPE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(446, 392);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtMaior);
             this.Controls.Add(this.lblres);
             this.Controls.Add(this.num1);
@@ -164,5 +178,6 @@
         private System.Windows.Forms.TextBox num1;
         private System.Windows.Forms.Label lblres;
         private System.Windows.Forms.Button txtMaior;
+        private System.Windows.Forms.Button button1;
     }
 }
