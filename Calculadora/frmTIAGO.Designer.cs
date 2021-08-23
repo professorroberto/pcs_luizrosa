@@ -149,9 +149,9 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Location = new System.Drawing.Point(176, 212);
+            this.button1.Location = new System.Drawing.Point(167, 212);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(69, 36);
+            this.button1.Size = new System.Drawing.Size(90, 45);
             this.button1.TabIndex = 11;
             this.button1.Text = "Maior";
             this.button1.UseVisualStyleBackColor = false;
@@ -160,6 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(418, 362);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblResultado);
