@@ -38,6 +38,7 @@
             this.btnSubtrair = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.btnMaior = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -97,7 +98,7 @@
             this.btnSomar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSomar.Location = new System.Drawing.Point(50, 107);
             this.btnSomar.Name = "btnSomar";
-            this.btnSomar.Size = new System.Drawing.Size(75, 23);
+            this.btnSomar.Size = new System.Drawing.Size(84, 33);
             this.btnSomar.TabIndex = 6;
             this.btnSomar.Text = "SOMAR";
             this.btnSomar.UseVisualStyleBackColor = false;
@@ -108,17 +109,18 @@
             this.btnSubtrair.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSubtrair.Location = new System.Drawing.Point(196, 106);
             this.btnSubtrair.Name = "btnSubtrair";
-            this.btnSubtrair.Size = new System.Drawing.Size(75, 23);
+            this.btnSubtrair.Size = new System.Drawing.Size(90, 34);
             this.btnSubtrair.TabIndex = 7;
             this.btnSubtrair.Text = "SUBTRAIR";
             this.btnSubtrair.UseVisualStyleBackColor = false;
+            this.btnSubtrair.Click += new System.EventHandler(this.btnSubtrair_Click);
             // 
             // btnMultiplicar
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnMultiplicar.Location = new System.Drawing.Point(335, 106);
             this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(87, 23);
+            this.btnMultiplicar.Size = new System.Drawing.Size(89, 34);
             this.btnMultiplicar.TabIndex = 8;
             this.btnMultiplicar.Text = "MULTIPLICAR";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
@@ -128,17 +130,29 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(152, 197);
+            this.lblResultado.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblResultado.Location = new System.Drawing.Point(167, 236);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(181, 31);
             this.lblResultado.TabIndex = 9;
             this.lblResultado.Text = "RESULTADO";
+            // 
+            // btnMaior
+            // 
+            this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMaior.Location = new System.Drawing.Point(196, 154);
+            this.btnMaior.Name = "btnMaior";
+            this.btnMaior.Size = new System.Drawing.Size(90, 42);
+            this.btnMaior.TabIndex = 10;
+            this.btnMaior.Text = "Maior";
+            this.btnMaior.UseVisualStyleBackColor = false;
             // 
             // frmLEONARDO_TEIXEIRA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(529, 400);
+            this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.btnSubtrair);
@@ -168,5 +182,6 @@
         private System.Windows.Forms.Button btnSubtrair;
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button btnMaior;
     }
 }
