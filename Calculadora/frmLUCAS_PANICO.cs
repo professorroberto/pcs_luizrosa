@@ -24,8 +24,8 @@ namespace Calculadora
             {
                 int N1 = int.Parse(txtNumero1.Text);
                 int N2 = int.Parse(txtNumero2.Text);
-                int n3 = int.Parse(txtNumero3.Text);
-                int result = N1 * N2 * n3;
+                int N3 = int.Parse(txtNumero3.Text);
+                int result = N1 * N2 * N3;
                 lblResultado.Text = result.ToString();
             }
         }
@@ -39,8 +39,8 @@ namespace Calculadora
             {
                 int N1 = int.Parse(txtNumero1.Text);
                 int N2 = int.Parse(txtNumero2.Text);
-                int n3 = int.Parse(txtNumero3.Text);
-                int result = N1 + N2 + n3;
+                int N3 = int.Parse(txtNumero3.Text);
+                int result = N1 + N2 + N3;
                 lblResultado.Text = result.ToString();
             }
         }
@@ -48,6 +48,16 @@ namespace Calculadora
         private void btnSubtrair_Click(object sender, EventArgs e)
         {
 
+            if (txtNumero1.Text == "" || txtNumero2.Text == "" || txtNumero3.Text == "")
+                MessageBox.Show("Preencha todos os campos");
+            else
+            {
+                int N1 = int.Parse(txtNumero1.Text);
+                int N2 = int.Parse(txtNumero2.Text);
+                int N3 = int.Parse(txtNumero3.Text);
+                int result = N1 - N2 - N3;
+                lblResultado.Text = result.ToString();
+            }
         }
     }
 }

@@ -39,5 +39,22 @@ namespace Calculadora
             resultado = Convert.ToString(mn1 + mn2 + mn3);
             label4.Text = "Resultado: " + resultado.ToString();
         }
+
+        private void frmGUILHERME_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string resultado;
+
+            int mn1 = Convert.ToInt32(txtn1.Text);
+            int mn2 = Convert.ToInt32(txtn2.Text);
+            int mn3 = Convert.ToInt32(txtn3.Text);
+
+            resultado = Convert.ToString(mn1 - mn2 - mn3);
+            label4.Text = "Resultado: " + resultado.ToString();
+        }
     }
 }
