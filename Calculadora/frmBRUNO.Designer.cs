@@ -39,6 +39,7 @@
             this.Numero2 = new System.Windows.Forms.TextBox();
             this.Numero1 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblresultado
@@ -158,12 +159,24 @@
             this.button4.Text = "MAIOR";
             this.button4.UseVisualStyleBackColor = false;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button5.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.button5.Location = new System.Drawing.Point(467, 250);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 21;
+            this.button5.Text = "MENOR";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // frmBRUNO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(551, 382);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.lblresultado);
             this.Controls.Add(this.label3);
@@ -198,6 +211,7 @@
         private System.Windows.Forms.TextBox Numero2;
         private System.Windows.Forms.TextBox Numero1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
 
 
 
