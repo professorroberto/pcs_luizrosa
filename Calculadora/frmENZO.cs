@@ -31,11 +31,18 @@ namespace Calculadora
             btnSomar.BackColor = Color.LightSteelBlue;
             btnSubtrair.BackColor = Color.LightSteelBlue;
             button3.BackColor = Color.LightSteelBlue;
+
+            lblresultado.BackColor = Color.DarkGreen;
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)
         {
             lblresultado.Text = Convert.ToString(int.Parse(txtN1.Text) - int.Parse(txtN2.Text) - int.Parse(txtN3.Text));
+        }
+
+        private void lblresultado_Click(object sender, EventArgs e)
+        {
+
         }
 
 
