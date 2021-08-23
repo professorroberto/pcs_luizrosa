@@ -73,26 +73,29 @@
             // 
             // txtNum1
             // 
+            this.txtNum1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNum1.Location = new System.Drawing.Point(50, 89);
             this.txtNum1.Margin = new System.Windows.Forms.Padding(2);
             this.txtNum1.Name = "txtNum1";
-            this.txtNum1.Size = new System.Drawing.Size(84, 20);
+            this.txtNum1.Size = new System.Drawing.Size(84, 39);
             this.txtNum1.TabIndex = 4;
             // 
             // txtNum2
             // 
+            this.txtNum2.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNum2.Location = new System.Drawing.Point(166, 89);
             this.txtNum2.Margin = new System.Windows.Forms.Padding(2);
             this.txtNum2.Name = "txtNum2";
-            this.txtNum2.Size = new System.Drawing.Size(92, 20);
+            this.txtNum2.Size = new System.Drawing.Size(92, 39);
             this.txtNum2.TabIndex = 5;
             // 
             // txtNum3
             // 
+            this.txtNum3.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNum3.Location = new System.Drawing.Point(292, 89);
             this.txtNum3.Margin = new System.Windows.Forms.Padding(2);
             this.txtNum3.Name = "txtNum3";
-            this.txtNum3.Size = new System.Drawing.Size(90, 20);
+            this.txtNum3.Size = new System.Drawing.Size(90, 39);
             this.txtNum3.TabIndex = 6;
             // 
             // btnSomar
@@ -136,7 +139,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblResultado.Location = new System.Drawing.Point(151, 219);
+            this.lblResultado.Location = new System.Drawing.Point(160, 288);
             this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(126, 31);
@@ -146,7 +149,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Location = new System.Drawing.Point(312, 213);
+            this.button1.Location = new System.Drawing.Point(176, 212);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(69, 36);
             this.button1.TabIndex = 11;
@@ -157,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(418, 276);
+            this.ClientSize = new System.Drawing.Size(418, 362);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnMultiplicar);

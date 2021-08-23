@@ -38,42 +38,45 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnMaior = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(37, 64);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 17);
+            this.label1.Size = new System.Drawing.Size(181, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "Número 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(303, 64);
+            this.label2.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(441, 50);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 17);
+            this.label2.Size = new System.Drawing.Size(181, 39);
             this.label2.TabIndex = 1;
             this.label2.Text = "Número 3";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(164, 64);
+            this.label3.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(213, 86);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 17);
+            this.label3.Size = new System.Drawing.Size(181, 39);
             this.label3.TabIndex = 2;
             this.label3.Text = "Número 2";
             // 
             // txtn1
             // 
-            this.txtn1.Location = new System.Drawing.Point(41, 84);
+            this.txtn1.Location = new System.Drawing.Point(42, 107);
             this.txtn1.Margin = new System.Windows.Forms.Padding(4);
             this.txtn1.Name = "txtn1";
             this.txtn1.Size = new System.Drawing.Size(83, 22);
@@ -81,7 +84,7 @@
             // 
             // txtn2
             // 
-            this.txtn2.Location = new System.Drawing.Point(167, 84);
+            this.txtn2.Location = new System.Drawing.Point(220, 129);
             this.txtn2.Margin = new System.Windows.Forms.Padding(4);
             this.txtn2.Name = "txtn2";
             this.txtn2.Size = new System.Drawing.Size(83, 22);
@@ -89,7 +92,7 @@
             // 
             // txtn3
             // 
-            this.txtn3.Location = new System.Drawing.Point(307, 84);
+            this.txtn3.Location = new System.Drawing.Point(448, 93);
             this.txtn3.Margin = new System.Windows.Forms.Padding(4);
             this.txtn3.Name = "txtn3";
             this.txtn3.Size = new System.Drawing.Size(83, 22);
@@ -143,23 +146,24 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "RESULTADO";
             // 
-            // button4
+            // btnMaior
             // 
-            this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button4.Location = new System.Drawing.Point(457, 164);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(123, 28);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "MAIOR";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMaior.Location = new System.Drawing.Point(457, 164);
+            this.btnMaior.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMaior.Name = "btnMaior";
+            this.btnMaior.Size = new System.Drawing.Size(123, 28);
+            this.btnMaior.TabIndex = 10;
+            this.btnMaior.Text = "MAIOR";
+            this.btnMaior.UseVisualStyleBackColor = false;
+            this.btnMaior.Click += new System.EventHandler(this.btnMaior_Click);
             // 
             // frmGUILHERME
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(724, 466);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -191,6 +195,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnMaior;
     }
 }
