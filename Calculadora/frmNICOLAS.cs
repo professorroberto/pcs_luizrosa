@@ -50,6 +50,11 @@ namespace Calculadora
             label1.Text = resultado.ToString();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         
     }
 }

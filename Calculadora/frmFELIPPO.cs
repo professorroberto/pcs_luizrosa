@@ -41,5 +41,9 @@ namespace Calculadora
             res = double.Parse(txtnum1.Text) - double.Parse(txtnum2.Text) - double.Parse(txtnum3.Text);
             lblresult.Text = res.ToString(); 
         }
+
+        private void frmFELIPPO_Load(object sender, EventArgs e)
+        {
+            lblresult.BackColor = Color.DarkGreen;
     }
 }
