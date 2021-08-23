@@ -149,6 +149,7 @@
             this.Controls.Add(this.txtnum1);
             this.Name = "frmFELIPPO";
             this.Text = "2200029-9";
+            this.Load += new System.EventHandler(this.frmFELIPPO_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
