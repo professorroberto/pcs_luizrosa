@@ -43,16 +43,18 @@
             // 
             // txtnum1
             // 
+            this.txtnum1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnum1.Location = new System.Drawing.Point(12, 38);
             this.txtnum1.Name = "txtnum1";
-            this.txtnum1.Size = new System.Drawing.Size(100, 20);
+            this.txtnum1.Size = new System.Drawing.Size(100, 39);
             this.txtnum1.TabIndex = 0;
             // 
             // txtnum2
             // 
+            this.txtnum2.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnum2.Location = new System.Drawing.Point(118, 38);
             this.txtnum2.Name = "txtnum2";
-            this.txtnum2.Size = new System.Drawing.Size(100, 20);
+            this.txtnum2.Size = new System.Drawing.Size(100, 39);
             this.txtnum2.TabIndex = 1;
             // 
             // btncalcS
@@ -79,9 +81,10 @@
             // 
             // txtnum3
             // 
+            this.txtnum3.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnum3.Location = new System.Drawing.Point(224, 38);
             this.txtnum3.Name = "txtnum3";
-            this.txtnum3.Size = new System.Drawing.Size(100, 20);
+            this.txtnum3.Size = new System.Drawing.Size(100, 39);
             this.txtnum3.TabIndex = 4;
             this.txtnum3.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 

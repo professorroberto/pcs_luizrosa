@@ -70,29 +70,32 @@
             // 
             // txtNum1
             // 
+            this.txtNum1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNum1.Location = new System.Drawing.Point(10, 28);
             this.txtNum1.Name = "txtNum1";
-            this.txtNum1.Size = new System.Drawing.Size(77, 20);
+            this.txtNum1.Size = new System.Drawing.Size(77, 39);
             this.txtNum1.TabIndex = 3;
             // 
             // txtNum2
             // 
+            this.txtNum2.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNum2.Location = new System.Drawing.Point(93, 28);
             this.txtNum2.Name = "txtNum2";
-            this.txtNum2.Size = new System.Drawing.Size(78, 20);
+            this.txtNum2.Size = new System.Drawing.Size(78, 39);
             this.txtNum2.TabIndex = 4;
             // 
             // txtNum3
             // 
+            this.txtNum3.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNum3.Location = new System.Drawing.Point(177, 28);
             this.txtNum3.Name = "txtNum3";
-            this.txtNum3.Size = new System.Drawing.Size(82, 20);
+            this.txtNum3.Size = new System.Drawing.Size(82, 39);
             this.txtNum3.TabIndex = 5;
             // 
             // btnSoma
             // 
             this.btnSoma.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnSoma.Location = new System.Drawing.Point(7, 54);
+            this.btnSoma.Location = new System.Drawing.Point(7, 73);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(93, 32);
             this.btnSoma.TabIndex = 6;
@@ -103,7 +106,7 @@
             // btnSub
             // 
             this.btnSub.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnSub.Location = new System.Drawing.Point(106, 54);
+            this.btnSub.Location = new System.Drawing.Point(106, 73);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(90, 32);
             this.btnSub.TabIndex = 7;
@@ -114,7 +117,7 @@
             // btnMult
             // 
             this.btnMult.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMult.Location = new System.Drawing.Point(202, 54);
+            this.btnMult.Location = new System.Drawing.Point(202, 73);
             this.btnMult.Name = "btnMult";
             this.btnMult.Size = new System.Drawing.Size(87, 32);
             this.btnMult.TabIndex = 8;
@@ -127,7 +130,7 @@
             this.lblResult.AutoSize = true;
             this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResult.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblResult.Location = new System.Drawing.Point(57, 89);
+            this.lblResult.Location = new System.Drawing.Point(78, 108);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(181, 31);
             this.lblResult.TabIndex = 9;
@@ -136,7 +139,7 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(295, 58);
+            this.btnMaior.Location = new System.Drawing.Point(295, 77);
             this.btnMaior.Name = "btnMaior";
             this.btnMaior.Size = new System.Drawing.Size(61, 24);
             this.btnMaior.TabIndex = 10;

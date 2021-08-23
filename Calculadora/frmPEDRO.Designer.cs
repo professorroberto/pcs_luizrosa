@@ -53,10 +53,11 @@
             // 
             // txtNumero1
             // 
+            this.txtNumero1.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero1.Location = new System.Drawing.Point(108, 209);
             this.txtNumero1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(136, 22);
+            this.txtNumero1.Size = new System.Drawing.Size(136, 46);
             this.txtNumero1.TabIndex = 1;
             // 
             // btnSoma
@@ -105,18 +106,20 @@
             // 
             // txtNumero2
             // 
+            this.txtNumero2.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero2.Location = new System.Drawing.Point(260, 209);
             this.txtNumero2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(138, 22);
+            this.txtNumero2.Size = new System.Drawing.Size(138, 46);
             this.txtNumero2.TabIndex = 6;
             // 
             // txtNumero3
             // 
+            this.txtNumero3.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero3.Location = new System.Drawing.Point(410, 209);
             this.txtNumero3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNumero3.Name = "txtNumero3";
-            this.txtNumero3.Size = new System.Drawing.Size(137, 22);
+            this.txtNumero3.Size = new System.Drawing.Size(137, 46);
             this.txtNumero3.TabIndex = 7;
             // 
             // btnSubtraçao
@@ -146,10 +149,10 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(302, 400);
+            this.btnMaior.Location = new System.Drawing.Point(288, 403);
             this.btnMaior.Margin = new System.Windows.Forms.Padding(4);
             this.btnMaior.Name = "btnMaior";
-            this.btnMaior.Size = new System.Drawing.Size(139, 63);
+            this.btnMaior.Size = new System.Drawing.Size(164, 63);
             this.btnMaior.TabIndex = 10;
             this.btnMaior.Text = "MAIOR";
             this.btnMaior.UseVisualStyleBackColor = false;

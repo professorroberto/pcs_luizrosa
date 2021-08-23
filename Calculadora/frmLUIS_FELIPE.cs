@@ -74,5 +74,10 @@ namespace Calculadora
 
             lblres.Text = (numero1 - numero2 - numero3).ToString();
         }
+
+        private void txtMaior_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

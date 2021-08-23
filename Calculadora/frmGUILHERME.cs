@@ -56,5 +56,10 @@ namespace Calculadora
             resultado = Convert.ToString(mn1 - mn2 - mn3);
             label4.Text = "Resultado: " + resultado.ToString();
         }
+
+        private void btnMaior_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
