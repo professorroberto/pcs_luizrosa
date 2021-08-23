@@ -64,18 +64,22 @@ namespace Calculadora
             int n3 = Convert.ToInt32(txtn3.Text);
 
             if (n1 > n2)
-                label4.Text = "Resultado: ";
+                label4.Text = "Maior Numero: Numero 1";
             else if (n2 > n3)
             {
-                label4.Text = "Resultado: ";
+                label4.Text = "Maior Numero: Numero 2";
             }
             else if (n3 > n2)
             {
-                label4.Text = "Resultado: ";
+                label4.Text = "Maior Numero: Numero 3";
             }
             else if (n2 > n1)
             {
-                label4.Text = "Resultado: ";
+                label4.Text = "Maior Numero: Numero 2";
+            }
+            else if (n1 > n3)
+            {
+                label4.Text = "Maior Numero: Numero 1";
             }
         }
 
