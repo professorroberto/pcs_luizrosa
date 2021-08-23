@@ -49,6 +49,39 @@ namespace Calculadora
             
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int res;
+
+            if (int.Parse(txtN1.Text) > int.Parse(txtN2.Text))
+            {
+                if (int.Parse(txtN1.Text) > int.Parse(txtN3.Text))
+                {
+                    res = int.Parse(txtN1.Text);
+                }
+            }
+            if (int.Parse(txtN3.Text) > int.Parse(txtN2.Text))
+            {
+                if (int.Parse(txtN3.Text) > int.Parse(txtN1.Text))
+                {
+                    res = int.Parse(txtN3.Text);
+                }
+            }
+            if (int.Parse(txtN2.Text) > int.Parse(txtN1.Text))
+            {
+                if (int.Parse(txtN2.Text) > int.Parse(txtN3.Text))
+                {
+                    res = int.Parse(txtN2.Text);
+                }
+            }
+            lblRes = res;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }
