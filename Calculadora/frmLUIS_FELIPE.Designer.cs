@@ -40,9 +40,10 @@
             // btnsoma
             // 
             this.btnsoma.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnsoma.Location = new System.Drawing.Point(13, 80);
+            this.btnsoma.Location = new System.Drawing.Point(17, 98);
+            this.btnsoma.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsoma.Name = "btnsoma";
-            this.btnsoma.Size = new System.Drawing.Size(75, 23);
+            this.btnsoma.Size = new System.Drawing.Size(100, 28);
             this.btnsoma.TabIndex = 0;
             this.btnsoma.Text = "SOmar";
             this.btnsoma.UseVisualStyleBackColor = false;
@@ -51,9 +52,10 @@
             // btnsub
             // 
             this.btnsub.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnsub.Location = new System.Drawing.Point(107, 80);
+            this.btnsub.Location = new System.Drawing.Point(143, 98);
+            this.btnsub.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsub.Name = "btnsub";
-            this.btnsub.Size = new System.Drawing.Size(75, 23);
+            this.btnsub.Size = new System.Drawing.Size(100, 28);
             this.btnsub.TabIndex = 1;
             this.btnsub.Text = "Subtrair";
             this.btnsub.UseVisualStyleBackColor = false;
@@ -62,9 +64,10 @@
             // btnmult
             // 
             this.btnmult.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnmult.Location = new System.Drawing.Point(211, 80);
+            this.btnmult.Location = new System.Drawing.Point(281, 98);
+            this.btnmult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnmult.Name = "btnmult";
-            this.btnmult.Size = new System.Drawing.Size(75, 23);
+            this.btnmult.Size = new System.Drawing.Size(100, 28);
             this.btnmult.TabIndex = 2;
             this.btnmult.Text = "Multiplicar";
             this.btnmult.UseVisualStyleBackColor = false;
@@ -72,42 +75,47 @@
             // 
             // num2
             // 
-            this.num2.Location = new System.Drawing.Point(107, 33);
+            this.num2.Location = new System.Drawing.Point(143, 41);
+            this.num2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.num2.Name = "num2";
-            this.num2.Size = new System.Drawing.Size(75, 20);
+            this.num2.Size = new System.Drawing.Size(99, 22);
             this.num2.TabIndex = 4;
             // 
             // num3
             // 
-            this.num3.Location = new System.Drawing.Point(209, 33);
+            this.num3.Location = new System.Drawing.Point(279, 41);
+            this.num3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.num3.Name = "num3";
-            this.num3.Size = new System.Drawing.Size(77, 20);
+            this.num3.Size = new System.Drawing.Size(101, 22);
             this.num3.TabIndex = 5;
             this.num3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // num1
             // 
-            this.num1.Location = new System.Drawing.Point(13, 33);
+            this.num1.Location = new System.Drawing.Point(17, 41);
+            this.num1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.num1.Name = "num1";
-            this.num1.Size = new System.Drawing.Size(75, 20);
+            this.num1.Size = new System.Drawing.Size(99, 22);
             this.num1.TabIndex = 6;
             // 
             // lblres
             // 
             this.lblres.AutoSize = true;
             this.lblres.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblres.Location = new System.Drawing.Point(71, 144);
+            this.lblres.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblres.Location = new System.Drawing.Point(95, 177);
+            this.lblres.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblres.Name = "lblres";
-            this.lblres.Size = new System.Drawing.Size(137, 31);
+            this.lblres.Size = new System.Drawing.Size(171, 39);
             this.lblres.TabIndex = 7;
             this.lblres.Text = "Resultado";
             this.lblres.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmLUIS_FELIPE
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(297, 261);
+            this.ClientSize = new System.Drawing.Size(396, 321);
             this.Controls.Add(this.lblres);
             this.Controls.Add(this.num1);
             this.Controls.Add(this.num3);
@@ -115,6 +123,7 @@
             this.Controls.Add(this.btnmult);
             this.Controls.Add(this.btnsub);
             this.Controls.Add(this.btnsoma);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmLUIS_FELIPE";
             this.Text = "2200032-2";
             this.Load += new System.EventHandler(this.frmLUIS_FELIPE_Load);
