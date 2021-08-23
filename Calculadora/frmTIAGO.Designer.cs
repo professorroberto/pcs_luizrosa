@@ -38,6 +38,7 @@
             this.btnSubtrair = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -134,6 +135,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblResultado.Location = new System.Drawing.Point(151, 219);
             this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResultado.Name = "lblResultado";
@@ -141,11 +143,22 @@
             this.lblResultado.TabIndex = 10;
             this.lblResultado.Text = "resultado";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Location = new System.Drawing.Point(312, 213);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(69, 36);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Maior";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // frmTIAGO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(418, 276);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.btnSubtrair);
@@ -175,5 +188,6 @@
         private System.Windows.Forms.Button btnSubtrair;
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button button1;
     }
 }

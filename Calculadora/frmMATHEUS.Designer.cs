@@ -38,6 +38,7 @@
             this.txtN3 = new System.Windows.Forms.TextBox();
             this.btnMult = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -142,11 +143,22 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "numero 3";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Location = new System.Drawing.Point(39, 175);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(59, 32);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "maior";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // frmMATHEUS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnMult);
             this.Controls.Add(this.txtN3);
@@ -159,6 +171,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmMATHEUS";
             this.Text = "2200022-5";
+            this.Load += new System.EventHandler(this.frmMATHEUS_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,5 +189,6 @@
         private System.Windows.Forms.TextBox txtN3;
         private System.Windows.Forms.Button btnMult;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }

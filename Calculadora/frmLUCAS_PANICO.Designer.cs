@@ -103,6 +103,7 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
+            this.lblResultado.BackColor = System.Drawing.Color.DarkGreen;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.Location = new System.Drawing.Point(211, 220);
             this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
