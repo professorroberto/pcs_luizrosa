@@ -69,6 +69,14 @@ namespace Calculadora
             {
                 label4.Text = "Resultado: ";
             }
+            else if (n3 > n2)
+            {
+                label4.Text = "Resultado: ";
+            }
+            else if (n2 > n1)
+            {
+                label4.Text = "Resultado: ";
+            }
         }
 
         private void txtn3_TextChanged(object sender, EventArgs e)
