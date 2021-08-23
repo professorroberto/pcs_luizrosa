@@ -38,14 +38,16 @@
             this.Numero3 = new System.Windows.Forms.TextBox();
             this.Numero2 = new System.Windows.Forms.TextBox();
             this.Numero1 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblresultado
             // 
             this.lblresultado.AutoSize = true;
-            this.lblresultado.BackColor = System.Drawing.Color.DarkGreen;
+            this.lblresultado.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblresultado.Location = new System.Drawing.Point(294, 138);
+            this.lblresultado.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblresultado.Location = new System.Drawing.Point(346, 270);
             this.lblresultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblresultado.Name = "lblresultado";
             this.lblresultado.Size = new System.Drawing.Size(192, 39);
@@ -85,7 +87,8 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button3.Location = new System.Drawing.Point(187, 185);
+            this.button3.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(82, 158);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(83, 28);
@@ -97,10 +100,11 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button2.Location = new System.Drawing.Point(187, 149);
+            this.button2.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(173, 149);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(83, 28);
+            this.button2.Size = new System.Drawing.Size(118, 81);
             this.button2.TabIndex = 14;
             this.button2.Text = "Subtrair";
             this.button2.UseVisualStyleBackColor = false;
@@ -109,10 +113,11 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Location = new System.Drawing.Point(187, 113);
+            this.button1.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(313, 149);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 28);
+            this.button1.Size = new System.Drawing.Size(121, 81);
             this.button1.TabIndex = 13;
             this.button1.Text = "Somar";
             this.button1.UseVisualStyleBackColor = false;
@@ -136,17 +141,29 @@
             // 
             // Numero1
             // 
-            this.Numero1.Location = new System.Drawing.Point(106, 79);
+            this.Numero1.Location = new System.Drawing.Point(104, 79);
             this.Numero1.Margin = new System.Windows.Forms.Padding(4);
             this.Numero1.Name = "Numero1";
             this.Numero1.Size = new System.Drawing.Size(73, 26);
             this.Numero1.TabIndex = 10;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button4.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(173, 239);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(118, 88);
+            this.button4.TabIndex = 20;
+            this.button4.Text = "MAIOR";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // frmBRUNO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 382);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.lblresultado);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -179,6 +196,7 @@
         private System.Windows.Forms.TextBox Numero3;
         private System.Windows.Forms.TextBox Numero2;
         private System.Windows.Forms.TextBox Numero1;
+        private System.Windows.Forms.Button button4;
 
 
 
