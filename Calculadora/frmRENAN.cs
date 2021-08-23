@@ -43,18 +43,26 @@ namespace Calculadora
             res = int.Parse(txtN1.Text) - int.Parse(txtN2.Text) - int.Parse(txtN3.Text);
             lblRES.Text = res.ToString();
         }
-
-        private void label4_Click(object sender, EventArgs e)
+      
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (int.Parse(txtN1.Text) > int.Parse(txtN2.Text) && int.Parse(txtN1.Text) > int.Parse(txtN3.Text))
+         if (int.Parse(txtN1.Text) > int.Parse(txtN2.Text) && int.Parse(txtN1.Text) > int.Parse(txtN3.Text))
                 MessageBox.Show("NUMERO 1 É O MAIOR");
             else if (int.Parse(txtN2.Text) > int.Parse(txtN3.Text) && int.Parse(txtN2.Text) > int.Parse(txtN1.Text))
                 MessageBox.Show("NUMERO 2 É O MAIOR");
             else
                 MessageBox.Show("NUMERO 3 É O MAIOR");
-            
-  
-            
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+         if (int.Parse(txtN1.Text) < int.Parse(txtN2.Text) && int.Parse(txtN1.Text) < int.Parse(txtN3.Text))
+                MessageBox.Show("NUMERO 1 É O MENOR");
+            else if (int.Parse(txtN2.Text) < int.Parse(txtN3.Text) && int.Parse(txtN2.Text) < int.Parse(txtN1.Text))
+                MessageBox.Show("NUMERO 2 É O MENOR");
+            else
+                MessageBox.Show("NUMERO 3 É O MENOR");
+        }
+       
     }
 }
