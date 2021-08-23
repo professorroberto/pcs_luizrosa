@@ -77,7 +77,33 @@ namespace Calculadora
 
         private void txtMaior_Click(object sender, EventArgs e)
         {
-            
+
+            if (int.Parse(num1.Text) > int.Parse(num2.Text))
+            {
+                if (int.Parse(num1.Text) > int.Parse(num3.Text))
+                {
+                    lblres.Text = num1.Text;
+
+                }
+            }
+
+            if (int.Parse(num2.Text) > int.Parse(num3.Text))
+            {
+                if (int.Parse(num2.Text) > int.Parse(num1.Text))
+                {
+                    lblres.Text = num2.Text;
+
+                }
+            }
+
+            if (int.Parse(num3.Text) > int.Parse(num1.Text))
+            {
+                if (int.Parse(num3.Text) > int.Parse(num2.Text))
+                {
+                    lblres.Text = num3.Text;
+
+                }
+            }
         }
     }
 }

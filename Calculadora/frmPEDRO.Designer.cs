@@ -39,7 +39,7 @@
             this.btnSubtraçao = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.btnMaior = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnMenor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -150,24 +150,25 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(288, 421);
+            this.btnMaior.Location = new System.Drawing.Point(188, 421);
             this.btnMaior.Margin = new System.Windows.Forms.Padding(4);
             this.btnMaior.Name = "btnMaior";
             this.btnMaior.Size = new System.Drawing.Size(164, 63);
             this.btnMaior.TabIndex = 10;
             this.btnMaior.Text = "MAIOR";
             this.btnMaior.UseVisualStyleBackColor = false;
+            this.btnMaior.Click += new System.EventHandler(this.btnMaior_Click);
             // 
-            // button1
+            // btnMenor
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Location = new System.Drawing.Point(476, 421);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(164, 63);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "menor";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMenor.Location = new System.Drawing.Point(376, 421);
+            this.btnMenor.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMenor.Name = "btnMenor";
+            this.btnMenor.Size = new System.Drawing.Size(164, 63);
+            this.btnMenor.TabIndex = 11;
+            this.btnMenor.Text = "menor";
+            this.btnMenor.UseVisualStyleBackColor = false;
             // 
             // frmPEDRO
             // 
@@ -175,7 +176,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(800, 556);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.btnSubtraçao);
@@ -208,6 +209,6 @@
         private System.Windows.Forms.Button btnSubtraçao;
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Button btnMaior;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnMenor;
     }
 }

@@ -141,17 +141,18 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button2.Location = new System.Drawing.Point(295, 158);
+            this.button2.Location = new System.Drawing.Point(286, 156);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(69, 50);
             this.button2.TabIndex = 10;
             this.button2.Text = "MAIOR";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button3.Location = new System.Drawing.Point(10, 152);
+            this.button3.Location = new System.Drawing.Point(10, 156);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(69, 50);
             this.button3.TabIndex = 11;

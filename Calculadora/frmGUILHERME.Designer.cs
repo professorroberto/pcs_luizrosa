@@ -39,7 +39,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.btnMaior = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnMenor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -160,16 +160,16 @@
             this.btnMaior.UseVisualStyleBackColor = false;
             this.btnMaior.Click += new System.EventHandler(this.btnMaior_Click);
             // 
-            // button4
+            // btnMenor
             // 
-            this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button4.Location = new System.Drawing.Point(301, 219);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(123, 28);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "MENOR";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMenor.Location = new System.Drawing.Point(232, 200);
+            this.btnMenor.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMenor.Name = "btnMenor";
+            this.btnMenor.Size = new System.Drawing.Size(123, 28);
+            this.btnMenor.TabIndex = 11;
+            this.btnMenor.Text = "MENOR";
+            this.btnMenor.UseVisualStyleBackColor = false;
             // 
             // frmGUILHERME
             // 
@@ -177,7 +177,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(724, 466);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
@@ -211,6 +211,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnMaior;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnMenor;
     }
 }
