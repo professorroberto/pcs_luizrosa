@@ -39,6 +39,7 @@
             this.btnMult = new System.Windows.Forms.Button();
             this.lblResult = new System.Windows.Forms.Label();
             this.btnMaior = new System.Windows.Forms.Button();
+            this.btnMenor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -146,12 +147,23 @@
             this.btnMaior.Text = "MAIOR";
             this.btnMaior.UseVisualStyleBackColor = false;
             // 
+            // btnMenor
+            // 
+            this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMenor.Location = new System.Drawing.Point(362, 77);
+            this.btnMenor.Name = "btnMenor";
+            this.btnMenor.Size = new System.Drawing.Size(56, 24);
+            this.btnMenor.TabIndex = 11;
+            this.btnMenor.Text = "MENOR";
+            this.btnMenor.UseVisualStyleBackColor = false;
+            // 
             // frmKAUA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(584, 436);
+            this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.btnMult);
@@ -183,5 +195,6 @@
         private System.Windows.Forms.Button btnMult;
         private System.Windows.Forms.Label lblResult;
         private System.Windows.Forms.Button btnMaior;
+        private System.Windows.Forms.Button btnMenor;
     }
 }
