@@ -93,6 +93,7 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
+            this.lblResultado.BackColor = System.Drawing.Color.DarkGreen;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.Location = new System.Drawing.Point(281, 335);
             this.lblResultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -120,7 +121,7 @@
             // btnSubtraçao
             // 
             this.btnSubtraçao.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnSubtraçao.Location = new System.Drawing.Point(408, 240);
+            this.btnSubtraçao.Location = new System.Drawing.Point(406, 240);
             this.btnSubtraçao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSubtraçao.Name = "btnSubtraçao";
             this.btnSubtraçao.Size = new System.Drawing.Size(139, 63);
