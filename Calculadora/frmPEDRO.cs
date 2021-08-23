@@ -55,5 +55,31 @@ namespace Calculadora
             lblResultado.Text = resultado.ToString();
         }
 
+        private void btnMaior_Click(object sender, EventArgs e)
+        {
+            int n1;
+            int n2;
+            int n3;
+            n1 = int.Parse(txtNumero1.Text);
+            n2 = int.Parse(txtNumero2.Text);
+            n3 = int.Parse(txtNumero3.Text);
+            if (n1 > n2)
+            {
+                if (n1 > n3)
+                    MessageBox.Show("numero 1 é o maior");
+            }
+            if (n2 > n3)
+            {
+                MessageBox.Show("numero 2 é o maior");
+
+            }
+            else
+            {
+                MessageBox.Show("numero 3 é o maior");
+            }
+
+
+        }
+
     }
 }

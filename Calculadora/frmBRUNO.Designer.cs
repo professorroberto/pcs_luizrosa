@@ -158,14 +158,16 @@
             this.button4.TabIndex = 20;
             this.button4.Text = "MAIOR";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button5.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button5.Location = new System.Drawing.Point(467, 250);
+            this.button5.Location = new System.Drawing.Point(104, 331);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(240, 50);
             this.button5.TabIndex = 21;
             this.button5.Text = "MENOR";
             this.button5.UseVisualStyleBackColor = false;
@@ -175,7 +177,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(551, 382);
+            this.ClientSize = new System.Drawing.Size(551, 408);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.lblresultado);
