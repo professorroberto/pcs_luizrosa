@@ -33,6 +33,6 @@ namespace Calculadora
             button3.BackColor = Color.LightSteelBlue;
         }
 
-       
+
     }
 }

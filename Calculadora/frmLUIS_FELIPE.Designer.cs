@@ -39,32 +39,35 @@
             // 
             // btnsoma
             // 
+            this.btnsoma.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnsoma.Location = new System.Drawing.Point(13, 80);
             this.btnsoma.Name = "btnsoma";
             this.btnsoma.Size = new System.Drawing.Size(75, 23);
             this.btnsoma.TabIndex = 0;
             this.btnsoma.Text = "SOmar";
-            this.btnsoma.UseVisualStyleBackColor = true;
+            this.btnsoma.UseVisualStyleBackColor = false;
             this.btnsoma.Click += new System.EventHandler(this.btnsoma_Click);
             // 
             // btnsub
             // 
+            this.btnsub.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnsub.Location = new System.Drawing.Point(107, 80);
             this.btnsub.Name = "btnsub";
             this.btnsub.Size = new System.Drawing.Size(75, 23);
             this.btnsub.TabIndex = 1;
             this.btnsub.Text = "Subtrair";
-            this.btnsub.UseVisualStyleBackColor = true;
+            this.btnsub.UseVisualStyleBackColor = false;
             this.btnsub.Click += new System.EventHandler(this.btnsub_Click);
             // 
             // btnmult
             // 
+            this.btnmult.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnmult.Location = new System.Drawing.Point(211, 80);
             this.btnmult.Name = "btnmult";
             this.btnmult.Size = new System.Drawing.Size(75, 23);
             this.btnmult.TabIndex = 2;
             this.btnmult.Text = "Multiplicar";
-            this.btnmult.UseVisualStyleBackColor = true;
+            this.btnmult.UseVisualStyleBackColor = false;
             this.btnmult.Click += new System.EventHandler(this.btnmult_Click);
             // 
             // num2
