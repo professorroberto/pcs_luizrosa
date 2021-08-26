@@ -128,10 +128,11 @@
             // lblresultado
             // 
             this.lblresultado.AutoSize = true;
-            this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblresultado.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblresultado.Location = new System.Drawing.Point(67, 192);
             this.lblresultado.Name = "lblresultado";
-            this.lblresultado.Size = new System.Drawing.Size(153, 31);
+            this.lblresultado.Size = new System.Drawing.Size(269, 55);
             this.lblresultado.TabIndex = 9;
             this.lblresultado.Text = "lblresultado";
             this.lblresultado.Click += new System.EventHandler(this.lblresultado_Click);
