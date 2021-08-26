@@ -48,7 +48,7 @@
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button1.Location = new System.Drawing.Point(12, 100);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 25);
+            this.button1.Size = new System.Drawing.Size(103, 24);
             this.button1.TabIndex = 0;
             this.button1.Text = "Somar";
             this.button1.UseVisualStyleBackColor = false;
