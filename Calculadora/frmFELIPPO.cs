@@ -99,7 +99,7 @@ namespace Calculadora
             txtnum1.Clear();
             txtnum2.Clear();
             txtnum3.Clear();
-            txtnum3.Clear();
+            lblresult.Text = "";
         }
     }
 }
