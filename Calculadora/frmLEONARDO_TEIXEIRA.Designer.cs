@@ -171,6 +171,7 @@
             this.btnMenor.TabIndex = 11;
             this.btnMenor.Text = "MENOR";
             this.btnMenor.UseVisualStyleBackColor = false;
+            this.btnMenor.Click += new System.EventHandler(this.btnMenor_Click);
             // 
             // label4
             // 
@@ -189,7 +190,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(705, 492);
+            this.ClientSize = new System.Drawing.Size(705, 545);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);

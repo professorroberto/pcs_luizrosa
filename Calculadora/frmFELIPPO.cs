@@ -71,6 +71,26 @@ namespace Calculadora
 
         private void button3_Click(object sender, EventArgs e)
         {
+            if (int.Parse(txtnum1.Text) < int.Parse(txtnum2.Text))
+            {
+                if (int.Parse(txtnum1.Text) < int.Parse(txtnum3.Text))
+                    MessageBox.Show("Número 1 é o menor");
+                else
+                    MessageBox.Show("Número 3 é o menor");
+            }
+            else if (int.Parse(txtnum2.Text) < int.Parse(txtnum3.Text))
+            {
+                MessageBox.Show("Número 2 é o menor");
+            }
+            else MessageBox.Show("Numero 3 é o menor");
+
+            
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
 
         }
     }
