@@ -70,6 +70,7 @@
             // 
             // btnSomar
             // 
+            this.btnSomar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSomar.Location = new System.Drawing.Point(31, 139);
             this.btnSomar.Name = "btnSomar";
             this.btnSomar.Size = new System.Drawing.Size(62, 23);
@@ -80,6 +81,7 @@
             // 
             // btnSubtrair
             // 
+            this.btnSubtrair.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtrair.Location = new System.Drawing.Point(99, 139);
             this.btnSubtrair.Name = "btnSubtrair";
             this.btnSubtrair.Size = new System.Drawing.Size(62, 23);
@@ -90,6 +92,7 @@
             // 
             // button3
             // 
+            this.button3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(167, 139);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(62, 23);
@@ -130,7 +133,7 @@
             this.lblresultado.AutoSize = true;
             this.lblresultado.BackColor = System.Drawing.Color.PaleTurquoise;
             this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblresultado.Location = new System.Drawing.Point(67, 192);
+            this.lblresultado.Location = new System.Drawing.Point(12, 192);
             this.lblresultado.Name = "lblresultado";
             this.lblresultado.Size = new System.Drawing.Size(269, 55);
             this.lblresultado.TabIndex = 9;
@@ -140,7 +143,8 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(73, 168);
+            this.btnMaior.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaior.Location = new System.Drawing.Point(73, 166);
             this.btnMaior.Name = "btnMaior";
             this.btnMaior.Size = new System.Drawing.Size(62, 23);
             this.btnMaior.TabIndex = 10;
@@ -151,6 +155,7 @@
             // btnMenor
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMenor.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenor.Location = new System.Drawing.Point(141, 166);
             this.btnMenor.Name = "btnMenor";
             this.btnMenor.Size = new System.Drawing.Size(62, 23);

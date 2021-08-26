@@ -130,11 +130,12 @@
             // lblResult
             // 
             this.lblResult.AutoSize = true;
-            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResult.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblResult.Location = new System.Drawing.Point(81, 147);
+            this.lblResult.Location = new System.Drawing.Point(12, 147);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(181, 31);
+            this.lblResult.Size = new System.Drawing.Size(318, 55);
             this.lblResult.TabIndex = 9;
             this.lblResult.Text = "RESULTADO";
             // 
@@ -165,7 +166,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Fuchsia;
-            this.label4.Location = new System.Drawing.Point(6, 9);
+            this.label4.Location = new System.Drawing.Point(5, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(416, 37);
             this.label4.TabIndex = 12;
