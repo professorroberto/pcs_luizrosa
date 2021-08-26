@@ -40,6 +40,7 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnMaior = new System.Windows.Forms.Button();
             this.btnMenor = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -168,12 +169,24 @@
             this.btnMenor.Text = "menor";
             this.btnMenor.UseVisualStyleBackColor = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Fuchsia;
+            this.label4.Location = new System.Drawing.Point(39, 6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(252, 37);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Tiago 22000043-6";
+            // 
             // frmTIAGO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(418, 362);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.lblResultado);
@@ -207,5 +220,6 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnMaior;
         private System.Windows.Forms.Button btnMenor;
+        private System.Windows.Forms.Label label4;
     }
 }
