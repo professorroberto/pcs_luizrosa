@@ -75,5 +75,15 @@ namespace Calculadora
             else
             MessageBox.Show("O numero 3 é o maior");
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (int.Parse(Numero1.Text) < int.Parse(Numero2.Text) && int.Parse(Numero1.Text) < int.Parse(Numero3.Text))
+                MessageBox.Show("O numero 1 é o menor");
+            else if (int.Parse(Numero2.Text) < int.Parse(Numero3.Text) && int.Parse(Numero2.Text) < int.Parse(Numero1.Text))
+                MessageBox.Show("O numero 2 é o menor");
+            else
+                MessageBox.Show("O numero 3 é o menor");
+        }
     }
 }

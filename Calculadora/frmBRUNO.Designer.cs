@@ -51,7 +51,7 @@
             this.lblresultado.Location = new System.Drawing.Point(352, 151);
             this.lblresultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblresultado.Name = "lblresultado";
-            this.lblresultado.Size = new System.Drawing.Size(192, 39);
+            this.lblresultado.Size = new System.Drawing.Size(153, 31);
             this.lblresultado.TabIndex = 19;
             this.lblresultado.Text = "lblresultado";
             // 
@@ -61,7 +61,7 @@
             this.label3.Location = new System.Drawing.Point(183, 55);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 20);
+            this.label3.Size = new System.Drawing.Size(69, 16);
             this.label3.TabIndex = 18;
             this.label3.Text = "Numero 2:";
             // 
@@ -71,7 +71,7 @@
             this.label2.Location = new System.Drawing.Point(265, 55);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 20);
+            this.label2.Size = new System.Drawing.Size(69, 16);
             this.label2.TabIndex = 17;
             this.label2.Text = "Numero 3:";
             // 
@@ -81,7 +81,7 @@
             this.label1.Location = new System.Drawing.Point(100, 55);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 20);
+            this.label1.Size = new System.Drawing.Size(69, 16);
             this.label1.TabIndex = 16;
             this.label1.Text = "Numero 1:";
             // 
@@ -129,7 +129,7 @@
             this.Numero3.Location = new System.Drawing.Point(269, 79);
             this.Numero3.Margin = new System.Windows.Forms.Padding(4);
             this.Numero3.Name = "Numero3";
-            this.Numero3.Size = new System.Drawing.Size(75, 26);
+            this.Numero3.Size = new System.Drawing.Size(75, 22);
             this.Numero3.TabIndex = 12;
             // 
             // Numero2
@@ -137,7 +137,7 @@
             this.Numero2.Location = new System.Drawing.Point(185, 79);
             this.Numero2.Margin = new System.Windows.Forms.Padding(4);
             this.Numero2.Name = "Numero2";
-            this.Numero2.Size = new System.Drawing.Size(81, 26);
+            this.Numero2.Size = new System.Drawing.Size(81, 22);
             this.Numero2.TabIndex = 11;
             // 
             // Numero1
@@ -145,7 +145,7 @@
             this.Numero1.Location = new System.Drawing.Point(104, 79);
             this.Numero1.Margin = new System.Windows.Forms.Padding(4);
             this.Numero1.Name = "Numero1";
-            this.Numero1.Size = new System.Drawing.Size(73, 26);
+            this.Numero1.Size = new System.Drawing.Size(73, 22);
             this.Numero1.TabIndex = 10;
             // 
             // button4
@@ -171,10 +171,11 @@
             this.button5.TabIndex = 21;
             this.button5.Text = "MENOR";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // frmBRUNO
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(551, 408);

@@ -190,7 +190,7 @@
             this.Controls.Add(this.btnSomar);
             this.Name = "frmLUCAS_PANICO";
             this.Text = "2200005";
-            this.Load += new System.EventHandler(this.frmLUCAS_PANICO_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
