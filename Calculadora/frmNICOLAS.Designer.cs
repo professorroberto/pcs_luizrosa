@@ -149,7 +149,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button4.Location = new System.Drawing.Point(381, 236);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(111, 53);
             this.button4.TabIndex = 10;
@@ -161,12 +161,13 @@
             // 
             this.button5.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button5.Location = new System.Drawing.Point(81, 236);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 41);
             this.button5.TabIndex = 11;
             this.button5.Text = "menor";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label5
             // 
@@ -175,7 +176,7 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(134, 12);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(394, 46);
+            this.label5.Size = new System.Drawing.Size(379, 45);
             this.label5.TabIndex = 12;
             this.label5.Text = "nicolas arão 2200092-2";
             // 
