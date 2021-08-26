@@ -41,6 +41,7 @@
             this.btnMaior = new System.Windows.Forms.Button();
             this.btnMenor = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -187,12 +188,24 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "Tiago 22000043-6";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(52, 213);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(81, 57);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "limpar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // frmTIAGO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(418, 362);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
@@ -228,5 +241,6 @@
         private System.Windows.Forms.Button btnMaior;
         private System.Windows.Forms.Button btnMenor;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
