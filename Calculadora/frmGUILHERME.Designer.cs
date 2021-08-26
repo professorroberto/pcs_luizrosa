@@ -169,9 +169,9 @@
             this.label5.ForeColor = System.Drawing.Color.Fuchsia;
             this.label5.Location = new System.Drawing.Point(8, 9);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(539, 37);
+            this.label5.Size = new System.Drawing.Size(550, 37);
             this.label5.TabIndex = 12;
-            this.label5.Text = "GUILHERME FERNANDES - RA: 22000185";
+            this.label5.Text = "GUILHERME FERNANDES - RA: 2200018-5";
             // 
             // frmGUILHERME
             // 

@@ -167,9 +167,9 @@
             this.label4.ForeColor = System.Drawing.Color.Fuchsia;
             this.label4.Location = new System.Drawing.Point(79, 84);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(345, 37);
+            this.label4.Size = new System.Drawing.Size(363, 37);
             this.label4.TabIndex = 12;
-            this.label4.Text = "PEDRO VICTOR 22000396";
+            this.label4.Text = "PEDRO VICTOR - 22000396";
             // 
             // frmPEDRO
             // 
