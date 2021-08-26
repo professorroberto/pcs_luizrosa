@@ -23,8 +23,7 @@ namespace Calculadora
             int n3 = int.Parse(txtNum3.Text);
 
             int result = n1 * n2 * n3;
-
-            lblResult.Text = result.ToString();  
+            MessageBox.Show("Parabéns, você acaba de executar a operação multiplicação com sucesso! ficamos muito felizes por utilizar os nossos sistemas! E o resultado da sua operação é " + result.ToString());
         }
 
         private void btnSoma_Click(object sender, EventArgs e)
@@ -35,7 +34,7 @@ namespace Calculadora
 
             int result = n1 + n2 + n3;
 
-            lblResult.Text = result.ToString(); 
+            MessageBox.Show("Parabéns, você acaba de executar a operação soma com sucesso! ficamos muito felizes por utilizar os nossos sistemas! E o resultado da sua operação é " + result.ToString());
         }
 
         private void btnSub_Click(object sender, EventArgs e)
@@ -45,8 +44,7 @@ namespace Calculadora
             int n3 = int.Parse(txtNum3.Text);
 
             int result = n1 - n2 - n3;
-
-            lblResult.Text = result.ToString(); 
+            MessageBox.Show("Parabéns, você acaba de executar a operação subtração com sucesso! ficamos muito felizes por utilizar os nossos sistemas! E o resultado da sua operação é " + result.ToString());
         }
 
         private void btnMaior_Click(object sender, EventArgs e)
@@ -56,11 +54,12 @@ namespace Calculadora
             int n3 = int.Parse(txtNum3.Text);
 
             if (n1 > n2 || n1 > n3)
-                MessageBox.Show("o 1° numero é o maior");
+                MessageBox.Show("Parabéns, você acaba de executar a operação subtração com sucesso! ficamos muito felizes por utilizar os nossos sistemas! E o resultado da sua operação é o 1° numero");
             else if (n2 > n1 || n2 > n3)
-                MessageBox.Show("O 2° numero é o maior");
+                MessageBox.Show("Parabéns, você acaba de executar a operação subtração com sucesso! ficamos muito felizes por utilizar os nossos sistemas! E o resultado da sua operação é o 2° numero");
             else if (n3 > n1 || n3 > n2)
-                MessageBox.Show("o 3° numero é o maior"); 
+                MessageBox.Show("Parabéns, você acaba de executar a operação subtração com sucesso! ficamos muito felizes por utilizar os nossos sistemas! E o resultado da sua operação é o 3° numero");
+
         }
 
         private void btnMenor_Click(object sender, EventArgs e)
@@ -70,11 +69,11 @@ namespace Calculadora
             int n3 = int.Parse(txtNum3.Text);
 
             if (n1 < n2 || n1 < n3)
-                MessageBox.Show("o 1° numero é o menor");
+                MessageBox.Show("Parabéns, você acaba de executar a operação subtração com sucesso! ficamos muito felizes por utilizar os nossos sistemas! E o resultado da sua operação é o 1° numero");
             else if (n2 < n1 || n2 < n3)
-                MessageBox.Show("O 2° numero é o menor");
+                MessageBox.Show("Parabéns, você acaba de executar a operação subtração com sucesso! ficamos muito felizes por utilizar os nossos sistemas! E o resultado da sua operação é o 2° numero");
             else if (n3 < n1 || n3 < n2)
-                MessageBox.Show("o 3° numero é o menor"); 
+                MessageBox.Show("Parabéns, você acaba de executar a operação subtração com sucesso! ficamos muito felizes por utilizar os nossos sistemas! E o resultado da sua operação é o 3° numero"); 
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
