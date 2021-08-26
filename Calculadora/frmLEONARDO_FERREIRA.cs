@@ -55,16 +55,16 @@ namespace Calculadora
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (int.Parse(txtNumero1.Text) < int.Parse(txtNumero2.Text))
+            if (int.Parse(txtNumero2.Text) > int.Parse(txtNumero1.Text))
             {
-                if (int.Parse(txtNumero1.Text) < int.Parse(txtNumero3.Text))
+                if (int.Parse(txtNumero3.Text) > int.Parse(txtNumero1.Text))
                 {
                     MessageBox.Show("O Numero 1 é menor");
                 }
                 else
                     MessageBox.Show("O Numero3 é menor");
             }
-            else if (int.Parse(txtNumero2.Text) < int.Parse(txtNumero3.Text))
+            else if (int.Parse(txtNumero3.Text) > int.Parse(txtNumero2.Text))
             {
                 MessageBox.Show("O Numero2 é menor");
 
