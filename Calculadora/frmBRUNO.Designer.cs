@@ -49,7 +49,7 @@
             this.lblresultado.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblresultado.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblresultado.Location = new System.Drawing.Point(352, 151);
+            this.lblresultado.Location = new System.Drawing.Point(385, 70);
             this.lblresultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblresultado.Name = "lblresultado";
             this.lblresultado.Size = new System.Drawing.Size(153, 31);
@@ -93,7 +93,7 @@
             this.button3.Location = new System.Drawing.Point(104, 123);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(240, 46);
+            this.button3.Size = new System.Drawing.Size(162, 46);
             this.button3.TabIndex = 15;
             this.button3.Text = "Multiplicar";
             this.button3.UseVisualStyleBackColor = false;
@@ -103,10 +103,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button2.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(104, 177);
+            this.button2.Location = new System.Drawing.Point(274, 123);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(240, 47);
+            this.button2.Size = new System.Drawing.Size(162, 47);
             this.button2.TabIndex = 14;
             this.button2.Text = "Subtrair";
             this.button2.UseVisualStyleBackColor = false;
@@ -116,10 +116,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button1.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(104, 232);
+            this.button1.Location = new System.Drawing.Point(104, 177);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(240, 42);
+            this.button1.Size = new System.Drawing.Size(162, 42);
             this.button1.TabIndex = 13;
             this.button1.Text = "Somar";
             this.button1.UseVisualStyleBackColor = false;
@@ -153,9 +153,9 @@
             // 
             this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button4.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(104, 281);
+            this.button4.Location = new System.Drawing.Point(274, 177);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(240, 44);
+            this.button4.Size = new System.Drawing.Size(163, 44);
             this.button4.TabIndex = 20;
             this.button4.Text = "MAIOR";
             this.button4.UseVisualStyleBackColor = false;
@@ -166,9 +166,9 @@
             this.button5.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button5.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button5.Location = new System.Drawing.Point(104, 331);
+            this.button5.Location = new System.Drawing.Point(104, 227);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(240, 50);
+            this.button5.Size = new System.Drawing.Size(162, 50);
             this.button5.TabIndex = 21;
             this.button5.Text = "MENOR";
             this.button5.UseVisualStyleBackColor = false;
@@ -179,11 +179,11 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Fuchsia;
-            this.label4.Location = new System.Drawing.Point(103, 13);
+            this.label4.Location = new System.Drawing.Point(43, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(350, 37);
+            this.label4.Size = new System.Drawing.Size(434, 37);
             this.label4.TabIndex = 22;
-            this.label4.Text = "Bruno Saccotti 2200002-2";
+            this.label4.Text = "Bruno Sacciotti -  RA: 2200002-2";
             // 
             // frmBRUNO
             // 
