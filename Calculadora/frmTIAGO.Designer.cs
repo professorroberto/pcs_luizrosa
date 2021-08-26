@@ -139,12 +139,13 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblResultado.Location = new System.Drawing.Point(160, 288);
             this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(126, 31);
+            this.lblResultado.Size = new System.Drawing.Size(222, 55);
             this.lblResultado.TabIndex = 10;
             this.lblResultado.Text = "resultado";
             // 
@@ -168,6 +169,7 @@
             this.btnMenor.TabIndex = 12;
             this.btnMenor.Text = "menor";
             this.btnMenor.UseVisualStyleBackColor = false;
+            this.btnMenor.Click += new System.EventHandler(this.btnMenor_Click);
             // 
             // label4
             // 

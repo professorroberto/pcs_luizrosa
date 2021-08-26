@@ -152,12 +152,12 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.DarkGreen;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(591, 583);
             this.label5.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(181, 31);
+            this.label5.Size = new System.Drawing.Size(318, 55);
             this.label5.TabIndex = 10;
             this.label5.Text = "RESULTADO";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -179,23 +179,24 @@
             // 
             this.button5.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(384, 493);
+            this.button5.Location = new System.Drawing.Point(385, 493);
             this.button5.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(200, 55);
             this.button5.TabIndex = 12;
             this.button5.Text = "Menor";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.GhostWhite;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Fuchsia;
             this.label6.Location = new System.Drawing.Point(195, 39);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(921, 54);
+            this.label6.Size = new System.Drawing.Size(627, 37);
             this.label6.TabIndex = 13;
             this.label6.Text = "LEONARDO DE ALMEIDA FERREIRA - 2200068-8";
             // 

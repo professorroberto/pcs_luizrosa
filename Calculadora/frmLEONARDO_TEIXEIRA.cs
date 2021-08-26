@@ -84,5 +84,38 @@ namespace Calculadora
                }
            }
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMenor_Click(object sender, EventArgs e)
+        {
+             if (int.Parse(txtNumero1.Text) < int.Parse(txtNumero2.Text))
+           {
+               if (int.Parse(txtNumero1.Text) < int.Parse(txtNumero3.Text))
+               {
+                   lblResultado.Text = txtNumero1.Text;
+               }
+           }
+
+           if (int.Parse(txtNumero2.Text) < int.Parse(txtNumero1.Text))
+           {
+               if (int.Parse(txtNumero2.Text) < int.Parse(txtNumero3.Text))
+               {
+                   lblResultado.Text = txtNumero2.Text;
+               }
+           }
+
+           if (int.Parse(txtNumero3.Text) < int.Parse(txtNumero2.Text))
+           {
+               if (int.Parse(txtNumero3.Text) < int.Parse(txtNumero1.Text))
+               {
+                   lblResultado.Text = txtNumero3.Text;
+               }
+           }
+        }
+        }
     }
 }
