@@ -41,6 +41,7 @@
             this.btnMaior = new System.Windows.Forms.Button();
             this.btnMenor = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -103,6 +104,7 @@
             // btnSomar
             // 
             this.btnSomar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSomar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSomar.Location = new System.Drawing.Point(50, 135);
             this.btnSomar.Margin = new System.Windows.Forms.Padding(2);
             this.btnSomar.Name = "btnSomar";
@@ -115,6 +117,7 @@
             // btnSubtrair
             // 
             this.btnSubtrair.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSubtrair.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSubtrair.Location = new System.Drawing.Point(166, 135);
             this.btnSubtrair.Margin = new System.Windows.Forms.Padding(2);
             this.btnSubtrair.Name = "btnSubtrair";
@@ -127,6 +130,7 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMultiplicar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnMultiplicar.Location = new System.Drawing.Point(292, 135);
             this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMultiplicar.Name = "btnMultiplicar";
@@ -152,6 +156,7 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMaior.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnMaior.Location = new System.Drawing.Point(167, 212);
             this.btnMaior.Name = "btnMaior";
             this.btnMaior.Size = new System.Drawing.Size(90, 45);
@@ -163,6 +168,7 @@
             // btnMenor
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMenor.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnMenor.Location = new System.Drawing.Point(293, 212);
             this.btnMenor.Name = "btnMenor";
             this.btnMenor.Size = new System.Drawing.Size(90, 45);
@@ -182,12 +188,24 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "Tiago 22000043-6";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(52, 213);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(81, 57);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "limpar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // frmTIAGO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(418, 362);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
@@ -223,5 +241,6 @@
         private System.Windows.Forms.Button btnMaior;
         private System.Windows.Forms.Button btnMenor;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }

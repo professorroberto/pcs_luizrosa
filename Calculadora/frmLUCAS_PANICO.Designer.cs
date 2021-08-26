@@ -46,6 +46,7 @@
             // btnSomar
             // 
             this.btnSomar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSomar.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSomar.Location = new System.Drawing.Point(19, 169);
             this.btnSomar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSomar.Name = "btnSomar";
@@ -58,6 +59,7 @@
             // btnSubtrair
             // 
             this.btnSubtrair.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSubtrair.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtrair.Location = new System.Drawing.Point(244, 169);
             this.btnSubtrair.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSubtrair.Name = "btnSubtrair";
@@ -70,6 +72,7 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMultiplicar.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiplicar.Location = new System.Drawing.Point(469, 169);
             this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMultiplicar.Name = "btnMultiplicar";
@@ -111,7 +114,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.PaleTurquoise;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(195, 358);
+            this.lblResultado.Location = new System.Drawing.Point(128, 363);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(396, 69);
             this.lblResultado.TabIndex = 7;
@@ -147,6 +150,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(140, 258);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
@@ -159,6 +163,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button2.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(367, 258);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
@@ -171,11 +176,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Fuchsia;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Fuchsia;
             this.label1.Location = new System.Drawing.Point(12, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(344, 46);
+            this.label1.Size = new System.Drawing.Size(371, 46);
             this.label1.TabIndex = 13;
             this.label1.Text = "Lucas Panico 2200005";
             // 

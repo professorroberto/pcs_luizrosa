@@ -41,12 +41,13 @@
             this.btnMaior = new System.Windows.Forms.Button();
             this.btnMenor = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(83, 152);
+            this.label1.Location = new System.Drawing.Point(83, 139);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 13);
             this.label1.TabIndex = 0;
@@ -55,7 +56,7 @@
             // txtNumero1
             // 
             this.txtNumero1.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero1.Location = new System.Drawing.Point(81, 171);
+            this.txtNumero1.Location = new System.Drawing.Point(81, 158);
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(103, 39);
             this.txtNumero1.TabIndex = 1;
@@ -63,7 +64,8 @@
             // btnSoma
             // 
             this.btnSoma.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnSoma.Location = new System.Drawing.Point(81, 210);
+            this.btnSoma.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSoma.Location = new System.Drawing.Point(68, 210);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(104, 51);
             this.btnSoma.TabIndex = 2;
@@ -74,7 +76,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(310, 152);
+            this.label2.Location = new System.Drawing.Point(310, 139);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 3;
@@ -83,7 +85,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(197, 152);
+            this.label3.Location = new System.Drawing.Point(197, 139);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 4;
@@ -94,8 +96,8 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.PaleTurquoise;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.ForeColor = System.Drawing.Color.Black;
-            this.lblResultado.Location = new System.Drawing.Point(154, 284);
+            this.lblResultado.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblResultado.Location = new System.Drawing.Point(135, 342);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(241, 55);
             this.lblResultado.TabIndex = 5;
@@ -105,7 +107,7 @@
             // txtNumero2
             // 
             this.txtNumero2.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero2.Location = new System.Drawing.Point(195, 171);
+            this.txtNumero2.Location = new System.Drawing.Point(195, 158);
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(104, 39);
             this.txtNumero2.TabIndex = 6;
@@ -113,7 +115,7 @@
             // txtNumero3
             // 
             this.txtNumero3.Font = new System.Drawing.Font("Lucida Sans", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero3.Location = new System.Drawing.Point(306, 171);
+            this.txtNumero3.Location = new System.Drawing.Point(306, 158);
             this.txtNumero3.Name = "txtNumero3";
             this.txtNumero3.Size = new System.Drawing.Size(104, 39);
             this.txtNumero3.TabIndex = 7;
@@ -121,9 +123,10 @@
             // btnSubtraçao
             // 
             this.btnSubtraçao.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSubtraçao.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtraçao.Location = new System.Drawing.Point(306, 210);
             this.btnSubtraçao.Name = "btnSubtraçao";
-            this.btnSubtraçao.Size = new System.Drawing.Size(104, 51);
+            this.btnSubtraçao.Size = new System.Drawing.Size(123, 51);
             this.btnSubtraçao.TabIndex = 8;
             this.btnSubtraçao.Text = "Subtraçao";
             this.btnSubtraçao.UseVisualStyleBackColor = false;
@@ -132,9 +135,10 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMultiplicar.Location = new System.Drawing.Point(196, 210);
+            this.btnMultiplicar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMultiplicar.Location = new System.Drawing.Point(178, 210);
             this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(104, 51);
+            this.btnMultiplicar.Size = new System.Drawing.Size(122, 51);
             this.btnMultiplicar.TabIndex = 9;
             this.btnMultiplicar.Text = "Multiplicar";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
@@ -143,7 +147,8 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(141, 342);
+            this.btnMaior.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaior.Location = new System.Drawing.Point(124, 267);
             this.btnMaior.Name = "btnMaior";
             this.btnMaior.Size = new System.Drawing.Size(123, 51);
             this.btnMaior.TabIndex = 10;
@@ -154,7 +159,8 @@
             // btnMenor
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMenor.Location = new System.Drawing.Point(282, 342);
+            this.btnMenor.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenor.Location = new System.Drawing.Point(253, 267);
             this.btnMenor.Name = "btnMenor";
             this.btnMenor.Size = new System.Drawing.Size(123, 51);
             this.btnMenor.TabIndex = 11;
@@ -167,11 +173,22 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Fuchsia;
-            this.label4.Location = new System.Drawing.Point(79, 84);
+            this.label4.Location = new System.Drawing.Point(75, 84);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(363, 37);
             this.label4.TabIndex = 12;
             this.label4.Text = "PEDRO VICTOR - 22000396";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(437, 154);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(123, 51);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "limpar";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // frmPEDRO
             // 
@@ -179,6 +196,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(600, 452);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
@@ -214,5 +232,6 @@
         private System.Windows.Forms.Button btnMaior;
         private System.Windows.Forms.Button btnMenor;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
