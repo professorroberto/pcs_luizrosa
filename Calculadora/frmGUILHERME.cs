@@ -73,6 +73,10 @@ namespace Calculadora
             {
                 label4.Text = "Maior Numero: Numero 3";
             }
+            else if (n3 > n1)
+            {
+                label4.Text = "Maior Numero: Numero 3";
+            }
             else if (n2 > n1)
             {
                 label4.Text = "Maior Numero: Numero 2";
@@ -91,6 +95,11 @@ namespace Calculadora
         private void btnMenor_Click(object sender, EventArgs e)
         {
                                 
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
