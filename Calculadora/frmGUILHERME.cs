@@ -87,5 +87,10 @@ namespace Calculadora
         {
 
         }
+
+        private void btnMenor_Click(object sender, EventArgs e)
+        {
+                                
+        }
     }
 }
