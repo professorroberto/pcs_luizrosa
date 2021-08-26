@@ -127,9 +127,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(20, 207);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.Size = new System.Drawing.Size(101, 25);
             this.label4.TabIndex = 9;
             this.label4.Text = "resultado";
             // 
@@ -137,7 +139,7 @@
             // 
             this.lblRes.AutoSize = true;
             this.lblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRes.Location = new System.Drawing.Point(85, 207);
+            this.lblRes.Location = new System.Drawing.Point(127, 201);
             this.lblRes.Name = "lblRes";
             this.lblRes.Size = new System.Drawing.Size(86, 31);
             this.lblRes.TabIndex = 10;

@@ -139,12 +139,12 @@
             // lblRES
             // 
             this.lblRES.AutoSize = true;
-            this.lblRES.BackColor = System.Drawing.Color.DarkGreen;
-            this.lblRES.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRES.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblRES.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRES.Location = new System.Drawing.Point(95, 180);
             this.lblRES.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRES.Name = "lblRES";
-            this.lblRES.Size = new System.Drawing.Size(126, 31);
+            this.lblRES.Size = new System.Drawing.Size(222, 55);
             this.lblRES.TabIndex = 9;
             this.lblRES.Text = "resultado";
             this.lblRES.Click += new System.EventHandler(this.lblRES_Click);
