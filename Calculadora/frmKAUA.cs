@@ -76,5 +76,12 @@ namespace Calculadora
             else if (n3 < n1 || n3 < n2)
                 MessageBox.Show("o 3° numero é o menor"); 
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtNum1.Text = "";
+            txtNum2.Text = "";
+            txtNum3.Text = "";
+        }
     }
 }
