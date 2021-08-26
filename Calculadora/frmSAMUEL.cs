@@ -32,7 +32,7 @@ namespace Calculadora
             int n2 = int.Parse(Nume2.Text);
             int n3 = int.Parse(Nume3.Text);
             int result = n1 - n2 - n3;
-            label4.Text = result.ToString();
+            LABEL4.Text = result.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -42,7 +42,6 @@ namespace Calculadora
 
         private void button4_Click(object sender, EventArgs e)
         {
-
         }
     }
 }
