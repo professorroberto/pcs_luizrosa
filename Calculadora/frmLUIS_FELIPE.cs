@@ -46,6 +46,8 @@ namespace Calculadora
             numero3 = int.Parse(num3.Text);
 
             lblres.Text = (numero1 + numero2 + numero3).ToString();
+
+            MessageBox.Show("Parabéns, você acaba de executar a operação Somar com sucesso! Ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da operação é:" + (numero1 + numero2 + numero3).ToString());
         }
 
         private void btnmult_Click(object sender, EventArgs e)
@@ -60,6 +62,8 @@ namespace Calculadora
             numero3 = int.Parse(num3.Text);
 
             lblres.Text = (numero1 * numero2 * numero3).ToString();
+
+            MessageBox.Show("Parabéns, você acaba de executar a operação Multiplicar com sucesso! Ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da operação é:" + (numero1 * numero2 * numero3).ToString());
         }
 
         private void btnsub_Click(object sender, EventArgs e)
@@ -73,6 +77,8 @@ namespace Calculadora
             numero3 = int.Parse(num3.Text);
 
             lblres.Text = (numero1 - numero2 - numero3).ToString();
+
+            MessageBox.Show("Parabéns, você acaba de executar a operação Subtrair com sucesso! Ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da operação é:" + (numero1 - numero2 - numero3).ToString());
         }
 
         private void txtMaior_Click(object sender, EventArgs e)
