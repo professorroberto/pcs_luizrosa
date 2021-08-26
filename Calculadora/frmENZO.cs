@@ -67,6 +67,15 @@ namespace Calculadora
             MessageBox.Show("" + Listinha.Min());
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtN1.Clear();
+            txtN2.Clear();
+            txtN3.Clear();
+
+            lblresultado.Text = "";
+        }
+
 
     }
 }
