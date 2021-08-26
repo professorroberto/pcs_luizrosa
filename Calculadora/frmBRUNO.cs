@@ -24,7 +24,7 @@ namespace Calculadora
         private void button3_Click(object sender, EventArgs e)
         {
             if (Numero1.Text == "" || Numero2.Text == "" || Numero3.Text == "")
-                MessageBox.Show("Preencha todos os campos");
+                MessageBox.Show("Preencha os campos");
             else
             {
                 int N1 = int.Parse(Numero1.Text);
@@ -33,13 +33,14 @@ namespace Calculadora
 
                 int result = N1 * N2 * N3;
                 lblresultado.Text = result.ToString();
+                MessageBox.Show("Parabéns, você acaba de executar a operação Multiplicação com sucesso! ficamos muito felizes por utilizar os sistemas conte sempre conosco! e o resultado da sua operação é" + MessageBox.Show("Parabéns, você acaba de executar a operação soma com sucesso! ficamos muito felizes por utilizar os sistemas conte sempre conosco! e o resultado da sua operação é 8" + lblresultado.Text));
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             if (Numero1.Text == "" || Numero2.Text == "" || Numero3.Text == "")
-                MessageBox.Show("Preencha todos os campos");
+                MessageBox.Show("Preencha os campos");
             else
             {
                 int N1 = int.Parse(Numero1.Text);
@@ -48,13 +49,14 @@ namespace Calculadora
 
                 int result = N1 - N2 - N3;
                 lblresultado.Text = result.ToString();
+                MessageBox.Show("Parabéns, você acaba de executar a operação Subtração com sucesso! ficamos muito felizes por utilizar os sistemas conte sempre conosco! e o resultado da sua operação é" + lblresultado.Text);
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             if (Numero1.Text == "" || Numero2.Text == "" || Numero3.Text == "")
-                MessageBox.Show("Preencha todos os campos");
+                MessageBox.Show("Preencha os campos");
             else
             {
                 int N1 = int.Parse(Numero1.Text);
@@ -63,6 +65,7 @@ namespace Calculadora
 
                 int result = N1 + N2 + N3;
                 lblresultado.Text = result.ToString();
+                MessageBox.Show("Parabéns, você acaba de executar a operação soma com sucesso! ficamos muito felizes por utilizar os sistemas conte sempre conosco! e o resultado da sua operação é 8");
             }
         }
 
@@ -74,6 +77,7 @@ namespace Calculadora
             MessageBox.Show("O numero 2 é o meior");
             else
             MessageBox.Show("O numero 3 é o maior");
+            MessageBox.Show("Parabéns, você acaba de executar a operação Maior com sucesso! ficamos muito felizes por utilizar os sistemas conte sempre conosco! e o resultado da sua operação é" + lblresultado.Text);
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -84,6 +88,7 @@ namespace Calculadora
                 MessageBox.Show("O numero 2 é o menor");
             else
                 MessageBox.Show("O numero 3 é o menor");
+            MessageBox.Show("Parabéns, você acaba de executar a operação Menor com sucesso! ficamos muito felizes por utilizar os sistemas conte sempre conosco! e o resultado da sua operação é" + lblresultado.Text);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -92,6 +97,7 @@ namespace Calculadora
             Numero2.Text = "";
             Numero3.Text = "";
             lblresultado.Text = "";
+            MessageBox.Show("Parabéns, você acaba de executar a operação Limpar com sucesso! ficamos muito felizes por utilizar os sistemas conte sempre conosco!");
         }
     }
 }
