@@ -43,7 +43,7 @@
             // btnsoma
             // 
             this.btnsoma.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnsoma.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsoma.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsoma.Location = new System.Drawing.Point(13, 80);
             this.btnsoma.Name = "btnsoma";
             this.btnsoma.Size = new System.Drawing.Size(92, 87);
@@ -55,7 +55,7 @@
             // btnsub
             // 
             this.btnsub.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnsub.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsub.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsub.Location = new System.Drawing.Point(107, 80);
             this.btnsub.Name = "btnsub";
             this.btnsub.Size = new System.Drawing.Size(92, 87);
@@ -67,7 +67,7 @@
             // btnmult
             // 
             this.btnmult.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnmult.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmult.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmult.Location = new System.Drawing.Point(211, 80);
             this.btnmult.Name = "btnmult";
             this.btnmult.Size = new System.Drawing.Size(92, 87);
@@ -117,7 +117,7 @@
             // txtMaior
             // 
             this.txtMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.txtMaior.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaior.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaior.Location = new System.Drawing.Point(73, 176);
             this.txtMaior.Name = "txtMaior";
             this.txtMaior.Size = new System.Drawing.Size(92, 87);
@@ -129,7 +129,7 @@
             // btnMenor
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMenor.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenor.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenor.Location = new System.Drawing.Point(183, 176);
             this.btnMenor.Name = "btnMenor";
             this.btnMenor.Size = new System.Drawing.Size(92, 87);
@@ -154,7 +154,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(334, 318);
+            this.ClientSize = new System.Drawing.Size(334, 329);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.txtMaior);
