@@ -97,7 +97,7 @@
             this.lblResultado.BackColor = System.Drawing.Color.PaleTurquoise;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblResultado.Location = new System.Drawing.Point(135, 342);
+            this.lblResultado.Location = new System.Drawing.Point(135, 348);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(241, 55);
             this.lblResultado.TabIndex = 5;
@@ -182,7 +182,7 @@
             // 
             this.btnLimpar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnLimpar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(437, 154);
+            this.btnLimpar.Location = new System.Drawing.Point(436, 146);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(123, 51);
             this.btnLimpar.TabIndex = 13;
