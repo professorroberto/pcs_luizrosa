@@ -73,10 +73,11 @@
             // lblresult
             // 
             this.lblresult.AutoSize = true;
-            this.lblresult.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblresult.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.lblresult.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblresult.Location = new System.Drawing.Point(85, 160);
             this.lblresult.Name = "lblresult";
-            this.lblresult.Size = new System.Drawing.Size(181, 31);
+            this.lblresult.Size = new System.Drawing.Size(318, 55);
             this.lblresult.TabIndex = 3;
             this.lblresult.Text = "RESULTADO";
             this.lblresult.Click += new System.EventHandler(this.lblresult_Click);
@@ -160,7 +161,6 @@
             this.button3.Text = "MENOR";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-
             // 
             // label5
             // 
@@ -173,7 +173,6 @@
             this.label5.TabIndex = 14;
             this.label5.Text = "FELIPPO  22000299";
             this.label5.Click += new System.EventHandler(this.label5_Click);
-
             // 
             // frmFELIPPO
             // 
