@@ -97,6 +97,7 @@
             // btnSoma
             // 
             this.btnSoma.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSoma.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSoma.Location = new System.Drawing.Point(12, 112);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(93, 32);
@@ -108,9 +109,10 @@
             // btnSub
             // 
             this.btnSub.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSub.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSub.Location = new System.Drawing.Point(111, 112);
             this.btnSub.Name = "btnSub";
-            this.btnSub.Size = new System.Drawing.Size(90, 32);
+            this.btnSub.Size = new System.Drawing.Size(119, 32);
             this.btnSub.TabIndex = 7;
             this.btnSub.Text = "SUBTRAIR";
             this.btnSub.UseVisualStyleBackColor = false;
@@ -119,9 +121,10 @@
             // btnMult
             // 
             this.btnMult.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMult.Location = new System.Drawing.Point(207, 112);
+            this.btnMult.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMult.Location = new System.Drawing.Point(236, 112);
             this.btnMult.Name = "btnMult";
-            this.btnMult.Size = new System.Drawing.Size(87, 32);
+            this.btnMult.Size = new System.Drawing.Size(149, 32);
             this.btnMult.TabIndex = 8;
             this.btnMult.Text = "MULTIPLICAR";
             this.btnMult.UseVisualStyleBackColor = false;
@@ -142,9 +145,10 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(300, 116);
+            this.btnMaior.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaior.Location = new System.Drawing.Point(391, 112);
             this.btnMaior.Name = "btnMaior";
-            this.btnMaior.Size = new System.Drawing.Size(61, 24);
+            this.btnMaior.Size = new System.Drawing.Size(90, 32);
             this.btnMaior.TabIndex = 10;
             this.btnMaior.Text = "MAIOR";
             this.btnMaior.UseVisualStyleBackColor = false;
@@ -153,9 +157,10 @@
             // btnMenor
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMenor.Location = new System.Drawing.Point(367, 116);
+            this.btnMenor.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenor.Location = new System.Drawing.Point(487, 112);
             this.btnMenor.Name = "btnMenor";
-            this.btnMenor.Size = new System.Drawing.Size(56, 24);
+            this.btnMenor.Size = new System.Drawing.Size(92, 32);
             this.btnMenor.TabIndex = 11;
             this.btnMenor.Text = "MENOR";
             this.btnMenor.UseVisualStyleBackColor = false;
