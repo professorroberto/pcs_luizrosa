@@ -93,5 +93,13 @@ namespace Calculadora
 
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtnum1.Clear();
+            txtnum2.Clear();
+            txtnum3.Clear();
+            lblresult.Text = "";
+        }
     }
 }

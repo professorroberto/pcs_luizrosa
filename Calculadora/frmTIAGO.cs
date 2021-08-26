@@ -91,6 +91,14 @@ namespace Calculadora
                     lblResultado.Text = n3.ToString();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtNum1.Text = "";
+            txtNum2.Text = "";
+            txtNum3.Text = "";
+            lblResultado.Text = "";
+        }
+
 
     }
 }
