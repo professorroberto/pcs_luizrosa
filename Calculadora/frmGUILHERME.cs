@@ -126,5 +126,13 @@ namespace Calculadora
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtn1.Text = null;
+            txtn2.Text = null;
+            txtn3.TabIndex = null;
+            label4.Text = "RESULTADO";
+        }
     }
 }
