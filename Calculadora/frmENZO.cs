@@ -45,7 +45,7 @@ namespace Calculadora
           
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnMaior_Click(object sender, EventArgs e)
         {
             List<int> Listinha = new List<int>();
 
@@ -55,6 +55,7 @@ namespace Calculadora
 
             MessageBox.Show( "" + Listinha.Max());
         }
+
 
     }
 }
