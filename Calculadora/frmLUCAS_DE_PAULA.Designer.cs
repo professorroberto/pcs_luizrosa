@@ -146,17 +146,18 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button4.Location = new System.Drawing.Point(340, 148);
+            this.button4.Location = new System.Drawing.Point(340, 179);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(103, 25);
             this.button4.TabIndex = 11;
             this.button4.Text = "Menor";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button5.Location = new System.Drawing.Point(340, 179);
+            this.button5.Location = new System.Drawing.Point(340, 148);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(103, 25);
             this.button5.TabIndex = 12;
