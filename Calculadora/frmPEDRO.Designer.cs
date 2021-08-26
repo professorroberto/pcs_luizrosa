@@ -94,8 +94,8 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.PaleTurquoise;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.ForeColor = System.Drawing.Color.Black;
-            this.lblResultado.Location = new System.Drawing.Point(154, 284);
+            this.lblResultado.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblResultado.Location = new System.Drawing.Point(131, 274);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(241, 55);
             this.lblResultado.TabIndex = 5;
@@ -143,7 +143,7 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(141, 342);
+            this.btnMaior.Location = new System.Drawing.Point(123, 342);
             this.btnMaior.Name = "btnMaior";
             this.btnMaior.Size = new System.Drawing.Size(123, 51);
             this.btnMaior.TabIndex = 10;
@@ -154,7 +154,7 @@
             // btnMenor
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMenor.Location = new System.Drawing.Point(282, 342);
+            this.btnMenor.Location = new System.Drawing.Point(264, 342);
             this.btnMenor.Name = "btnMenor";
             this.btnMenor.Size = new System.Drawing.Size(123, 51);
             this.btnMenor.TabIndex = 11;
@@ -167,7 +167,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Fuchsia;
-            this.label4.Location = new System.Drawing.Point(79, 84);
+            this.label4.Location = new System.Drawing.Point(75, 84);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(363, 37);
             this.label4.TabIndex = 12;
