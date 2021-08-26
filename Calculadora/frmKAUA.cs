@@ -61,8 +61,20 @@ namespace Calculadora
                 MessageBox.Show("O 2° numero é o maior");
             else if (n3 > n1 || n3 > n2)
                 MessageBox.Show("o 3° numero é o maior"); 
+        }
 
+        private void btnMenor_Click(object sender, EventArgs e)
+        {
+            int n1 = int.Parse(txtNum1.Text);
+            int n2 = int.Parse(txtNum2.Text);
+            int n3 = int.Parse(txtNum3.Text);
 
+            if (n1 < n2 || n1 < n3)
+                MessageBox.Show("o 1° numero é o menor");
+            else if (n2 < n1 || n2 < n3)
+                MessageBox.Show("O 2° numero é o menor");
+            else if (n3 < n1 || n3 < n2)
+                MessageBox.Show("o 3° numero é o menor"); 
         }
     }
 }

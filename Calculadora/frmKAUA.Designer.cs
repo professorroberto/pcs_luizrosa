@@ -158,15 +158,16 @@
             this.btnMenor.TabIndex = 11;
             this.btnMenor.Text = "MENOR";
             this.btnMenor.UseVisualStyleBackColor = false;
+            this.btnMenor.Click += new System.EventHandler(this.btnMenor_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Fuchsia;
             this.label4.Location = new System.Drawing.Point(6, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(392, 37);
+            this.label4.Size = new System.Drawing.Size(416, 37);
             this.label4.TabIndex = 12;
             this.label4.Text = "KAUÃ LOURENZON  2200016-9";
             // 
