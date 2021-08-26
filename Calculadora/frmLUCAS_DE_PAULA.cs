@@ -50,5 +50,18 @@ namespace Calculadora
                 MessageBox.Show("" + Listinha.Min());
             }
         }
+
+        private void lblRes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            txt1.Text = "";
+            txt2.Text = "";
+            txt3.Text = "";
+            lblRes.Text = "";
+        }
     }
 }

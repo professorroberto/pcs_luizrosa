@@ -148,6 +148,7 @@
             this.lblRes.Size = new System.Drawing.Size(86, 31);
             this.lblRes.TabIndex = 10;
             this.lblRes.Text = "label5";
+            this.lblRes.Click += new System.EventHandler(this.lblRes_Click);
             // 
             // button4
             // 
@@ -155,7 +156,7 @@
             this.button4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
             this.button4.Location = new System.Drawing.Point(340, 193);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 31);
+            this.button4.Size = new System.Drawing.Size(103, 41);
             this.button4.TabIndex = 11;
             this.button4.Text = "Menor";
             this.button4.UseVisualStyleBackColor = false;
@@ -188,19 +189,20 @@
             // 
             this.button6.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button6.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(340, 231);
+            this.button6.Location = new System.Drawing.Point(340, 240);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(103, 39);
             this.button6.TabIndex = 21;
             this.button6.Text = "Limpar";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // frmLUCAS_DE_PAULA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(461, 282);
+            this.ClientSize = new System.Drawing.Size(482, 304);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button5);
