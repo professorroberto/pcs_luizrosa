@@ -103,6 +103,7 @@
             // btnSOMA
             // 
             this.btnSOMA.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSOMA.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSOMA.Location = new System.Drawing.Point(32, 138);
             this.btnSOMA.Margin = new System.Windows.Forms.Padding(2);
             this.btnSOMA.Name = "btnSOMA";
@@ -115,6 +116,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button2.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(110, 138);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
@@ -127,6 +129,7 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMultiplicar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiplicar.Location = new System.Drawing.Point(192, 138);
             this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMultiplicar.Name = "btnMultiplicar";
@@ -141,7 +144,7 @@
             this.lblRES.AutoSize = true;
             this.lblRES.BackColor = System.Drawing.Color.PaleTurquoise;
             this.lblRES.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRES.Location = new System.Drawing.Point(95, 180);
+            this.lblRES.Location = new System.Drawing.Point(34, 171);
             this.lblRES.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRES.Name = "lblRES";
             this.lblRES.Size = new System.Drawing.Size(222, 55);
@@ -152,7 +155,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Location = new System.Drawing.Point(43, 229);
+            this.button1.Location = new System.Drawing.Point(32, 229);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 45);
             this.button1.TabIndex = 12;
@@ -163,7 +166,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button3.Location = new System.Drawing.Point(167, 229);
+            this.button3.Location = new System.Drawing.Point(156, 229);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 45);
             this.button3.TabIndex = 13;
