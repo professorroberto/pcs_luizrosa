@@ -41,6 +41,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtnum1
@@ -179,12 +180,24 @@
             this.label5.Text = "FELIPPO  22000299";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(157, 152);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(69, 50);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "LIMPAR";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // frmFELIPPO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(401, 282);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -199,7 +212,7 @@
             this.Controls.Add(this.txtnum2);
             this.Controls.Add(this.txtnum1);
             this.Name = "frmFELIPPO";
-            this.Text = "2200029-9";
+            this.Text = "git";
             this.Load += new System.EventHandler(this.frmFELIPPO_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -221,5 +234,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button4;
     }
 }
