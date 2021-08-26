@@ -192,12 +192,13 @@
             // 
             this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(277, 89);
+            this.button4.Location = new System.Drawing.Point(276, 88);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(105, 45);
             this.button4.TabIndex = 15;
             this.button4.Text = "Limpar";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // frmRENAN
             // 
