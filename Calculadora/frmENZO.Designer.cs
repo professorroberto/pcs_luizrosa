@@ -47,7 +47,7 @@
             // 
             this.txtN1.BackColor = System.Drawing.Color.White;
             this.txtN1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtN1.Location = new System.Drawing.Point(36, 34);
+            this.txtN1.Location = new System.Drawing.Point(37, 82);
             this.txtN1.Name = "txtN1";
             this.txtN1.Size = new System.Drawing.Size(56, 39);
             this.txtN1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // txtN2
             // 
             this.txtN2.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtN2.Location = new System.Drawing.Point(98, 34);
+            this.txtN2.Location = new System.Drawing.Point(99, 82);
             this.txtN2.Name = "txtN2";
             this.txtN2.Size = new System.Drawing.Size(62, 39);
             this.txtN2.TabIndex = 1;
@@ -63,14 +63,14 @@
             // txtN3
             // 
             this.txtN3.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtN3.Location = new System.Drawing.Point(166, 34);
+            this.txtN3.Location = new System.Drawing.Point(167, 82);
             this.txtN3.Name = "txtN3";
             this.txtN3.Size = new System.Drawing.Size(57, 39);
             this.txtN3.TabIndex = 2;
             // 
             // btnSomar
             // 
-            this.btnSomar.Location = new System.Drawing.Point(30, 91);
+            this.btnSomar.Location = new System.Drawing.Point(31, 139);
             this.btnSomar.Name = "btnSomar";
             this.btnSomar.Size = new System.Drawing.Size(62, 23);
             this.btnSomar.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             // btnSubtrair
             // 
-            this.btnSubtrair.Location = new System.Drawing.Point(98, 91);
+            this.btnSubtrair.Location = new System.Drawing.Point(99, 139);
             this.btnSubtrair.Name = "btnSubtrair";
             this.btnSubtrair.Size = new System.Drawing.Size(62, 23);
             this.btnSubtrair.TabIndex = 4;
@@ -90,7 +90,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(166, 91);
+            this.button3.Location = new System.Drawing.Point(167, 139);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(62, 23);
             this.button3.TabIndex = 5;
@@ -101,7 +101,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 17);
+            this.label1.Location = new System.Drawing.Point(33, 65);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 6;
@@ -110,7 +110,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(163, 18);
+            this.label2.Location = new System.Drawing.Point(164, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 13);
             this.label2.TabIndex = 7;
@@ -119,7 +119,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(94, 18);
+            this.label3.Location = new System.Drawing.Point(95, 66);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 8;
@@ -129,7 +129,7 @@
             // 
             this.lblresultado.AutoSize = true;
             this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblresultado.Location = new System.Drawing.Point(66, 144);
+            this.lblresultado.Location = new System.Drawing.Point(67, 192);
             this.lblresultado.Name = "lblresultado";
             this.lblresultado.Size = new System.Drawing.Size(153, 31);
             this.lblresultado.TabIndex = 9;
@@ -139,7 +139,7 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(72, 120);
+            this.btnMaior.Location = new System.Drawing.Point(73, 168);
             this.btnMaior.Name = "btnMaior";
             this.btnMaior.Size = new System.Drawing.Size(62, 23);
             this.btnMaior.TabIndex = 10;
@@ -150,19 +150,20 @@
             // btnMenor
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMenor.Location = new System.Drawing.Point(140, 118);
+            this.btnMenor.Location = new System.Drawing.Point(141, 166);
             this.btnMenor.Name = "btnMenor";
             this.btnMenor.Size = new System.Drawing.Size(62, 23);
             this.btnMenor.TabIndex = 11;
             this.btnMenor.Text = "Menor";
             this.btnMenor.UseVisualStyleBackColor = false;
+            this.btnMenor.Click += new System.EventHandler(this.btnMenor_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Fuchsia;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(49, -2);
+            this.label4.Location = new System.Drawing.Point(29, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(223, 37);
             this.label4.TabIndex = 12;

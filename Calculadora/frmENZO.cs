@@ -56,6 +56,17 @@ namespace Calculadora
             MessageBox.Show( "" + Listinha.Max());
         }
 
+        private void btnMenor_Click(object sender, EventArgs e)
+        {
+            List<int> Listinha = new List<int>();
+
+            Listinha.Add(int.Parse(txtN1.Text));
+            Listinha.Add(int.Parse(txtN2.Text));
+            Listinha.Add(int.Parse(txtN3.Text));
+
+            MessageBox.Show("" + Listinha.Min());
+        }
+
 
     }
 }
