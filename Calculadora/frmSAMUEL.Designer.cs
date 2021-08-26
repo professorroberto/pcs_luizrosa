@@ -136,11 +136,12 @@
             // LABEL4
             // 
             this.LABEL4.AutoSize = true;
-            this.LABEL4.BackColor = System.Drawing.Color.DarkGreen;
-            this.LABEL4.Location = new System.Drawing.Point(235, 197);
+            this.LABEL4.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.LABEL4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LABEL4.Location = new System.Drawing.Point(141, 215);
             this.LABEL4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LABEL4.Name = "LABEL4";
-            this.LABEL4.Size = new System.Drawing.Size(72, 17);
+            this.LABEL4.Size = new System.Drawing.Size(299, 69);
             this.LABEL4.TabIndex = 9;
             this.LABEL4.Text = "Resultado";
             this.LABEL4.Click += new System.EventHandler(this.label4_Click);
@@ -148,7 +149,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button4.Location = new System.Drawing.Point(177, 244);
+            this.button4.Location = new System.Drawing.Point(177, 288);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(187, 54);
@@ -169,10 +170,10 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button5.Location = new System.Drawing.Point(177, 306);
+            this.button5.Location = new System.Drawing.Point(177, 350);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(180, 46);
+            this.button5.Size = new System.Drawing.Size(187, 46);
             this.button5.TabIndex = 12;
             this.button5.Text = "MENOR";
             this.button5.UseVisualStyleBackColor = false;
@@ -203,7 +204,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(715, 494);
+            this.ClientSize = new System.Drawing.Size(695, 501);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
@@ -221,7 +222,7 @@
             this.Controls.Add(this.Nume3);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmSAMUEL";
-            this.Text = "22000728";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.frmSAMUEL_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

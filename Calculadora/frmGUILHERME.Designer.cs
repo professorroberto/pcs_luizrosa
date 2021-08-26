@@ -98,6 +98,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(19, 133);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -109,6 +110,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button2.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(230, 133);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 23);
@@ -120,6 +122,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(123, 133);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
@@ -144,6 +147,7 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMaior.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMaior.Location = new System.Drawing.Point(343, 133);
             this.btnMaior.Name = "btnMaior";
             this.btnMaior.Size = new System.Drawing.Size(92, 23);
@@ -155,6 +159,7 @@
             // btnMenor
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMenor.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenor.Location = new System.Drawing.Point(174, 162);
             this.btnMenor.Name = "btnMenor";
             this.btnMenor.Size = new System.Drawing.Size(92, 23);
