@@ -51,7 +51,7 @@ namespace Calculadora
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int res;
+            
 
             if (int.Parse(txtN1.Text) > int.Parse(txtN2.Text))
             {
