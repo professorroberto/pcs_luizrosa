@@ -131,7 +131,7 @@ namespace Calculadora
         {
             txtn1.Text = null;
             txtn2.Text = null;
-            txtn3.TabIndex = null;
+            txtn3.Text = null;
             label4.Text = "RESULTADO";
         }
     }
