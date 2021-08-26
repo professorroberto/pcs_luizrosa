@@ -29,6 +29,8 @@ namespace Calculadora
             int resultado;
             resultado = n1 * n2 * n3;
             lblResultado.Text = resultado.ToString();
+
+            MessageBox.Show ("Parabens, voce acaba de executar a operaçao (mutiplicar)com sucesso ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operaçao é:"+ lblResultado);
         }
 
         private void btnSomar_Click(object sender, EventArgs e)
@@ -44,6 +46,8 @@ namespace Calculadora
             int resultado;
             resultado = n1 + n2 + n3;
             lblResultado.Text = resultado.ToString();
+
+            MessageBox.Show ( "Parabens, voce acaba de executar a operaçao (Somar)com sucesso ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operaçao é:"+ lblResultado); 
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)
@@ -59,6 +63,8 @@ namespace Calculadora
             int resultado;
             resultado = n1 - n2 - n3;
             lblResultado.Text = resultado.ToString();
+
+            MessageBox.Show ("Parabens, voce acaba de executar a operaçao (Subtrair)com sucesso ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operaçao é:"+ lblResultado);
         }
 
         private void btnMaior_Click(object sender, EventArgs e)
@@ -74,6 +80,8 @@ namespace Calculadora
                     lblResultado.Text = n2.ToString();
                 else
                     lblResultado.Text = n3.ToString();
+
+            MessageBox.Show ( "Parabens, voce acaba de executar a operaçao (Maior)com sucesso ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operaçao é:"+ lblResultado);
         }
 
         private void btnMenor_Click(object sender, EventArgs e)
@@ -89,6 +97,8 @@ namespace Calculadora
                     lblResultado.Text = n2.ToString();
                 else
                     lblResultado.Text = n3.ToString();
+
+            MessageBox.Show ("Parabens, voce acaba de executar a operaçao (Menor)com sucesso ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operaçao é:"+ lblResultado);
         }
 
         private void button1_Click(object sender, EventArgs e)
