@@ -107,10 +107,15 @@ namespace Calculadora
             }
         }
 
-        private void lblResultado_Click(object sender, EventArgs e)
+        private void btnLimpar_Click(object sender, EventArgs e)
         {
-
+            txtNumero1.Text = "";
+            txtNumero2.Text = "";
+            txtNumero3.Text = "";
+            lblResultado.Text = "";
         }
+
+
 
     }
 }
