@@ -41,6 +41,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -86,7 +87,7 @@
             this.btnSomar.Location = new System.Drawing.Point(37, 150);
             this.btnSomar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSomar.Name = "btnSomar";
-            this.btnSomar.Size = new System.Drawing.Size(92, 34);
+            this.btnSomar.Size = new System.Drawing.Size(92, 43);
             this.btnSomar.TabIndex = 4;
             this.btnSomar.Text = "Somar";
             this.btnSomar.UseVisualStyleBackColor = false;
@@ -99,7 +100,7 @@
             this.btnSubtrair.Location = new System.Drawing.Point(157, 149);
             this.btnSubtrair.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSubtrair.Name = "btnSubtrair";
-            this.btnSubtrair.Size = new System.Drawing.Size(92, 34);
+            this.btnSubtrair.Size = new System.Drawing.Size(113, 44);
             this.btnSubtrair.TabIndex = 5;
             this.btnSubtrair.Text = "subtrair";
             this.btnSubtrair.UseVisualStyleBackColor = false;
@@ -133,7 +134,7 @@
             this.btnMult.Location = new System.Drawing.Point(276, 150);
             this.btnMult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMult.Name = "btnMult";
-            this.btnMult.Size = new System.Drawing.Size(81, 31);
+            this.btnMult.Size = new System.Drawing.Size(116, 43);
             this.btnMult.TabIndex = 9;
             this.btnMult.Text = "Multiplicar";
             this.btnMult.UseVisualStyleBackColor = false;
@@ -185,12 +186,25 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "Matheus - 22000225";
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button3.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(248, 249);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(96, 60);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "limpar";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // frmMATHEUS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(413, 356);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -228,5 +242,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button3;
     }
 }
