@@ -76,6 +76,21 @@ namespace Calculadora
                     lblResultado.Text = n3.ToString();
         }
 
+        private void btnMenor_Click(object sender, EventArgs e)
+        {
+            int n1 = int.Parse(txtNum1.Text);
+            int n2 = int.Parse(txtNum2.Text);
+            int n3 = int.Parse(txtNum1.Text);
+
+            if (n1 < n2 && n1 < n3)
+                lblResultado.Text = txtNum1.Text;
+            else
+                if (n2 < n3)
+                    lblResultado.Text = n2.ToString();
+                else
+                    lblResultado.Text = n3.ToString();
+        }
+
 
     }
 }
