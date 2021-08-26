@@ -131,11 +131,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DarkGreen;
             this.label4.Location = new System.Drawing.Point(120, 206);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(181, 31);
+            this.label4.Size = new System.Drawing.Size(318, 55);
             this.label4.TabIndex = 9;
             this.label4.Text = "RESULTADO";
             this.label4.Click += new System.EventHandler(this.label4_Click);
