@@ -40,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtnum1
@@ -73,7 +74,7 @@
             // 
             this.lblresult.AutoSize = true;
             this.lblresult.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblresult.Location = new System.Drawing.Point(85, 156);
+            this.lblresult.Location = new System.Drawing.Point(85, 160);
             this.lblresult.Name = "lblresult";
             this.lblresult.Size = new System.Drawing.Size(181, 31);
             this.lblresult.TabIndex = 3;
@@ -158,6 +159,19 @@
             this.button3.TabIndex = 11;
             this.button3.Text = "MENOR";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Fuchsia;
+            this.label5.Location = new System.Drawing.Point(60, -2);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(264, 37);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "FELIPPO  22000299";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // frmFELIPPO
             // 
@@ -165,6 +179,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(386, 261);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
@@ -199,5 +214,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label5;
     }
 }

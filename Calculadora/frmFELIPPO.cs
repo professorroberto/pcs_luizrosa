@@ -68,5 +68,16 @@ namespace Calculadora
             }
             else MessageBox.Show("Numero 3 é o maior");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
