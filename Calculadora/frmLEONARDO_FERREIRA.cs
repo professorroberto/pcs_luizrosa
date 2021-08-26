@@ -70,5 +70,13 @@ namespace Calculadora
 
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            txtNumero1.Text = "";
+            txtNumero2.Text = "";
+            txtNumero3.Text = "";
+            label5.Text = "";
+        }
     }
 }
