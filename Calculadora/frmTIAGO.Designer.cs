@@ -80,7 +80,7 @@
             this.txtNum1.Location = new System.Drawing.Point(50, 89);
             this.txtNum1.Margin = new System.Windows.Forms.Padding(2);
             this.txtNum1.Name = "txtNum1";
-            this.txtNum1.Size = new System.Drawing.Size(84, 39);
+            this.txtNum1.Size = new System.Drawing.Size(82, 39);
             this.txtNum1.TabIndex = 4;
             // 
             // txtNum2
@@ -192,12 +192,13 @@
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(52, 213);
+            this.button1.Location = new System.Drawing.Point(50, 212);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 57);
+            this.button1.Size = new System.Drawing.Size(82, 45);
             this.button1.TabIndex = 14;
             this.button1.Text = "limpar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmTIAGO
             // 
