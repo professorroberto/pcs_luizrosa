@@ -24,6 +24,8 @@ namespace Calculadora
 
             int result = N1 * N2 * N3 ;
             lblResultado.Text = result.ToString();
+
+            MessageBox.Show("Parabéns, você acaba de executar a operação Multiplicar, com sucesso! Ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operação é:" + (N1 * N2 * N3).ToString()); 
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -39,6 +41,8 @@ namespace Calculadora
 
             int result = N1 + N2 + N3;
             lblResultado.Text = result.ToString();
+
+            MessageBox.Show("Parabéns, você acaba de executar a operação Somar, com sucesso! Ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operação é:" + (N1 + N2 + N3).ToString()); 
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)
@@ -49,6 +53,8 @@ namespace Calculadora
 
             int result = N1 - N2 - N3;
             lblResultado.Text = result.ToString();
+
+            MessageBox.Show ("Parabéns, você acaba de executar a operação Subtrair, com sucesso! Ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operação é:" + (N1 - N2 - N3).ToString()); 
 
         }
 
