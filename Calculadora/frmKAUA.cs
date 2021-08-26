@@ -82,6 +82,7 @@ namespace Calculadora
             txtNum1.Text = "";
             txtNum2.Text = "";
             txtNum3.Text = "";
+            lblResult.Text = "";
         }
     }
 }
