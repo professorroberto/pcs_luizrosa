@@ -37,5 +37,18 @@ namespace Calculadora
             if (Convert.ToDouble(txt3.Text) > Convert.ToDouble(txt2.Text) || Convert.ToDouble(txt3.Text) > Convert.ToDouble(txt1.Text));
             { MessageBox.Show("1Maior"); }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            {
+                List<int> Listinha = new List<int>();
+
+                Listinha.Add(int.Parse(txt1.Text));
+                Listinha.Add(int.Parse(txt2.Text));
+                Listinha.Add(int.Parse(txt3.Text));
+
+                MessageBox.Show("" + Listinha.Max());
+            }
+        }
     }
 }
