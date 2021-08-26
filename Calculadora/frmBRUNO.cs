@@ -88,10 +88,10 @@ namespace Calculadora
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Numero1 = ""
-            Numero2 = ""
-            Numero3 = ""
-            lblresultado = ""
+            Numero1.Text = "";
+            Numero2.Text = "";
+            Numero3.Text = "";
+            lblresultado.Text = "";
         }
     }
 }
