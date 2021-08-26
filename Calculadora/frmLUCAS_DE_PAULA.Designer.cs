@@ -151,7 +151,10 @@
             this.button4.TabIndex = 11;
             this.button4.Text = "Menor";
             this.button4.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59d3ba899f9173f69704e1aabd858b8daeffb0ea
             // 
             // button5
             // 

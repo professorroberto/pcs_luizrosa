@@ -190,7 +190,10 @@
             this.Controls.Add(this.btnSomar);
             this.Name = "frmLUCAS_PANICO";
             this.Text = "2200005";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59d3ba899f9173f69704e1aabd858b8daeffb0ea
             this.ResumeLayout(false);
             this.PerformLayout();
 
