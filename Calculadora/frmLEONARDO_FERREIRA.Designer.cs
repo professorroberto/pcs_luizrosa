@@ -42,6 +42,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -201,12 +202,25 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "LEONARDO DE ALMEIDA FERREIRA - 2200068-8";
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button6.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(306, 491);
+            this.button6.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(161, 46);
+            this.button6.TabIndex = 14;
+            this.button6.Text = "LIMPAR";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
             // frmLEONARDO_FERREIRA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(1413, 708);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -246,5 +260,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button6;
     }
 }
