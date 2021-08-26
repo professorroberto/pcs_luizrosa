@@ -40,6 +40,7 @@
             this.Numero1 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblresultado
@@ -173,12 +174,24 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Fuchsia;
+            this.label4.Location = new System.Drawing.Point(103, 13);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(350, 37);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Bruno Saccotti 2200002-2";
+            // 
             // frmBRUNO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(551, 408);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.lblresultado);
@@ -215,6 +228,7 @@
         private System.Windows.Forms.TextBox Numero1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label4;
 
 
 
