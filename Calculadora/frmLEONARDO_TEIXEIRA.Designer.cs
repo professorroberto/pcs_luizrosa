@@ -104,6 +104,7 @@
             // btnSomar
             // 
             this.btnSomar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSomar.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSomar.Location = new System.Drawing.Point(67, 132);
             this.btnSomar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSomar.Name = "btnSomar";
@@ -116,6 +117,7 @@
             // btnSubtrair
             // 
             this.btnSubtrair.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSubtrair.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtrair.Location = new System.Drawing.Point(261, 132);
             this.btnSubtrair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSubtrair.Name = "btnSubtrair";
@@ -128,6 +130,7 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMultiplicar.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiplicar.Location = new System.Drawing.Point(447, 130);
             this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMultiplicar.Name = "btnMultiplicar";
@@ -153,6 +156,7 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMaior.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMaior.Location = new System.Drawing.Point(211, 208);
             this.btnMaior.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMaior.Name = "btnMaior";
@@ -165,6 +169,7 @@
             // btnMenor
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMenor.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenor.Location = new System.Drawing.Point(355, 208);
             this.btnMenor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMenor.Name = "btnMenor";

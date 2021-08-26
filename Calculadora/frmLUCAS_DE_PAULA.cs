@@ -47,7 +47,7 @@ namespace Calculadora
                 Listinha.Add(int.Parse(txt2.Text));
                 Listinha.Add(int.Parse(txt3.Text));
 
-                MessageBox.Show("" + Listinha.Max());
+                MessageBox.Show("" + Listinha.Min());
             }
         }
     }
