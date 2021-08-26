@@ -28,6 +28,7 @@ namespace Calculadora
             int n3 = int.Parse(textBox3.Text);
             int resultado = n1 * n2 * n3;
             label1.Text = resultado.ToString();
+            MessageBox.Show("parabens, voce acaba de executar a operação SUBTRAÇÃO com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é");
 
 
         }
@@ -39,6 +40,7 @@ namespace Calculadora
             int n3 = int.Parse(textBox3.Text);
             int resultado = n1 + n2 + n3;
             label1.Text = resultado.ToString();
+            MessageBox.Show("parabens, voce acaba de executar a operação SOMA com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -48,6 +50,7 @@ namespace Calculadora
             int n3 = int.Parse(textBox3.Text);
             int resultado = n1 - n2 - n3;
             label1.Text = resultado.ToString();
+            MessageBox.Show("parabens, voce acaba de executar a operação MULTIPLICAÇÃO com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -82,7 +85,9 @@ namespace Calculadora
                     label1.Text = Convert.ToString(n3);
                 }
             }
+            MessageBox.Show("parabens, voce acaba de executar a operação MAIOR com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é");
         }
+
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -111,6 +116,7 @@ namespace Calculadora
                     label1.Text = Convert.ToString(n3);
                 }
             }
+            MessageBox.Show("parabens, voce acaba de executar a operação MENOR com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é");
 
 
         }
@@ -119,8 +125,9 @@ namespace Calculadora
         {
             textBox1.Text = " ";
            textBox2.Text = " ";
-            textBox1.Text = " ";
+            textBox3.Text = " ";
             label1.Text = " ";
+            MessageBox.Show("parabens, voce acaba de executar a operação LIMPAR com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é");
         }
     }
 }
