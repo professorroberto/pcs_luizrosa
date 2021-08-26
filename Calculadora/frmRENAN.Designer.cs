@@ -41,6 +41,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -107,7 +108,7 @@
             this.btnSOMA.Location = new System.Drawing.Point(32, 138);
             this.btnSOMA.Margin = new System.Windows.Forms.Padding(2);
             this.btnSOMA.Name = "btnSOMA";
-            this.btnSOMA.Size = new System.Drawing.Size(62, 27);
+            this.btnSOMA.Size = new System.Drawing.Size(65, 71);
             this.btnSOMA.TabIndex = 6;
             this.btnSOMA.Text = "SOMAR";
             this.btnSOMA.UseVisualStyleBackColor = false;
@@ -120,7 +121,7 @@
             this.button2.Location = new System.Drawing.Point(110, 138);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(78, 27);
+            this.button2.Size = new System.Drawing.Size(78, 71);
             this.button2.TabIndex = 7;
             this.button2.Text = "SUBTRAIR";
             this.button2.UseVisualStyleBackColor = false;
@@ -133,7 +134,7 @@
             this.btnMultiplicar.Location = new System.Drawing.Point(192, 138);
             this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(78, 27);
+            this.btnMultiplicar.Size = new System.Drawing.Size(90, 71);
             this.btnMultiplicar.TabIndex = 8;
             this.btnMultiplicar.Text = "MULTIPLICAR";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
@@ -144,7 +145,7 @@
             this.lblRES.AutoSize = true;
             this.lblRES.BackColor = System.Drawing.Color.PaleTurquoise;
             this.lblRES.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRES.Location = new System.Drawing.Point(34, 171);
+            this.lblRES.Location = new System.Drawing.Point(43, 211);
             this.lblRES.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRES.Name = "lblRES";
             this.lblRES.Size = new System.Drawing.Size(222, 55);
@@ -155,7 +156,8 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Location = new System.Drawing.Point(32, 229);
+            this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(41, 269);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 45);
             this.button1.TabIndex = 12;
@@ -166,7 +168,8 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button3.Location = new System.Drawing.Point(156, 229);
+            this.button3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(165, 269);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 45);
             this.button3.TabIndex = 13;
@@ -185,12 +188,25 @@
             this.label4.TabIndex = 14;
             this.label4.Text = "RENAN LOPES CRUZ - 22000606";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(276, 88);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(105, 45);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "Limpar";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // frmRENAN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(463, 384);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
@@ -228,5 +244,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button4;
     }
 }

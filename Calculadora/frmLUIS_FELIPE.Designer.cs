@@ -38,6 +38,7 @@
             this.txtMaior = new System.Windows.Forms.Button();
             this.btnMenor = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnsoma
@@ -118,7 +119,7 @@
             // 
             this.txtMaior.BackColor = System.Drawing.Color.LightSteelBlue;
             this.txtMaior.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaior.Location = new System.Drawing.Point(73, 176);
+            this.txtMaior.Location = new System.Drawing.Point(19, 173);
             this.txtMaior.Name = "txtMaior";
             this.txtMaior.Size = new System.Drawing.Size(92, 87);
             this.txtMaior.TabIndex = 8;
@@ -130,7 +131,7 @@
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnMenor.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenor.Location = new System.Drawing.Point(183, 176);
+            this.btnMenor.Location = new System.Drawing.Point(117, 173);
             this.btnMenor.Name = "btnMenor";
             this.btnMenor.Size = new System.Drawing.Size(92, 87);
             this.btnMenor.TabIndex = 9;
@@ -149,12 +150,25 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "Luis Felipe 2200032-2";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(217, 176);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 87);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Limpar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmLUIS_FELIPE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(334, 329);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.txtMaior);
@@ -185,5 +199,6 @@
         private System.Windows.Forms.Button txtMaior;
         private System.Windows.Forms.Button btnMenor;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

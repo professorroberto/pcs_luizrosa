@@ -42,7 +42,7 @@ namespace Calculadora
             {
                 if (int.Parse(txtNumero1.Text) > int.Parse(txtNumero3.Text))
                 {
-                    MessageBox.Show("O Numero1");
+                    MessageBox.Show("O Numero 1 é maior");
                 }
                 else
                     MessageBox.Show("O Numero3 é maior");
@@ -69,6 +69,14 @@ namespace Calculadora
                 MessageBox.Show("O Numero2 é menor");
 
             }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            txtNumero1.Text = "";
+            txtNumero2.Text = "";
+            txtNumero3.Text = "";
+            label5.Text = "";
         }
     }
 }

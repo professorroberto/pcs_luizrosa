@@ -42,6 +42,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -50,7 +51,7 @@
             this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(13, 148);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 24);
+            this.button1.Size = new System.Drawing.Size(103, 39);
             this.button1.TabIndex = 0;
             this.button1.Text = "Somar";
             this.button1.UseVisualStyleBackColor = false;
@@ -62,7 +63,7 @@
             this.button2.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
             this.button2.Location = new System.Drawing.Point(122, 148);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 25);
+            this.button2.Size = new System.Drawing.Size(103, 39);
             this.button2.TabIndex = 1;
             this.button2.Text = "Multiplicar";
             this.button2.UseVisualStyleBackColor = false;
@@ -74,7 +75,7 @@
             this.button3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(231, 148);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 25);
+            this.button3.Size = new System.Drawing.Size(103, 39);
             this.button3.TabIndex = 2;
             this.button3.Text = "Subtrair";
             this.button3.UseVisualStyleBackColor = false;
@@ -147,14 +148,15 @@
             this.lblRes.Size = new System.Drawing.Size(86, 31);
             this.lblRes.TabIndex = 10;
             this.lblRes.Text = "label5";
+            this.lblRes.Click += new System.EventHandler(this.lblRes_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(340, 179);
+            this.button4.Location = new System.Drawing.Point(340, 193);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 25);
+            this.button4.Size = new System.Drawing.Size(103, 41);
             this.button4.TabIndex = 11;
             this.button4.Text = "Menor";
             this.button4.UseVisualStyleBackColor = false;
@@ -166,7 +168,7 @@
             this.button5.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
             this.button5.Location = new System.Drawing.Point(340, 148);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(103, 25);
+            this.button5.Size = new System.Drawing.Size(103, 39);
             this.button5.TabIndex = 12;
             this.button5.Text = "Maior";
             this.button5.UseVisualStyleBackColor = false;
@@ -183,12 +185,25 @@
             this.label5.TabIndex = 20;
             this.label5.Text = "Lucas Nasc - RA:2200083-3";
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button6.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold);
+            this.button6.Location = new System.Drawing.Point(340, 240);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(103, 39);
+            this.button6.TabIndex = 21;
+            this.button6.Text = "Limpar";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // frmLUCAS_DE_PAULA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(461, 282);
+            this.ClientSize = new System.Drawing.Size(482, 304);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -226,5 +241,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button6;
     }
 }

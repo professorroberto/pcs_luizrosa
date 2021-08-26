@@ -41,6 +41,7 @@
             this.btnMaior = new System.Windows.Forms.Button();
             this.btnMenor = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -177,12 +178,25 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "KAUÃ LOURENZON  2200016-9";
             // 
+            // btnLimpar
+            // 
+            this.btnLimpar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnLimpar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(336, 159);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(92, 32);
+            this.btnLimpar.TabIndex = 13;
+            this.btnLimpar.Text = "LIMPAR";
+            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
             // frmKAUA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(584, 436);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
@@ -218,5 +232,6 @@
         private System.Windows.Forms.Button btnMaior;
         private System.Windows.Forms.Button btnMenor;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnLimpar;
     }
 }

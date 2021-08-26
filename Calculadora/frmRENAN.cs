@@ -64,6 +64,14 @@ namespace Calculadora
                 MessageBox.Show("NUMERO 3 É O MENOR");
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtN1.Text = "";
+            txtN2.Text = "";
+            txtN3.Text = "";
+            lblRES.Text="";
+        }
+
         }
     }
 
