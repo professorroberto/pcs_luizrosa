@@ -20,9 +20,13 @@ namespace Calculadora
         {
             double res;
             res = double.Parse(txtnum1.Text) + double.Parse(txtnum2.Text) + double.Parse(txtnum3.Text);
-            lblresult.Text = res.ToString();  
+            lblresult.Text = res.ToString();
+            MessageBox.Show("Parabéns você acaba de executar a opreração Adição com sucesso! Ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operação é 8");
+            
         }
 
+        
+           
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -33,13 +37,15 @@ namespace Calculadora
             double res;
             res = double.Parse(txtnum1.Text) * double.Parse(txtnum2.Text) * double.Parse(txtnum3.Text);
             lblresult.Text = res.ToString();
+            MessageBox.Show("Parabéns você acaba de executar a opreração Multiplicação com sucesso! Ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operação é 8");
         }
 
         private void Btncalc_Click_1(object sender, EventArgs e)
         {
             double res;
             res = double.Parse(txtnum1.Text) - double.Parse(txtnum2.Text) - double.Parse(txtnum3.Text);
-            lblresult.Text = res.ToString(); 
+            lblresult.Text = res.ToString();
+            MessageBox.Show("Parabéns você acaba de executar a opreração Subtrair com sucesso! Ficamos muito felizes por utilizar os nossos sistemas! Conte sempre conosco! E o resultado da sua operação é 8");
         }
 
         private void frmFELIPPO_Load(object sender, EventArgs e)
