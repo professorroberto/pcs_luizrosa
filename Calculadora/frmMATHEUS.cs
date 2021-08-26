@@ -23,6 +23,7 @@ namespace Calculadora
 
             res = int.Parse(txtN1.Text) * int.Parse(txtN2.Text) * int.Parse(txtN3.Text);
             lblRes.Text = res.ToString();
+            MessageBox.Show("Parabens, você acaba de executar a operação multiplicar com sucesso ficamos muito felizes por utilizar nossos sistemas! Conte sempre conosco!E o resultado da sua operação é" + lblRes.Text);
 
 
         }
@@ -34,6 +35,7 @@ namespace Calculadora
             res = int.Parse(txtN1.Text) + int.Parse(txtN2.Text) + int.Parse(txtN3.Text);
 
             lblRes.Text = res.ToString();
+            MessageBox.Show("Parabens, você acaba de executar a operação somar com sucesso ficamos muito felizes por utilizar nossos sistemas! Conte sempre conosco!E o resultado da sua operação é" + lblRes.Text);
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)
@@ -42,7 +44,10 @@ namespace Calculadora
             res = int.Parse(txtN1.Text) - int.Parse(txtN2.Text) - int.Parse(txtN3.Text);
 
             lblRes.Text = res.ToString();
+            MessageBox.Show("Parabens, você acaba de executar a operação subtrair com sucesso ficamos muito felizes por utilizar nossos sistemas! Conte sempre conosco!E o resultado da sua operação é" + lblRes.Text);
         }
+
+
 
         private void frmMATHEUS_Load(object sender, EventArgs e)
         {
@@ -74,7 +79,7 @@ namespace Calculadora
                     lblRes.Text = txtN2.Text;
                 }
             }
-            
+            MessageBox.Show("Parabens, você acaba de executar a operação maior com sucesso ficamos muito felizes por utilizar nossos sistemas! Conte sempre conosco!E o resultado da sua operação é" + lblRes.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -99,6 +104,7 @@ namespace Calculadora
                 {
                     lblRes.Text = txtN2.Text;
                 }
+                MessageBox.Show("Parabens, você acaba de executar a operação menor com sucesso ficamos muito felizes por utilizar nossos sistemas! Conte sempre conosco!E o resultado da sua operação é" + lblRes.Text);
             }
         }
 

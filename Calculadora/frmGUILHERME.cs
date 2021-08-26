@@ -26,6 +26,8 @@ namespace Calculadora
 
             resultado = Convert.ToString(mn1 * mn2 * mn3);
             label4.Text = "Resultado: " + resultado.ToString();
+
+            MessageBox.Show("Parabens, voce acaba de executar a operação Multiplicar com sucesso! ficamos muito felizes por utilizar os nossos sistemas! conte sempre conosco! e o resultado da sua operação é" + resultado);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -38,6 +40,8 @@ namespace Calculadora
 
             resultado = Convert.ToString(mn1 + mn2 + mn3);
             label4.Text = "Resultado: " + resultado.ToString();
+
+            MessageBox.Show ("Parabens, voce acaba de executar a operação Somar com sucesso! ficamos muito felizes por utilizar os nossos sistemas! conte sempre conosco! e o resultado da sua operação é" + resultado);
         }
 
         private void frmGUILHERME_Load(object sender, EventArgs e)
@@ -55,6 +59,8 @@ namespace Calculadora
 
             resultado = Convert.ToString(mn1 - mn2 - mn3);
             label4.Text = "Resultado: " + resultado.ToString();
+
+            MessageBox.Show("Parabens, voce acaba de executar a operação SUbtrair com sucesso! ficamos muito felizes por utilizar os nossos sistemas! conte sempre conosco! e o resultado da sua operação é" + resultado);
         }
 
         private void btnMaior_Click(object sender, EventArgs e)
@@ -85,6 +91,7 @@ namespace Calculadora
             {
                 label4.Text = "Maior Numero: Numero 1";
             }
+            MessageBox.Show("Parabens, voce acaba de executar a operação Maior com sucesso! ficamos muito felizes por utilizar os nossos sistemas! conte sempre conosco! e o resultado da sua operação é");
         }
 
         private void txtn3_TextChanged(object sender, EventArgs e)
@@ -119,7 +126,8 @@ namespace Calculadora
             else if (n1 < n3)
             {
                 label4.Text = "Maior Numero: Numero 1";
-            }               
+            }
+            MessageBox.Show("Parabens, voce acaba de executar a operação Menor com sucesso! ficamos muito felizes por utilizar os nossos sistemas! conte sempre conosco! e o resultado da sua operação é");
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -131,7 +139,7 @@ namespace Calculadora
         {
             txtn1.Text = null;
             txtn2.Text = null;
-            txtn3.TabIndex = null;
+            txtn3.Text = null;
             label4.Text = "RESULTADO";
         }
     }
