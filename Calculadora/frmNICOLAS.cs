@@ -28,7 +28,7 @@ namespace Calculadora
             int n3 = int.Parse(textBox3.Text);
             int resultado = n1 * n2 * n3;
             label1.Text = resultado.ToString();
-            MessageBox.Show("parabens, voce acaba de executar a operação SUBTRAÇÃO com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é");
+            MessageBox.Show("parabens, voce acaba de executar a operação SUBTRAÇÃO com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é" + resultado);
 
 
         }
@@ -40,7 +40,7 @@ namespace Calculadora
             int n3 = int.Parse(textBox3.Text);
             int resultado = n1 + n2 + n3;
             label1.Text = resultado.ToString();
-            MessageBox.Show("parabens, voce acaba de executar a operação SOMA com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é");
+            MessageBox.Show("parabens, voce acaba de executar a operação SOMA com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é" + resultado);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -50,7 +50,7 @@ namespace Calculadora
             int n3 = int.Parse(textBox3.Text);
             int resultado = n1 - n2 - n3;
             label1.Text = resultado.ToString();
-            MessageBox.Show("parabens, voce acaba de executar a operação MULTIPLICAÇÃO com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é");
+            MessageBox.Show("parabens, voce acaba de executar a operação MULTIPLICAÇÃO com sucesso! Ficamos muito felizes por ultilizar os nossos sistemas! conte sempre conosco! e o resultado da operação é" + resultado);
         }
 
         private void label1_Click(object sender, EventArgs e)
