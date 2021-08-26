@@ -82,6 +82,7 @@
             // btnSomar
             // 
             this.btnSomar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSomar.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSomar.Location = new System.Drawing.Point(37, 150);
             this.btnSomar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSomar.Name = "btnSomar";
@@ -94,6 +95,7 @@
             // btnSubtrair
             // 
             this.btnSubtrair.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSubtrair.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtrair.Location = new System.Drawing.Point(157, 149);
             this.btnSubtrair.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSubtrair.Name = "btnSubtrair";
@@ -107,11 +109,11 @@
             // 
             this.lblRes.AutoSize = true;
             this.lblRes.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.lblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRes.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRes.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblRes.Location = new System.Drawing.Point(97, 275);
+            this.lblRes.Location = new System.Drawing.Point(80, 263);
             this.lblRes.Name = "lblRes";
-            this.lblRes.Size = new System.Drawing.Size(276, 69);
+            this.lblRes.Size = new System.Drawing.Size(129, 35);
             this.lblRes.TabIndex = 7;
             this.lblRes.Text = "resultado";
             // 
@@ -127,6 +129,7 @@
             // btnMult
             // 
             this.btnMult.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMult.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMult.Location = new System.Drawing.Point(276, 150);
             this.btnMult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMult.Name = "btnMult";
@@ -148,6 +151,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(149, 211);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
@@ -160,6 +164,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button2.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(244, 216);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
