@@ -114,5 +114,13 @@ namespace Calculadora
 
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = " ";
+           textBox2.Text = " ";
+            textBox1.Text = " ";
+            label1.Text = " ";
+        }
     }
 }

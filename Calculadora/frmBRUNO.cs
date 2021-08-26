@@ -85,5 +85,13 @@ namespace Calculadora
             else
                 MessageBox.Show("O numero 3 é o menor");
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Numero1.Text = "";
+            Numero2.Text = "";
+            Numero3.Text = "";
+            lblresultado.Text = "";
+        }
     }
 }
