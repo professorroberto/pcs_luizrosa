@@ -57,7 +57,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(541, 143);
+            this.label2.Location = new System.Drawing.Point(371, 141);
             this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(132, 31);
@@ -67,7 +67,7 @@
             // txtNumero1
             // 
             this.txtNumero1.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero1.Location = new System.Drawing.Point(117, 294);
+            this.txtNumero1.Location = new System.Drawing.Point(5, 292);
             this.txtNumero1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(260, 49);
@@ -76,7 +76,7 @@
             // txtNumero2
             // 
             this.txtNumero2.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero2.Location = new System.Drawing.Point(549, 294);
+            this.txtNumero2.Location = new System.Drawing.Point(331, 292);
             this.txtNumero2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(260, 49);
@@ -85,7 +85,7 @@
             // txtNumero3
             // 
             this.txtNumero3.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero3.Location = new System.Drawing.Point(987, 294);
+            this.txtNumero3.Location = new System.Drawing.Point(742, 292);
             this.txtNumero3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txtNumero3.Name = "txtNumero3";
             this.txtNumero3.Size = new System.Drawing.Size(260, 49);
@@ -94,7 +94,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(979, 143);
+            this.label3.Location = new System.Drawing.Point(801, 141);
             this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(132, 31);
@@ -104,11 +104,11 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(152, 415);
+            this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(79, 413);
             this.button1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 55);
+            this.button1.Size = new System.Drawing.Size(115, 38);
             this.button1.TabIndex = 6;
             this.button1.Text = "SOMAR";
             this.button1.UseVisualStyleBackColor = false;
@@ -117,11 +117,11 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(584, 415);
+            this.button2.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(305, 413);
             this.button2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 55);
+            this.button2.Size = new System.Drawing.Size(161, 46);
             this.button2.TabIndex = 7;
             this.button2.Text = "SUBTRAIR";
             this.button2.UseVisualStyleBackColor = false;
@@ -130,7 +130,8 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button3.Location = new System.Drawing.Point(1021, 415);
+            this.button3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(620, 413);
             this.button3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(200, 55);
@@ -154,7 +155,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.PaleTurquoise;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(591, 583);
+            this.label5.Location = new System.Drawing.Point(296, 574);
             this.label5.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(318, 55);
@@ -165,11 +166,11 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(818, 493);
+            this.button4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(464, 491);
             this.button4.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 55);
+            this.button4.Size = new System.Drawing.Size(90, 47);
             this.button4.TabIndex = 11;
             this.button4.Text = "Maior";
             this.button4.UseVisualStyleBackColor = false;
@@ -178,11 +179,11 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(385, 493);
+            this.button5.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(206, 491);
             this.button5.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(200, 55);
+            this.button5.Size = new System.Drawing.Size(98, 39);
             this.button5.TabIndex = 12;
             this.button5.Text = "Menor";
             this.button5.UseVisualStyleBackColor = false;
