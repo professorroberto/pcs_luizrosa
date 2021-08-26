@@ -124,6 +124,14 @@ namespace Calculadora
                     }
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            txtNumero1.Text = "";
+             txtNumero2.Text = "";
+            txtNumero3.Text = "";
+            lblResultado.Text = "";
+        }
+
     
     }
 }
