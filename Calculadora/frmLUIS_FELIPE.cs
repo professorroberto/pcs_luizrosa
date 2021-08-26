@@ -136,5 +136,13 @@ namespace Calculadora
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            num1.Text = "";
+            num2.Text = "";
+            num3.Text = "";
+            lblres.Text = "";
+        }
+
     }
 }

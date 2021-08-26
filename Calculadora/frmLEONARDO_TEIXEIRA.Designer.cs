@@ -41,6 +41,7 @@
             this.btnMaior = new System.Windows.Forms.Button();
             this.btnMenor = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -108,7 +109,7 @@
             this.btnSomar.Location = new System.Drawing.Point(67, 132);
             this.btnSomar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSomar.Name = "btnSomar";
-            this.btnSomar.Size = new System.Drawing.Size(112, 41);
+            this.btnSomar.Size = new System.Drawing.Size(132, 41);
             this.btnSomar.TabIndex = 6;
             this.btnSomar.Text = "SOMAR";
             this.btnSomar.UseVisualStyleBackColor = false;
@@ -118,10 +119,10 @@
             // 
             this.btnSubtrair.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSubtrair.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubtrair.Location = new System.Drawing.Point(261, 132);
+            this.btnSubtrair.Location = new System.Drawing.Point(247, 132);
             this.btnSubtrair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSubtrair.Name = "btnSubtrair";
-            this.btnSubtrair.Size = new System.Drawing.Size(120, 42);
+            this.btnSubtrair.Size = new System.Drawing.Size(161, 42);
             this.btnSubtrair.TabIndex = 7;
             this.btnSubtrair.Text = "SUBTRAIR";
             this.btnSubtrair.UseVisualStyleBackColor = false;
@@ -134,7 +135,7 @@
             this.btnMultiplicar.Location = new System.Drawing.Point(447, 130);
             this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(119, 42);
+            this.btnMultiplicar.Size = new System.Drawing.Size(200, 42);
             this.btnMultiplicar.TabIndex = 8;
             this.btnMultiplicar.Text = "MULTIPLICAR";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
@@ -191,12 +192,26 @@
             this.label4.Text = "LEOZÃO TEIXEIRA - RA: 2200037-1";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // btnLimpar
+            // 
+            this.btnLimpar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnLimpar.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(288, 469);
+            this.btnLimpar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(120, 52);
+            this.btnLimpar.TabIndex = 13;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
             // frmLEONARDO_TEIXEIRA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(705, 545);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
@@ -234,5 +249,6 @@
         private System.Windows.Forms.Button btnMaior;
         private System.Windows.Forms.Button btnMenor;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnLimpar;
     }
 }
