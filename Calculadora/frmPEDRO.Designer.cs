@@ -41,7 +41,7 @@
             this.btnMaior = new System.Windows.Forms.Button();
             this.btnMenor = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -102,7 +102,6 @@
             this.lblResultado.Size = new System.Drawing.Size(241, 55);
             this.lblResultado.TabIndex = 5;
             this.lblResultado.Text = "Resultado";
-            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // txtNumero2
             // 
@@ -179,16 +178,17 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "PEDRO VICTOR - 22000396";
             // 
-            // button1
+            // btnLimpar
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(437, 154);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 51);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "limpar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnLimpar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnLimpar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(437, 154);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(123, 51);
+            this.btnLimpar.TabIndex = 13;
+            this.btnLimpar.Text = "limpar";
+            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // frmPEDRO
             // 
@@ -196,7 +196,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(600, 452);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnMenor);
             this.Controls.Add(this.btnMaior);
@@ -232,6 +232,6 @@
         private System.Windows.Forms.Button btnMaior;
         private System.Windows.Forms.Button btnMenor;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLimpar;
     }
 }
