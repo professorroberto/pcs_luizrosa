@@ -160,6 +160,7 @@
             this.button3.Text = "MENOR";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+
             // 
             // label5
             // 
@@ -172,6 +173,7 @@
             this.label5.TabIndex = 14;
             this.label5.Text = "FELIPPO  22000299";
             this.label5.Click += new System.EventHandler(this.label5_Click);
+
             // 
             // frmFELIPPO
             // 

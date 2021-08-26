@@ -71,12 +71,15 @@ namespace Calculadora
 
         private void button3_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
 
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
+=======
+>>>>>>> e94f00c903ca0c6b38e610194e2b96c4ac17b7cb
 
         }
     }

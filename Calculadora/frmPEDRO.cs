@@ -57,27 +57,33 @@ namespace Calculadora
 
         private void btnMaior_Click(object sender, EventArgs e)
         {
-            int n1;
-            int n2;
-            int n3;
-            n1 = int.Parse(txtNumero1.Text);
-            n2 = int.Parse(txtNumero2.Text);
-            n3 = int.Parse(txtNumero3.Text);
-            if (n1 > n2)
+            if (int.Parse(txtNumero1.Text) > int.Parse(txtNumero2.Text))
             {
-                if (n1 > n3)
-                    MessageBox.Show("numero 1 é o maior");
+                if (int.Parse(txtNumero1.Text) > int.Parse(txtNumero3.Text))
+                {
+                    lblResultado.Text = txtNumero1.Text;
+                }
             }
-            if (n2 > n3)
+            if (int.Parse(txtNumero3.Text) > int.Parse(txtNumero2.Text))
             {
-                MessageBox.Show("numero 2 é o maior");
+                if (int.Parse(txtNumero3.Text) > int.Parse(txtNumero1.Text))
+                {
+                    lblResultado.Text = txtNumero3.Text;
+                }
+            }
+            if (int.Parse(txtNumero2.Text) > int.Parse(txtNumero1.Text))
+            {
+                if (int.Parse(txtNumero2.Text) > int.Parse(txtNumero3.Text))
+                {
+                    lblResultado.Text = txtNumero2.Text;
+                }
+            }
 
-            }
-            else
-            {
-                MessageBox.Show("numero 3 é o maior");
-            }
 
+        }
+
+        private void btnMenor_Click(object sender, EventArgs e)
+        {
 
         }
 
