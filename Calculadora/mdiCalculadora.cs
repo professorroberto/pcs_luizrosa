@@ -16,30 +16,35 @@ namespace Calculadora
             InitializeComponent();
         }
 
-        private void mnuAdicao_Click(object sender, EventArgs e)
+        void openForm(Form formularioParaAbrir)
         {
-            frmAdicao frm = new frmAdicao();
-            frm.Show();
+            formularioParaAbrir.Show();
         }
 
-        private void mnuSubtracao_Click(object sender, EventArgs e)
+        private void hEITORToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmSubtracao sub = new frmSubtracao();
-            sub.Show();
+            openForm(new frmHEITOR());
         }
 
-        private void mnuMultiplicacao_Click(object sender, EventArgs e)
+        private void jONASToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmMultiplicacao mul = new frmMultiplicacao();
-            mul.Show();
+            openForm(new frmJONAS());
         }
 
-        private void mnuDivisao_Click(object sender, EventArgs e)
+        private void lUISHENRIQUEToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmDivisao div = new frmDivisao();
-            div.Show();
+            openForm(new frmLUIS_HENRIQUE());
+        }
+
+        private void mATHEUSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new frmMATHEUS());
         }
 
         
+        private void sAMUELToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new frmSAMUEL());
+        }
     }
 }

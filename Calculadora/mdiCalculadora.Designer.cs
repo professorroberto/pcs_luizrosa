@@ -30,10 +30,11 @@
         {
             this.mnuOperacoes = new System.Windows.Forms.MenuStrip();
             this.operaçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuAdicao = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuSubtracao = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuMultiplicacao = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuDivisao = new System.Windows.Forms.ToolStripMenuItem();
+            this.hEITORToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jONASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lUISHENRIQUEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mATHEUSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sAMUELToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuOperacoes.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,47 +51,55 @@
             // operaçõesToolStripMenuItem
             // 
             this.operaçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuAdicao,
-            this.mnuSubtracao,
-            this.mnuMultiplicacao,
-            this.mnuDivisao});
+            this.hEITORToolStripMenuItem,
+            this.jONASToolStripMenuItem,
+            this.lUISHENRIQUEToolStripMenuItem,
+            this.mATHEUSToolStripMenuItem,
+            this.sAMUELToolStripMenuItem});
             this.operaçõesToolStripMenuItem.Name = "operaçõesToolStripMenuItem";
             this.operaçõesToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.operaçõesToolStripMenuItem.Text = "Operações";
-
             // 
-            // mnuAdicao
+            // hEITORToolStripMenuItem
             // 
-            this.mnuAdicao.Name = "mnuAdicao";
-            this.mnuAdicao.Size = new System.Drawing.Size(152, 22);
-            this.mnuAdicao.Text = "Adição";
-            this.mnuAdicao.Click += new System.EventHandler(this.mnuAdicao_Click);
+            this.hEITORToolStripMenuItem.Name = "hEITORToolStripMenuItem";
+            this.hEITORToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.hEITORToolStripMenuItem.Text = "HEITOR";
+            this.hEITORToolStripMenuItem.Click += new System.EventHandler(this.hEITORToolStripMenuItem_Click);
             // 
-            // mnuSubtracao
+            // jONASToolStripMenuItem
             // 
-            this.mnuSubtracao.Name = "mnuSubtracao";
-            this.mnuSubtracao.Size = new System.Drawing.Size(152, 22);
-            this.mnuSubtracao.Text = "Subtração";
-            this.mnuSubtracao.Click += new System.EventHandler(this.mnuSubtracao_Click);
+            this.jONASToolStripMenuItem.Name = "jONASToolStripMenuItem";
+            this.jONASToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.jONASToolStripMenuItem.Text = "JONAS";
+            this.jONASToolStripMenuItem.Click += new System.EventHandler(this.jONASToolStripMenuItem_Click);
             // 
-            // mnuMultiplicacao
+            // lUISHENRIQUEToolStripMenuItem
             // 
-            this.mnuMultiplicacao.Name = "mnuMultiplicacao";
-            this.mnuMultiplicacao.Size = new System.Drawing.Size(152, 22);
-            this.mnuMultiplicacao.Text = "Multiplicação";
-            this.mnuMultiplicacao.Click += new System.EventHandler(this.mnuMultiplicacao_Click);
+            this.lUISHENRIQUEToolStripMenuItem.Name = "lUISHENRIQUEToolStripMenuItem";
+            this.lUISHENRIQUEToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.lUISHENRIQUEToolStripMenuItem.Text = "LUIS HENRIQUE";
+            this.lUISHENRIQUEToolStripMenuItem.Click += new System.EventHandler(this.lUISHENRIQUEToolStripMenuItem_Click);
             // 
-            // mnuDivisao
+            // mATHEUSToolStripMenuItem
             // 
-            this.mnuDivisao.Name = "mnuDivisao";
-            this.mnuDivisao.Size = new System.Drawing.Size(152, 22);
-            this.mnuDivisao.Text = "Divisão";
-            this.mnuDivisao.Click += new System.EventHandler(this.mnuDivisao_Click);
+            this.mATHEUSToolStripMenuItem.Name = "mATHEUSToolStripMenuItem";
+            this.mATHEUSToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.mATHEUSToolStripMenuItem.Text = "MATHEUS";
+            this.mATHEUSToolStripMenuItem.Click += new System.EventHandler(this.mATHEUSToolStripMenuItem_Click);
+            // 
+            // sAMUELToolStripMenuItem
+            // 
+            this.sAMUELToolStripMenuItem.Name = "sAMUELToolStripMenuItem";
+            this.sAMUELToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.sAMUELToolStripMenuItem.Text = "SAMUEL";
+            this.sAMUELToolStripMenuItem.Click += new System.EventHandler(this.sAMUELToolStripMenuItem_Click);
             // 
             // mdiCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(396, 368);
             this.Controls.Add(this.mnuOperacoes);
             this.IsMdiContainer = true;
@@ -111,10 +120,11 @@
 
         private System.Windows.Forms.MenuStrip mnuOperacoes;
         private System.Windows.Forms.ToolStripMenuItem operaçõesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mnuAdicao;
-        private System.Windows.Forms.ToolStripMenuItem mnuSubtracao;
-        private System.Windows.Forms.ToolStripMenuItem mnuMultiplicacao;
-        private System.Windows.Forms.ToolStripMenuItem mnuDivisao;
+        private System.Windows.Forms.ToolStripMenuItem hEITORToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem jONASToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lUISHENRIQUEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mATHEUSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sAMUELToolStripMenuItem;
 
     }
 }

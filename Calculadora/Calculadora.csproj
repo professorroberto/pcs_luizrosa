@@ -46,29 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAdicao.cs">
+    <Compile Include="frmHEITOR.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAdicao.Designer.cs">
-      <DependentUpon>frmAdicao.cs</DependentUpon>
+    <Compile Include="frmHEITOR.Designer.cs">
+      <DependentUpon>frmHEITOR.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDivisao.cs">
+    <Compile Include="frmJONAS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDivisao.Designer.cs">
-      <DependentUpon>frmDivisao.cs</DependentUpon>
+    <Compile Include="frmJONAS.Designer.cs">
+      <DependentUpon>frmJONAS.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMultiplicacao.cs">
+    <Compile Include="frmLUIS_HENRIQUE.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMultiplicacao.Designer.cs">
-      <DependentUpon>frmMultiplicacao.cs</DependentUpon>
+    <Compile Include="frmLUIS_HENRIQUE.Designer.cs">
+      <DependentUpon>frmLUIS_HENRIQUE.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSubtracao.cs">
+    <Compile Include="frmMATHEUS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSubtracao.Designer.cs">
-      <DependentUpon>frmSubtracao.cs</DependentUpon>
+    <Compile Include="frmMATHEUS.Designer.cs">
+      <DependentUpon>frmMATHEUS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSAMUEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSAMUEL.Designer.cs">
+      <DependentUpon>frmSAMUEL.cs</DependentUpon>
     </Compile>
     <Compile Include="mdiCalculadora.cs">
       <SubType>Form</SubType>
@@ -78,17 +84,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmAdicao.resx">
-      <DependentUpon>frmAdicao.cs</DependentUpon>
+    <EmbeddedResource Include="frmHEITOR.resx">
+      <DependentUpon>frmHEITOR.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDivisao.resx">
-      <DependentUpon>frmDivisao.cs</DependentUpon>
+    <EmbeddedResource Include="frmJONAS.resx">
+      <DependentUpon>frmJONAS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMultiplicacao.resx">
-      <DependentUpon>frmMultiplicacao.cs</DependentUpon>
+    <EmbeddedResource Include="frmLUIS_HENRIQUE.resx">
+      <DependentUpon>frmLUIS_HENRIQUE.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSubtracao.resx">
-      <DependentUpon>frmSubtracao.cs</DependentUpon>
+    <EmbeddedResource Include="frmMATHEUS.resx">
+      <DependentUpon>frmMATHEUS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSAMUEL.resx">
+      <DependentUpon>frmSAMUEL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mdiCalculadora.resx">
       <DependentUpon>mdiCalculadora.cs</DependentUpon>
