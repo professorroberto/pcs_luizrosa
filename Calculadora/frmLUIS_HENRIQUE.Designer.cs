@@ -99,31 +99,34 @@
             // 
             // botaoSoma
             // 
+            this.botaoSoma.BackColor = System.Drawing.Color.Chartreuse;
             this.botaoSoma.Location = new System.Drawing.Point(326, 246);
             this.botaoSoma.Name = "botaoSoma";
             this.botaoSoma.Size = new System.Drawing.Size(51, 31);
             this.botaoSoma.TabIndex = 7;
             this.botaoSoma.Text = "Somar";
-            this.botaoSoma.UseVisualStyleBackColor = true;
+            this.botaoSoma.UseVisualStyleBackColor = false;
             // 
             // botaoMenos
             // 
+            this.botaoMenos.BackColor = System.Drawing.Color.Chartreuse;
             this.botaoMenos.Location = new System.Drawing.Point(383, 246);
             this.botaoMenos.Name = "botaoMenos";
             this.botaoMenos.Size = new System.Drawing.Size(51, 44);
             this.botaoMenos.TabIndex = 8;
             this.botaoMenos.Text = "Subtracao";
-            this.botaoMenos.UseVisualStyleBackColor = true;
+            this.botaoMenos.UseVisualStyleBackColor = false;
             this.botaoMenos.Click += new System.EventHandler(this.botaoMenos_Click);
             // 
             // botaoMultiplicacao
             // 
+            this.botaoMultiplicacao.BackColor = System.Drawing.Color.Chartreuse;
             this.botaoMultiplicacao.Location = new System.Drawing.Point(437, 246);
             this.botaoMultiplicacao.Name = "botaoMultiplicacao";
             this.botaoMultiplicacao.Size = new System.Drawing.Size(51, 44);
             this.botaoMultiplicacao.TabIndex = 9;
             this.botaoMultiplicacao.Text = "Multiplicacao";
-            this.botaoMultiplicacao.UseVisualStyleBackColor = true;
+            this.botaoMultiplicacao.UseVisualStyleBackColor = false;
             // 
             // frmLUIS_HENRIQUE
             // 
