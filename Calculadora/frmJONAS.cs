@@ -88,6 +88,23 @@ namespace Calculadora
            }
             lblres.Text = menor.ToString();
         }
+
+        private void btnmaior_Click(object sender, EventArgs e)
+        {
+            int A = Convert.ToInt32(txt1.Text), B = Convert.ToInt32(txt2.Text), C = Convert.ToInt32(txt3.Text);
+
+            int maior = A;
+            if (maior < B)
+            {
+                maior = B;
+            }
+            if (maior < C)
+            {
+                maior = C;
+
+            }
+            lblres.Text = maior.ToString();
+        }
     }
 }
 
