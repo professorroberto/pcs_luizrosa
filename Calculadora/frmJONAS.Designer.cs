@@ -91,6 +91,7 @@
             // lblres
             // 
             this.lblres.AutoSize = true;
+            this.lblres.BackColor = System.Drawing.Color.DarkCyan;
             this.lblres.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblres.Location = new System.Drawing.Point(265, 271);
             this.lblres.Name = "lblres";
