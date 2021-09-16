@@ -40,12 +40,13 @@
             this.btnmenos = new System.Windows.Forms.Button();
             this.btnmaior = new System.Windows.Forms.Button();
             this.btnmenor = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txt1
             // 
             this.txt1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt1.Location = new System.Drawing.Point(52, 54);
+            this.txt1.Location = new System.Drawing.Point(52, 87);
             this.txt1.Name = "txt1";
             this.txt1.Size = new System.Drawing.Size(130, 46);
             this.txt1.TabIndex = 0;
@@ -53,7 +54,7 @@
             // txt2
             // 
             this.txt2.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt2.Location = new System.Drawing.Point(207, 54);
+            this.txt2.Location = new System.Drawing.Point(207, 87);
             this.txt2.Name = "txt2";
             this.txt2.Size = new System.Drawing.Size(130, 46);
             this.txt2.TabIndex = 1;
@@ -61,7 +62,7 @@
             // txt3
             // 
             this.txt3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt3.Location = new System.Drawing.Point(354, 54);
+            this.txt3.Location = new System.Drawing.Point(354, 87);
             this.txt3.Name = "txt3";
             this.txt3.Size = new System.Drawing.Size(130, 46);
             this.txt3.TabIndex = 2;
@@ -69,7 +70,7 @@
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(49, 20);
+            this.lbl1.Location = new System.Drawing.Point(49, 53);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(53, 13);
             this.lbl1.TabIndex = 3;
@@ -78,7 +79,7 @@
             // lbl2
             // 
             this.lbl2.AutoSize = true;
-            this.lbl2.Location = new System.Drawing.Point(204, 20);
+            this.lbl2.Location = new System.Drawing.Point(204, 53);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(53, 13);
             this.lbl2.TabIndex = 4;
@@ -87,7 +88,7 @@
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(351, 20);
+            this.lbl3.Location = new System.Drawing.Point(351, 53);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(53, 13);
             this.lbl3.TabIndex = 5;
@@ -98,7 +99,7 @@
             this.lblres.AutoSize = true;
             this.lblres.BackColor = System.Drawing.Color.DarkCyan;
             this.lblres.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblres.Location = new System.Drawing.Point(265, 271);
+            this.lblres.Location = new System.Drawing.Point(265, 304);
             this.lblres.Name = "lblres";
             this.lblres.Size = new System.Drawing.Size(156, 61);
             this.lblres.TabIndex = 6;
@@ -107,7 +108,7 @@
             // btnmais
             // 
             this.btnmais.BackColor = System.Drawing.Color.Chartreuse;
-            this.btnmais.Location = new System.Drawing.Point(97, 154);
+            this.btnmais.Location = new System.Drawing.Point(97, 187);
             this.btnmais.Name = "btnmais";
             this.btnmais.Size = new System.Drawing.Size(85, 41);
             this.btnmais.TabIndex = 7;
@@ -118,7 +119,7 @@
             // btnvezes
             // 
             this.btnvezes.BackColor = System.Drawing.Color.Chartreuse;
-            this.btnvezes.Location = new System.Drawing.Point(252, 154);
+            this.btnvezes.Location = new System.Drawing.Point(252, 187);
             this.btnvezes.Name = "btnvezes";
             this.btnvezes.Size = new System.Drawing.Size(85, 41);
             this.btnvezes.TabIndex = 8;
@@ -129,7 +130,7 @@
             // btnmenos
             // 
             this.btnmenos.BackColor = System.Drawing.Color.Chartreuse;
-            this.btnmenos.Location = new System.Drawing.Point(399, 154);
+            this.btnmenos.Location = new System.Drawing.Point(399, 187);
             this.btnmenos.Name = "btnmenos";
             this.btnmenos.Size = new System.Drawing.Size(85, 41);
             this.btnmenos.TabIndex = 9;
@@ -140,7 +141,7 @@
             // btnmaior
             // 
             this.btnmaior.BackColor = System.Drawing.Color.Chartreuse;
-            this.btnmaior.Location = new System.Drawing.Point(478, 264);
+            this.btnmaior.Location = new System.Drawing.Point(478, 297);
             this.btnmaior.Name = "btnmaior";
             this.btnmaior.Size = new System.Drawing.Size(119, 67);
             this.btnmaior.TabIndex = 10;
@@ -150,12 +151,23 @@
             // btnmenor
             // 
             this.btnmenor.BackColor = System.Drawing.Color.Chartreuse;
-            this.btnmenor.Location = new System.Drawing.Point(97, 265);
+            this.btnmenor.Location = new System.Drawing.Point(97, 298);
             this.btnmenor.Name = "btnmenor";
             this.btnmenor.Size = new System.Drawing.Size(119, 67);
             this.btnmenor.TabIndex = 11;
             this.btnmenor.Text = "menor";
             this.btnmenor.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MediumOrchid;
+            this.label1.Location = new System.Drawing.Point(12, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(593, 37);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Jonas Comparoni Junior 2200056-6";
             // 
             // frmJONAS
             // 
@@ -163,6 +175,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(640, 438);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnmenor);
             this.Controls.Add(this.btnmaior);
             this.Controls.Add(this.btnmenos);
@@ -197,6 +210,7 @@
         private System.Windows.Forms.Button btnmenos;
         private System.Windows.Forms.Button btnmaior;
         private System.Windows.Forms.Button btnmenor;
+        private System.Windows.Forms.Label label1;
 
     }
 }
