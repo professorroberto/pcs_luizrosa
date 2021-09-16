@@ -27,6 +27,7 @@ namespace Calculadora
                 int n3 = int.Parse(txtn3.Text);
                 int result = N1 - N2 - n3;
                 lblResposta.Text = result.ToString();
+                MessageBox.Show("Parabéns, você executou a operação subtracao com sucesso! O resultado é " + lblResposta.Text);
             }
         
         }
@@ -42,6 +43,7 @@ namespace Calculadora
                 int n3 = int.Parse(txtn3.Text);
                 int result = N1 * N2 * n3;
                 lblResposta.Text = result.ToString();
+                MessageBox.Show("Parabéns, você executou a operação multiplicacao com sucesso! O resultado é " + lblResposta.Text);
             }
         }
 
@@ -56,6 +58,7 @@ namespace Calculadora
                 int n3 = int.Parse(txtn3.Text);
                 int result = N1 + N2 + n3;
                 lblResposta.Text = result.ToString();
+                MessageBox.Show("Parabéns, você executou a operação soma com sucesso! O resultado é " + lblResposta.Text);
             }
         }
 
