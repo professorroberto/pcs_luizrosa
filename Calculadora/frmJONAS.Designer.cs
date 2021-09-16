@@ -99,30 +99,33 @@
             // 
             // btnmais
             // 
+            this.btnmais.BackColor = System.Drawing.Color.Chartreuse;
             this.btnmais.Location = new System.Drawing.Point(97, 154);
             this.btnmais.Name = "btnmais";
             this.btnmais.Size = new System.Drawing.Size(85, 41);
             this.btnmais.TabIndex = 7;
             this.btnmais.Text = "somar";
-            this.btnmais.UseVisualStyleBackColor = true;
+            this.btnmais.UseVisualStyleBackColor = false;
             // 
             // btnvezes
             // 
+            this.btnvezes.BackColor = System.Drawing.Color.Chartreuse;
             this.btnvezes.Location = new System.Drawing.Point(252, 154);
             this.btnvezes.Name = "btnvezes";
             this.btnvezes.Size = new System.Drawing.Size(85, 41);
             this.btnvezes.TabIndex = 8;
             this.btnvezes.Text = "multiplicar";
-            this.btnvezes.UseVisualStyleBackColor = true;
+            this.btnvezes.UseVisualStyleBackColor = false;
             // 
             // btnmenos
             // 
+            this.btnmenos.BackColor = System.Drawing.Color.Chartreuse;
             this.btnmenos.Location = new System.Drawing.Point(399, 154);
             this.btnmenos.Name = "btnmenos";
             this.btnmenos.Size = new System.Drawing.Size(85, 41);
             this.btnmenos.TabIndex = 9;
             this.btnmenos.Text = "subtrair";
-            this.btnmenos.UseVisualStyleBackColor = true;
+            this.btnmenos.UseVisualStyleBackColor = false;
             this.btnmenos.Click += new System.EventHandler(this.btnmenos_Click);
             // 
             // frmJONAS
