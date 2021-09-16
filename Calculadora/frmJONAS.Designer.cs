@@ -39,6 +39,7 @@
             this.btnvezes = new System.Windows.Forms.Button();
             this.btnmenos = new System.Windows.Forms.Button();
             this.btnmaior = new System.Windows.Forms.Button();
+            this.btnmenor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txt1
@@ -146,12 +147,23 @@
             this.btnmaior.Text = "maior";
             this.btnmaior.UseVisualStyleBackColor = false;
             // 
+            // btnmenor
+            // 
+            this.btnmenor.BackColor = System.Drawing.Color.Chartreuse;
+            this.btnmenor.Location = new System.Drawing.Point(97, 265);
+            this.btnmenor.Name = "btnmenor";
+            this.btnmenor.Size = new System.Drawing.Size(119, 67);
+            this.btnmenor.TabIndex = 11;
+            this.btnmenor.Text = "menor";
+            this.btnmenor.UseVisualStyleBackColor = false;
+            // 
             // frmJONAS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(640, 438);
+            this.Controls.Add(this.btnmenor);
             this.Controls.Add(this.btnmaior);
             this.Controls.Add(this.btnmenos);
             this.Controls.Add(this.btnvezes);
@@ -184,6 +196,7 @@
         private System.Windows.Forms.Button btnvezes;
         private System.Windows.Forms.Button btnmenos;
         private System.Windows.Forms.Button btnmaior;
+        private System.Windows.Forms.Button btnmenor;
 
     }
 }
