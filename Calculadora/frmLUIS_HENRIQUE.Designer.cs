@@ -159,6 +159,7 @@
             this.botaoMenor.TabIndex = 11;
             this.botaoMenor.Text = "Menor";
             this.botaoMenor.UseVisualStyleBackColor = false;
+            this.botaoMenor.Click += new System.EventHandler(this.botaoMenor_Click);
             // 
             // label2
             // 

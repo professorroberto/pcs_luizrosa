@@ -59,6 +59,21 @@ namespace Calculadora
             }
         }
 
+        private void botaoMenor_Click(object sender, EventArgs e)
+        {
+            int menor;
+            menor =  Convert.ToInt32(txtn1.Text);
+            if(menor > Convert.ToInt32(txtn2.Text))
+            {
+            menor =  Convert.ToInt32(txtn2.Text);
+            }
+            else if (menor > Convert.ToInt32(txtn3.Text))
+            {
+            menor =  Convert.ToInt32(txtn3.Text);
+            }
+            lblResposta.Text = menor.ToString();
+        }
+
     }
 
 }
