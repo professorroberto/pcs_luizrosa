@@ -41,6 +41,7 @@
             this.btnmaior = new System.Windows.Forms.Button();
             this.btnmenor = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnlimpar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txt1
@@ -171,12 +172,23 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Jonas Comparoni Junior 2200056-6";
             // 
+            // btnlimpar
+            // 
+            this.btnlimpar.BackColor = System.Drawing.Color.Chartreuse;
+            this.btnlimpar.Location = new System.Drawing.Point(275, 375);
+            this.btnlimpar.Name = "btnlimpar";
+            this.btnlimpar.Size = new System.Drawing.Size(119, 67);
+            this.btnlimpar.TabIndex = 13;
+            this.btnlimpar.Text = "limpar";
+            this.btnlimpar.UseVisualStyleBackColor = false;
+            // 
             // frmJONAS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(640, 438);
+            this.ClientSize = new System.Drawing.Size(660, 457);
+            this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnmenor);
             this.Controls.Add(this.btnmaior);
@@ -213,6 +225,7 @@
         private System.Windows.Forms.Button btnmaior;
         private System.Windows.Forms.Button btnmenor;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnlimpar;
 
     }
 }
