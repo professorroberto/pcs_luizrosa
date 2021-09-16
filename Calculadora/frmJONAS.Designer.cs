@@ -187,6 +187,7 @@
             this.btnlimpar.TabIndex = 13;
             this.btnlimpar.Text = "limpar";
             this.btnlimpar.UseVisualStyleBackColor = false;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // frmJONAS
             // 

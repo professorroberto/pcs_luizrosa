@@ -105,6 +105,14 @@ namespace Calculadora
             }
             lblres.Text = maior.ToString();
         }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txt1.Text = "";
+            txt2.Text = "";
+            txt3.Text = "";
+            lblres.Text = "";
+        }
     }
 }
 
