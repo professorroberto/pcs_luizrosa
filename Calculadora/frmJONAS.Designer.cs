@@ -91,9 +91,10 @@
             // lblres
             // 
             this.lblres.AutoSize = true;
+            this.lblres.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblres.Location = new System.Drawing.Point(265, 271);
             this.lblres.Name = "lblres";
-            this.lblres.Size = new System.Drawing.Size(31, 13);
+            this.lblres.Size = new System.Drawing.Size(156, 61);
             this.lblres.TabIndex = 6;
             this.lblres.Text = "lblres";
             // 
