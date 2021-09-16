@@ -149,6 +149,7 @@
             this.botaoMaior.TabIndex = 10;
             this.botaoMaior.Text = "Maior";
             this.botaoMaior.UseVisualStyleBackColor = false;
+            this.botaoMaior.Click += new System.EventHandler(this.botaoMaior_Click);
             // 
             // botaoMenor
             // 

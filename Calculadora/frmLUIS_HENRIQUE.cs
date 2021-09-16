@@ -74,6 +74,21 @@ namespace Calculadora
             lblResposta.Text = menor.ToString();
         }
 
+        private void botaoMaior_Click(object sender, EventArgs e)
+        {
+            int maior;
+            maior = Convert.ToInt32(txtn1.Text);
+            if (maior < Convert.ToInt32(txtn2.Text))
+            {
+                maior = Convert.ToInt32(txtn2.Text);
+            }
+            else if (maior < Convert.ToInt32(txtn3.Text))
+            {
+                maior = Convert.ToInt32(txtn3.Text);
+            }
+            lblResposta.Text = maior.ToString();
+        }
+
     }
 
 }
