@@ -110,9 +110,10 @@
             // botaoSoma
             // 
             this.botaoSoma.BackColor = System.Drawing.Color.Chartreuse;
-            this.botaoSoma.Location = new System.Drawing.Point(327, 272);
+            this.botaoSoma.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoSoma.Location = new System.Drawing.Point(127, 143);
             this.botaoSoma.Name = "botaoSoma";
-            this.botaoSoma.Size = new System.Drawing.Size(51, 31);
+            this.botaoSoma.Size = new System.Drawing.Size(119, 70);
             this.botaoSoma.TabIndex = 7;
             this.botaoSoma.Text = "Somar";
             this.botaoSoma.UseVisualStyleBackColor = false;
@@ -121,9 +122,10 @@
             // botaoMenos
             // 
             this.botaoMenos.BackColor = System.Drawing.Color.Chartreuse;
-            this.botaoMenos.Location = new System.Drawing.Point(384, 272);
+            this.botaoMenos.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoMenos.Location = new System.Drawing.Point(127, 219);
             this.botaoMenos.Name = "botaoMenos";
-            this.botaoMenos.Size = new System.Drawing.Size(51, 44);
+            this.botaoMenos.Size = new System.Drawing.Size(119, 50);
             this.botaoMenos.TabIndex = 8;
             this.botaoMenos.Text = "Subtracao";
             this.botaoMenos.UseVisualStyleBackColor = false;
@@ -132,9 +134,10 @@
             // botaoMultiplicacao
             // 
             this.botaoMultiplicacao.BackColor = System.Drawing.Color.Chartreuse;
-            this.botaoMultiplicacao.Location = new System.Drawing.Point(437, 272);
+            this.botaoMultiplicacao.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoMultiplicacao.Location = new System.Drawing.Point(72, 275);
             this.botaoMultiplicacao.Name = "botaoMultiplicacao";
-            this.botaoMultiplicacao.Size = new System.Drawing.Size(51, 44);
+            this.botaoMultiplicacao.Size = new System.Drawing.Size(219, 50);
             this.botaoMultiplicacao.TabIndex = 9;
             this.botaoMultiplicacao.Text = "Multiplicacao";
             this.botaoMultiplicacao.UseVisualStyleBackColor = false;
@@ -143,10 +146,11 @@
             // botaoMaior
             // 
             this.botaoMaior.BackColor = System.Drawing.Color.Chartreuse;
+            this.botaoMaior.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botaoMaior.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botaoMaior.Location = new System.Drawing.Point(327, 332);
+            this.botaoMaior.Location = new System.Drawing.Point(127, 331);
             this.botaoMaior.Name = "botaoMaior";
-            this.botaoMaior.Size = new System.Drawing.Size(46, 48);
+            this.botaoMaior.Size = new System.Drawing.Size(109, 48);
             this.botaoMaior.TabIndex = 10;
             this.botaoMaior.Text = "Maior";
             this.botaoMaior.UseVisualStyleBackColor = false;
@@ -155,10 +159,11 @@
             // botaoMenor
             // 
             this.botaoMenor.BackColor = System.Drawing.Color.Chartreuse;
+            this.botaoMenor.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botaoMenor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botaoMenor.Location = new System.Drawing.Point(379, 332);
+            this.botaoMenor.Location = new System.Drawing.Point(127, 385);
             this.botaoMenor.Name = "botaoMenor";
-            this.botaoMenor.Size = new System.Drawing.Size(46, 48);
+            this.botaoMenor.Size = new System.Drawing.Size(121, 48);
             this.botaoMenor.TabIndex = 11;
             this.botaoMenor.Text = "Menor";
             this.botaoMenor.UseVisualStyleBackColor = false;
@@ -178,10 +183,11 @@
             // botaoLimpar
             // 
             this.botaoLimpar.BackColor = System.Drawing.Color.Chartreuse;
+            this.botaoLimpar.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botaoLimpar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botaoLimpar.Location = new System.Drawing.Point(431, 332);
+            this.botaoLimpar.Location = new System.Drawing.Point(127, 439);
             this.botaoLimpar.Name = "botaoLimpar";
-            this.botaoLimpar.Size = new System.Drawing.Size(46, 48);
+            this.botaoLimpar.Size = new System.Drawing.Size(124, 50);
             this.botaoLimpar.TabIndex = 13;
             this.botaoLimpar.Text = "Limpar";
             this.botaoLimpar.UseVisualStyleBackColor = false;
@@ -191,7 +197,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1107, 501);
+            this.ClientSize = new System.Drawing.Size(1107, 514);
             this.Controls.Add(this.botaoLimpar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.botaoMenor);
