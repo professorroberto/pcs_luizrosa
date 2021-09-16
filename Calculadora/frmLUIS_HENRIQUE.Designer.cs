@@ -40,6 +40,7 @@
             this.botaoMultiplicacao = new System.Windows.Forms.Button();
             this.botaoMaior = new System.Windows.Forms.Button();
             this.botaoMenor = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtn1
@@ -159,12 +160,24 @@
             this.botaoMenor.Text = "Menor";
             this.botaoMenor.UseVisualStyleBackColor = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.MediumOrchid;
+            this.label2.Location = new System.Drawing.Point(191, 80);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(701, 37);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Luis Henrique Franco Delmadi 2200004-7";
+            // 
             // frmLUIS_HENRIQUE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1107, 501);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.botaoMenor);
             this.Controls.Add(this.botaoMaior);
             this.Controls.Add(this.botaoMultiplicacao);
@@ -198,6 +211,7 @@
         private System.Windows.Forms.Button botaoMultiplicacao;
         private System.Windows.Forms.Button botaoMaior;
         private System.Windows.Forms.Button botaoMenor;
+        private System.Windows.Forms.Label label2;
 
     }
 }
