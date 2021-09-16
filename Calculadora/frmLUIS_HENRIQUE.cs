@@ -45,6 +45,11 @@ namespace Calculadora
             }
         }
 
+        private void frmLUIS_HENRIQUE_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 
 }

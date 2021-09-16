@@ -73,9 +73,10 @@
             // lblResposta
             // 
             this.lblResposta.AutoSize = true;
+            this.lblResposta.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResposta.Location = new System.Drawing.Point(508, 227);
             this.lblResposta.Name = "lblResposta";
-            this.lblResposta.Size = new System.Drawing.Size(10, 13);
+            this.lblResposta.Size = new System.Drawing.Size(42, 61);
             this.lblResposta.TabIndex = 4;
             this.lblResposta.Text = ".";
             // 
@@ -146,6 +147,7 @@
             this.Controls.Add(this.txtn1);
             this.Name = "frmLUIS_HENRIQUE";
             this.Text = "frmLUIS_HENRIQUE 2200004-7";
+            this.Load += new System.EventHandler(this.frmLUIS_HENRIQUE_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
