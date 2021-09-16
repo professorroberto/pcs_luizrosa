@@ -109,9 +109,10 @@
             // btnmais
             // 
             this.btnmais.BackColor = System.Drawing.Color.Chartreuse;
+            this.btnmais.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmais.Location = new System.Drawing.Point(97, 187);
             this.btnmais.Name = "btnmais";
-            this.btnmais.Size = new System.Drawing.Size(85, 41);
+            this.btnmais.Size = new System.Drawing.Size(119, 41);
             this.btnmais.TabIndex = 7;
             this.btnmais.Text = "somar";
             this.btnmais.UseVisualStyleBackColor = false;
@@ -120,9 +121,10 @@
             // btnvezes
             // 
             this.btnvezes.BackColor = System.Drawing.Color.Chartreuse;
+            this.btnvezes.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnvezes.Location = new System.Drawing.Point(252, 187);
             this.btnvezes.Name = "btnvezes";
-            this.btnvezes.Size = new System.Drawing.Size(85, 41);
+            this.btnvezes.Size = new System.Drawing.Size(187, 41);
             this.btnvezes.TabIndex = 8;
             this.btnvezes.Text = "multiplicar";
             this.btnvezes.UseVisualStyleBackColor = false;
@@ -131,9 +133,10 @@
             // btnmenos
             // 
             this.btnmenos.BackColor = System.Drawing.Color.Chartreuse;
-            this.btnmenos.Location = new System.Drawing.Point(399, 187);
+            this.btnmenos.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmenos.Location = new System.Drawing.Point(478, 187);
             this.btnmenos.Name = "btnmenos";
-            this.btnmenos.Size = new System.Drawing.Size(85, 41);
+            this.btnmenos.Size = new System.Drawing.Size(139, 41);
             this.btnmenos.TabIndex = 9;
             this.btnmenos.Text = "subtrair";
             this.btnmenos.UseVisualStyleBackColor = false;
@@ -142,6 +145,7 @@
             // btnmaior
             // 
             this.btnmaior.BackColor = System.Drawing.Color.Chartreuse;
+            this.btnmaior.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmaior.Location = new System.Drawing.Point(478, 297);
             this.btnmaior.Name = "btnmaior";
             this.btnmaior.Size = new System.Drawing.Size(119, 67);
@@ -153,6 +157,7 @@
             // btnmenor
             // 
             this.btnmenor.BackColor = System.Drawing.Color.Chartreuse;
+            this.btnmenor.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmenor.Location = new System.Drawing.Point(97, 298);
             this.btnmenor.Name = "btnmenor";
             this.btnmenor.Size = new System.Drawing.Size(119, 67);
@@ -175,6 +180,7 @@
             // btnlimpar
             // 
             this.btnlimpar.BackColor = System.Drawing.Color.Chartreuse;
+            this.btnlimpar.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlimpar.Location = new System.Drawing.Point(275, 375);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(119, 67);
