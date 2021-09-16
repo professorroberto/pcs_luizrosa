@@ -43,23 +43,26 @@
             // 
             // txt1
             // 
+            this.txt1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt1.Location = new System.Drawing.Point(52, 54);
             this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(130, 20);
+            this.txt1.Size = new System.Drawing.Size(130, 46);
             this.txt1.TabIndex = 0;
             // 
             // txt2
             // 
+            this.txt2.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt2.Location = new System.Drawing.Point(207, 54);
             this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(130, 20);
+            this.txt2.Size = new System.Drawing.Size(130, 46);
             this.txt2.TabIndex = 1;
             // 
             // txt3
             // 
+            this.txt3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt3.Location = new System.Drawing.Point(354, 54);
             this.txt3.Name = "txt3";
-            this.txt3.Size = new System.Drawing.Size(130, 20);
+            this.txt3.Size = new System.Drawing.Size(130, 46);
             this.txt3.TabIndex = 2;
             // 
             // lbl1
