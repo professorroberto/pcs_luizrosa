@@ -107,6 +107,7 @@
             this.botaoSoma.TabIndex = 7;
             this.botaoSoma.Text = "Somar";
             this.botaoSoma.UseVisualStyleBackColor = false;
+            this.botaoSoma.Click += new System.EventHandler(this.botaoSoma_Click);
             // 
             // botaoMenos
             // 
@@ -147,7 +148,6 @@
             this.Controls.Add(this.txtn1);
             this.Name = "frmLUIS_HENRIQUE";
             this.Text = "frmLUIS_HENRIQUE 2200004-7";
-            this.Load += new System.EventHandler(this.frmLUIS_HENRIQUE_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
