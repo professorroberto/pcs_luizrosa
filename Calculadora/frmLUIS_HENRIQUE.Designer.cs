@@ -41,6 +41,7 @@
             this.botaoMaior = new System.Windows.Forms.Button();
             this.botaoMenor = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.botaoLimpar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtn1
@@ -155,7 +156,7 @@
             // 
             this.botaoMenor.BackColor = System.Drawing.Color.Chartreuse;
             this.botaoMenor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botaoMenor.Location = new System.Drawing.Point(386, 332);
+            this.botaoMenor.Location = new System.Drawing.Point(379, 332);
             this.botaoMenor.Name = "botaoMenor";
             this.botaoMenor.Size = new System.Drawing.Size(46, 48);
             this.botaoMenor.TabIndex = 11;
@@ -174,12 +175,24 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "Luis Henrique Franco Delmadi 2200004-7";
             // 
+            // botaoLimpar
+            // 
+            this.botaoLimpar.BackColor = System.Drawing.Color.Chartreuse;
+            this.botaoLimpar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botaoLimpar.Location = new System.Drawing.Point(431, 332);
+            this.botaoLimpar.Name = "botaoLimpar";
+            this.botaoLimpar.Size = new System.Drawing.Size(46, 48);
+            this.botaoLimpar.TabIndex = 13;
+            this.botaoLimpar.Text = "Limpar";
+            this.botaoLimpar.UseVisualStyleBackColor = false;
+            // 
             // frmLUIS_HENRIQUE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1107, 501);
+            this.Controls.Add(this.botaoLimpar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.botaoMenor);
             this.Controls.Add(this.botaoMaior);
@@ -215,6 +228,7 @@
         private System.Windows.Forms.Button botaoMaior;
         private System.Windows.Forms.Button botaoMenor;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button botaoLimpar;
 
     }
 }
