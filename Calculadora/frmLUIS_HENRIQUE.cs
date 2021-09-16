@@ -89,6 +89,14 @@ namespace Calculadora
             lblResposta.Text = maior.ToString();
         }
 
+        private void botaoLimpar_Click(object sender, EventArgs e)
+        {
+            txtn1.Text = null;
+            txtn2.Text = null;
+            txtn3.Text = null;
+            lblResposta.Text = null;
+        }
+
     }
 
 }

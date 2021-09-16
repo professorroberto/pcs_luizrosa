@@ -191,6 +191,7 @@
             this.botaoLimpar.TabIndex = 13;
             this.botaoLimpar.Text = "Limpar";
             this.botaoLimpar.UseVisualStyleBackColor = false;
+            this.botaoLimpar.Click += new System.EventHandler(this.botaoLimpar_Click);
             // 
             // frmLUIS_HENRIQUE
             // 
