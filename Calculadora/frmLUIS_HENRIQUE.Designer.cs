@@ -43,23 +43,26 @@
             // 
             // txtn1
             // 
+            this.txtn1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtn1.Location = new System.Drawing.Point(332, 220);
             this.txtn1.Name = "txtn1";
-            this.txtn1.Size = new System.Drawing.Size(48, 20);
+            this.txtn1.Size = new System.Drawing.Size(48, 46);
             this.txtn1.TabIndex = 0;
             // 
             // txtn3
             // 
+            this.txtn3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtn3.Location = new System.Drawing.Point(440, 220);
             this.txtn3.Name = "txtn3";
-            this.txtn3.Size = new System.Drawing.Size(48, 20);
+            this.txtn3.Size = new System.Drawing.Size(48, 46);
             this.txtn3.TabIndex = 1;
             // 
             // txtn2
             // 
+            this.txtn2.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtn2.Location = new System.Drawing.Point(386, 220);
             this.txtn2.Name = "txtn2";
-            this.txtn2.Size = new System.Drawing.Size(48, 20);
+            this.txtn2.Size = new System.Drawing.Size(48, 46);
             this.txtn2.TabIndex = 2;
             // 
             // label1
@@ -103,7 +106,7 @@
             // botaoSoma
             // 
             this.botaoSoma.BackColor = System.Drawing.Color.Chartreuse;
-            this.botaoSoma.Location = new System.Drawing.Point(326, 246);
+            this.botaoSoma.Location = new System.Drawing.Point(327, 272);
             this.botaoSoma.Name = "botaoSoma";
             this.botaoSoma.Size = new System.Drawing.Size(51, 31);
             this.botaoSoma.TabIndex = 7;
@@ -114,7 +117,7 @@
             // botaoMenos
             // 
             this.botaoMenos.BackColor = System.Drawing.Color.Chartreuse;
-            this.botaoMenos.Location = new System.Drawing.Point(383, 246);
+            this.botaoMenos.Location = new System.Drawing.Point(384, 272);
             this.botaoMenos.Name = "botaoMenos";
             this.botaoMenos.Size = new System.Drawing.Size(51, 44);
             this.botaoMenos.TabIndex = 8;
@@ -125,7 +128,7 @@
             // botaoMultiplicacao
             // 
             this.botaoMultiplicacao.BackColor = System.Drawing.Color.Chartreuse;
-            this.botaoMultiplicacao.Location = new System.Drawing.Point(437, 246);
+            this.botaoMultiplicacao.Location = new System.Drawing.Point(437, 272);
             this.botaoMultiplicacao.Name = "botaoMultiplicacao";
             this.botaoMultiplicacao.Size = new System.Drawing.Size(51, 44);
             this.botaoMultiplicacao.TabIndex = 9;
@@ -137,7 +140,7 @@
             // 
             this.botaoMaior.BackColor = System.Drawing.Color.Chartreuse;
             this.botaoMaior.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botaoMaior.Location = new System.Drawing.Point(327, 310);
+            this.botaoMaior.Location = new System.Drawing.Point(327, 332);
             this.botaoMaior.Name = "botaoMaior";
             this.botaoMaior.Size = new System.Drawing.Size(46, 48);
             this.botaoMaior.TabIndex = 10;
