@@ -78,7 +78,6 @@
             this.lbl2.Size = new System.Drawing.Size(53, 13);
             this.lbl2.TabIndex = 4;
             this.lbl2.Text = "Numero:2";
-            this.lbl2.Click += new System.EventHandler(this.label2_Click);
             // 
             // lbl3
             // 
@@ -104,7 +103,7 @@
             this.btnmais.Name = "btnmais";
             this.btnmais.Size = new System.Drawing.Size(85, 41);
             this.btnmais.TabIndex = 7;
-            this.btnmais.Text = "button1";
+            this.btnmais.Text = "somar";
             this.btnmais.UseVisualStyleBackColor = true;
             // 
             // btnvezes
@@ -113,7 +112,7 @@
             this.btnvezes.Name = "btnvezes";
             this.btnvezes.Size = new System.Drawing.Size(85, 41);
             this.btnvezes.TabIndex = 8;
-            this.btnvezes.Text = "button2";
+            this.btnvezes.Text = "multiplicar";
             this.btnvezes.UseVisualStyleBackColor = true;
             // 
             // btnmenos
@@ -122,8 +121,9 @@
             this.btnmenos.Name = "btnmenos";
             this.btnmenos.Size = new System.Drawing.Size(85, 41);
             this.btnmenos.TabIndex = 9;
-            this.btnmenos.Text = "button3";
+            this.btnmenos.Text = "subtrair";
             this.btnmenos.UseVisualStyleBackColor = true;
+            this.btnmenos.Click += new System.EventHandler(this.btnmenos_Click);
             // 
             // frmJONAS
             // 
@@ -142,6 +142,7 @@
             this.Controls.Add(this.txt1);
             this.Name = "frmJONAS";
             this.Text = "frmJONAS";
+            this.Load += new System.EventHandler(this.frmJONAS_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
