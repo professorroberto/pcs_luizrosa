@@ -39,6 +39,7 @@
             this.botaoMenos = new System.Windows.Forms.Button();
             this.botaoMultiplicacao = new System.Windows.Forms.Button();
             this.botaoMaior = new System.Windows.Forms.Button();
+            this.botaoMenor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtn1
@@ -147,12 +148,24 @@
             this.botaoMaior.Text = "Maior";
             this.botaoMaior.UseVisualStyleBackColor = false;
             // 
+            // botaoMenor
+            // 
+            this.botaoMenor.BackColor = System.Drawing.Color.Chartreuse;
+            this.botaoMenor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botaoMenor.Location = new System.Drawing.Point(386, 332);
+            this.botaoMenor.Name = "botaoMenor";
+            this.botaoMenor.Size = new System.Drawing.Size(46, 48);
+            this.botaoMenor.TabIndex = 11;
+            this.botaoMenor.Text = "Menor";
+            this.botaoMenor.UseVisualStyleBackColor = false;
+            // 
             // frmLUIS_HENRIQUE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1107, 501);
+            this.Controls.Add(this.botaoMenor);
             this.Controls.Add(this.botaoMaior);
             this.Controls.Add(this.botaoMultiplicacao);
             this.Controls.Add(this.botaoMenos);
@@ -184,6 +197,7 @@
         private System.Windows.Forms.Button botaoMenos;
         private System.Windows.Forms.Button botaoMultiplicacao;
         private System.Windows.Forms.Button botaoMaior;
+        private System.Windows.Forms.Button botaoMenor;
 
     }
 }
