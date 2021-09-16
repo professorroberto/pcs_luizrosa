@@ -127,6 +127,7 @@
             this.botaoMultiplicacao.TabIndex = 9;
             this.botaoMultiplicacao.Text = "Multiplicacao";
             this.botaoMultiplicacao.UseVisualStyleBackColor = false;
+            this.botaoMultiplicacao.Click += new System.EventHandler(this.botaoMultiplicacao_Click);
             // 
             // frmLUIS_HENRIQUE
             // 
