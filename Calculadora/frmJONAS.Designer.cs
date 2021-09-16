@@ -107,6 +107,7 @@
             this.btnmais.TabIndex = 7;
             this.btnmais.Text = "somar";
             this.btnmais.UseVisualStyleBackColor = false;
+            this.btnmais.Click += new System.EventHandler(this.btnmais_Click);
             // 
             // btnvezes
             // 
