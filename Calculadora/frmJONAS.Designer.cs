@@ -116,6 +116,7 @@
             this.btnvezes.TabIndex = 8;
             this.btnvezes.Text = "multiplicar";
             this.btnvezes.UseVisualStyleBackColor = false;
+            this.btnvezes.Click += new System.EventHandler(this.btnvezes_Click);
             // 
             // btnmenos
             // 
