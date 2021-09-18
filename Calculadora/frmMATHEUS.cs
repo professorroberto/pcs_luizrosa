@@ -25,8 +25,8 @@ namespace Calculadora
             string result = Res.ToString();
 
             lblRes.Text = result;
-            
-            
+
+            MessageBox.Show("Parabens você realizou a operação subtração com sucesso! o resultado é " + lblRes.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -38,6 +38,7 @@ namespace Calculadora
             string result = Res.ToString();
 
             lblRes.Text = result;
+            MessageBox.Show("Parabens você realizou a operação multiplicação com sucesso! o resultado é " + lblRes.Text);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -49,6 +50,7 @@ namespace Calculadora
             string result = Res.ToString();
 
             lblRes.Text = result;
+            MessageBox.Show("Parabens você realizou a operação adição com sucesso! o resultado é " + lblRes.Text);
         }
 
         private void txtN2_TextChanged(object sender, EventArgs e)
@@ -84,7 +86,7 @@ namespace Calculadora
                 }
             }
             lblRes.Text = menor.ToString();
-            
+            MessageBox.Show("Parabens você realizou a operação menor com sucesso! o resultado é " + lblRes.Text);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -110,10 +112,12 @@ namespace Calculadora
                 }
             }
             lblRes.Text = menor.ToString();
+            MessageBox.Show("Parabens você realizou a operação maior com sucesso! o resultado é " + lblRes.Text);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
+            
             txtN1.Text = "";
             txtN2.Text = "";
             txtN3.Text = "";
