@@ -39,6 +39,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.lblRes = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtN1
@@ -148,12 +149,23 @@
             this.button1.Text = "Maior";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Chartreuse;
+            this.button4.Location = new System.Drawing.Point(310, 288);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(72, 44);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "menor";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // frmMATHEUS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(496, 450);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblRes);
             this.Controls.Add(this.button3);
@@ -185,6 +197,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label lblRes;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
 
     }
 }
