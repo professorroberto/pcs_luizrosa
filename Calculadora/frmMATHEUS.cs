@@ -28,5 +28,16 @@ namespace Calculadora
             
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int n1 = int.Parse(txtN1.Text);
+            int n2 = int.Parse(txtN2.Text);
+            int n3 = int.Parse(txtN3.Text);
+            int Res = n1 * n2 * n3;
+            string result = Res.ToString();
+
+            lblRes.Text = result;
+        }
     }
 }

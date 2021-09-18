@@ -104,10 +104,11 @@
             this.button2.BackColor = System.Drawing.Color.Chartreuse;
             this.button2.Location = new System.Drawing.Point(207, 112);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(76, 45);
+            this.button2.Size = new System.Drawing.Size(82, 45);
             this.button2.TabIndex = 8;
-            this.button2.Text = "button2";
+            this.button2.Text = "Multiplicação";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
