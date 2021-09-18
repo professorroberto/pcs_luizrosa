@@ -123,9 +123,10 @@
             // lblRes
             // 
             this.lblRes.AutoSize = true;
-            this.lblRes.Location = new System.Drawing.Point(211, 193);
+            this.lblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRes.Location = new System.Drawing.Point(117, 187);
             this.lblRes.Name = "lblRes";
-            this.lblRes.Size = new System.Drawing.Size(55, 13);
+            this.lblRes.Size = new System.Drawing.Size(265, 61);
             this.lblRes.TabIndex = 10;
             this.lblRes.Text = "Resultado";
             // 
