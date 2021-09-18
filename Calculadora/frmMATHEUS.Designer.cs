@@ -90,31 +90,34 @@
             // 
             // btnSub
             // 
+            this.btnSub.BackColor = System.Drawing.Color.Chartreuse;
             this.btnSub.Location = new System.Drawing.Point(68, 112);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(76, 45);
             this.btnSub.TabIndex = 7;
             this.btnSub.Text = "Subtrair";
-            this.btnSub.UseVisualStyleBackColor = true;
+            this.btnSub.UseVisualStyleBackColor = false;
             this.btnSub.Click += new System.EventHandler(this.btnSub_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Chartreuse;
             this.button2.Location = new System.Drawing.Point(207, 112);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(76, 45);
             this.button2.TabIndex = 8;
             this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Chartreuse;
             this.button3.Location = new System.Drawing.Point(343, 112);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(76, 45);
             this.button3.TabIndex = 9;
             this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // lblRes
             // 
