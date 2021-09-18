@@ -43,24 +43,29 @@
             // 
             // txtN1
             // 
-            this.txtN1.Location = new System.Drawing.Point(45, 68);
+            this.txtN1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtN1.Location = new System.Drawing.Point(45, 54);
             this.txtN1.Name = "txtN1";
-            this.txtN1.Size = new System.Drawing.Size(118, 20);
+            this.txtN1.Size = new System.Drawing.Size(118, 46);
             this.txtN1.TabIndex = 0;
             // 
             // txtN2
             // 
-            this.txtN2.Location = new System.Drawing.Point(181, 68);
+            this.txtN2.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtN2.Location = new System.Drawing.Point(181, 54);
             this.txtN2.Name = "txtN2";
-            this.txtN2.Size = new System.Drawing.Size(123, 20);
+            this.txtN2.Size = new System.Drawing.Size(123, 46);
             this.txtN2.TabIndex = 1;
+            this.txtN2.TextChanged += new System.EventHandler(this.txtN2_TextChanged);
             // 
             // txtN3
             // 
-            this.txtN3.Location = new System.Drawing.Point(326, 68);
+            this.txtN3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtN3.Location = new System.Drawing.Point(326, 54);
             this.txtN3.Name = "txtN3";
-            this.txtN3.Size = new System.Drawing.Size(115, 20);
+            this.txtN3.Size = new System.Drawing.Size(115, 46);
             this.txtN3.TabIndex = 2;
+            this.txtN3.TextChanged += new System.EventHandler(this.txtN3_TextChanged);
             // 
             // label1
             // 

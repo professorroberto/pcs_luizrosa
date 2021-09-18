@@ -50,5 +50,15 @@ namespace Calculadora
 
             lblRes.Text = result;
         }
+
+        private void txtN2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtN3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
