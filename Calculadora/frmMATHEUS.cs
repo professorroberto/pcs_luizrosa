@@ -114,7 +114,10 @@ namespace Calculadora
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            txtN1.Text = "";
+            txtN2.Text = "";
+            txtN3.Text = "";
+            lblRes.Text = "";
         }
     }
 }
