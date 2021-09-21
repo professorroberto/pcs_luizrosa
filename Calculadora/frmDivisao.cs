@@ -1,6 +1,4 @@
-﻿//Heitor Freitas - 2200012-8
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Calculadora
 {
-    public partial class frmHEITOR : Form
+    public partial class frmDivisao : Form
     {
-        public frmHEITOR()
+        public frmDivisao()
         {
             InitializeComponent();
         }

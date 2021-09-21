@@ -30,11 +30,10 @@
         {
             this.mnuOperacoes = new System.Windows.Forms.MenuStrip();
             this.operaçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hEITORToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.jONASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lUISHENRIQUEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mATHEUSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sAMUELToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adiçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.subtraaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.multiplicaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.divisãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuOperacoes.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,49 +50,38 @@
             // operaçõesToolStripMenuItem
             // 
             this.operaçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hEITORToolStripMenuItem,
-            this.jONASToolStripMenuItem,
-            this.lUISHENRIQUEToolStripMenuItem,
-            this.mATHEUSToolStripMenuItem,
-            this.sAMUELToolStripMenuItem});
+            this.adiçãoToolStripMenuItem,
+            this.subtraaoToolStripMenuItem,
+            this.multiplicaçãoToolStripMenuItem,
+            this.divisãoToolStripMenuItem});
             this.operaçõesToolStripMenuItem.Name = "operaçõesToolStripMenuItem";
             this.operaçõesToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.operaçõesToolStripMenuItem.Text = "Operações";
             // 
-            // hEITORToolStripMenuItem
+            // adiçãoToolStripMenuItem
             // 
-            this.hEITORToolStripMenuItem.Name = "hEITORToolStripMenuItem";
-            this.hEITORToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.hEITORToolStripMenuItem.Text = "HEITOR";
-            this.hEITORToolStripMenuItem.Click += new System.EventHandler(this.hEITORToolStripMenuItem_Click);
+            this.adiçãoToolStripMenuItem.Name = "adiçãoToolStripMenuItem";
+            this.adiçãoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.adiçãoToolStripMenuItem.Text = "Adição";
+            this.adiçãoToolStripMenuItem.Click += new System.EventHandler(this.adiçãoToolStripMenuItem_Click);
             // 
-            // jONASToolStripMenuItem
+            // subtraaoToolStripMenuItem
             // 
-            this.jONASToolStripMenuItem.Name = "jONASToolStripMenuItem";
-            this.jONASToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.jONASToolStripMenuItem.Text = "JONAS";
-            this.jONASToolStripMenuItem.Click += new System.EventHandler(this.jONASToolStripMenuItem_Click);
+            this.subtraaoToolStripMenuItem.Name = "subtraaoToolStripMenuItem";
+            this.subtraaoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.subtraaoToolStripMenuItem.Text = "Subtração";
             // 
-            // lUISHENRIQUEToolStripMenuItem
+            // multiplicaçãoToolStripMenuItem
             // 
-            this.lUISHENRIQUEToolStripMenuItem.Name = "lUISHENRIQUEToolStripMenuItem";
-            this.lUISHENRIQUEToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.lUISHENRIQUEToolStripMenuItem.Text = "LUIS HENRIQUE";
-            this.lUISHENRIQUEToolStripMenuItem.Click += new System.EventHandler(this.lUISHENRIQUEToolStripMenuItem_Click);
+            this.multiplicaçãoToolStripMenuItem.Name = "multiplicaçãoToolStripMenuItem";
+            this.multiplicaçãoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.multiplicaçãoToolStripMenuItem.Text = "Multiplicação";
             // 
-            // mATHEUSToolStripMenuItem
+            // divisãoToolStripMenuItem
             // 
-            this.mATHEUSToolStripMenuItem.Name = "mATHEUSToolStripMenuItem";
-            this.mATHEUSToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.mATHEUSToolStripMenuItem.Text = "MATHEUS";
-            this.mATHEUSToolStripMenuItem.Click += new System.EventHandler(this.mATHEUSToolStripMenuItem_Click);
-            // 
-            // sAMUELToolStripMenuItem
-            // 
-            this.sAMUELToolStripMenuItem.Name = "sAMUELToolStripMenuItem";
-            this.sAMUELToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.sAMUELToolStripMenuItem.Text = "SAMUEL";
-            this.sAMUELToolStripMenuItem.Click += new System.EventHandler(this.sAMUELToolStripMenuItem_Click);
+            this.divisãoToolStripMenuItem.Name = "divisãoToolStripMenuItem";
+            this.divisãoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.divisãoToolStripMenuItem.Text = "Divisão";
             // 
             // mdiCalculadora
             // 
@@ -120,11 +108,10 @@
 
         private System.Windows.Forms.MenuStrip mnuOperacoes;
         private System.Windows.Forms.ToolStripMenuItem operaçõesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hEITORToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jONASToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem lUISHENRIQUEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mATHEUSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sAMUELToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adiçãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem subtraaoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem multiplicaçãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem divisãoToolStripMenuItem;
 
     }
 }

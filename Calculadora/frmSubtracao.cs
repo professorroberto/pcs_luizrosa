@@ -9,12 +9,11 @@ using System.Windows.Forms;
 
 namespace Calculadora
 {
-    public partial class frmSAMUEL : Form
+    public partial class frmSubtracao : Form
     {
-        public frmSAMUEL()
+        public frmSubtracao()
         {
             InitializeComponent();
         }
     }
 }
- 

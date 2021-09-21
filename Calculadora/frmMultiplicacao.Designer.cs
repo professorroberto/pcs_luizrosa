@@ -1,6 +1,6 @@
 ﻿namespace Calculadora
 {
-    partial class frmSAMUEL
+    partial class frmMultiplicacao
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // frmSAMUEL
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(234, 211);
-            this.Name = "frmSAMUEL";
-            this.Text = "frmSAMUEL";
-            this.ResumeLayout(false);
-
+            this.Text = "frmMultiplicacao";
         }
 
         #endregion
-
     }
 }
