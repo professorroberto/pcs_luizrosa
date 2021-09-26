@@ -70,17 +70,18 @@
             // 
             // btnSomar
             // 
-            this.btnSomar.Location = new System.Drawing.Point(145, 94);
+            this.btnSomar.Location = new System.Drawing.Point(218, 88);
             this.btnSomar.Name = "btnSomar";
             this.btnSomar.Size = new System.Drawing.Size(75, 23);
             this.btnSomar.TabIndex = 4;
             this.btnSomar.Text = "Somar";
             this.btnSomar.UseVisualStyleBackColor = true;
+            this.btnSomar.Click += new System.EventHandler(this.btnSomar_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(115, 150);
+            this.label3.Location = new System.Drawing.Point(82, 93);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 13);
             this.label3.TabIndex = 5;
@@ -90,7 +91,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 352);
+            this.ClientSize = new System.Drawing.Size(349, 151);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnSomar);
             this.Controls.Add(this.txtNumero2);
@@ -98,7 +99,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmAdicao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAdicao";
+            this.Load += new System.EventHandler(this.frmAdicao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

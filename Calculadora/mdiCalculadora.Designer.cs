@@ -43,7 +43,7 @@
             this.operaçõesToolStripMenuItem});
             this.mnuOperacoes.Location = new System.Drawing.Point(0, 0);
             this.mnuOperacoes.Name = "mnuOperacoes";
-            this.mnuOperacoes.Size = new System.Drawing.Size(396, 24);
+            this.mnuOperacoes.Size = new System.Drawing.Size(493, 24);
             this.mnuOperacoes.TabIndex = 1;
             this.mnuOperacoes.Text = "menuStrip1";
             // 
@@ -61,34 +61,39 @@
             // adiçãoToolStripMenuItem
             // 
             this.adiçãoToolStripMenuItem.Name = "adiçãoToolStripMenuItem";
-            this.adiçãoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.adiçãoToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.adiçãoToolStripMenuItem.Text = "Adição";
             this.adiçãoToolStripMenuItem.Click += new System.EventHandler(this.adiçãoToolStripMenuItem_Click);
             // 
             // subtraaoToolStripMenuItem
             // 
             this.subtraaoToolStripMenuItem.Name = "subtraaoToolStripMenuItem";
-            this.subtraaoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.subtraaoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.subtraaoToolStripMenuItem.Text = "Subtração";
+            this.subtraaoToolStripMenuItem.Click += new System.EventHandler(this.subtraaoToolStripMenuItem_Click);
             // 
             // multiplicaçãoToolStripMenuItem
             // 
             this.multiplicaçãoToolStripMenuItem.Name = "multiplicaçãoToolStripMenuItem";
-            this.multiplicaçãoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.multiplicaçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.multiplicaçãoToolStripMenuItem.Text = "Multiplicação";
+            this.multiplicaçãoToolStripMenuItem.Click += new System.EventHandler(this.multiplicaçãoToolStripMenuItem_Click);
             // 
             // divisãoToolStripMenuItem
             // 
             this.divisãoToolStripMenuItem.Name = "divisãoToolStripMenuItem";
-            this.divisãoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.divisãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.divisãoToolStripMenuItem.Text = "Divisão";
+            this.divisãoToolStripMenuItem.Click += new System.EventHandler(this.divisãoToolStripMenuItem_Click);
             // 
             // mdiCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(396, 368);
+            this.BackgroundImage = global::Calculadora.Properties.Resources.índice;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(493, 311);
             this.Controls.Add(this.mnuOperacoes);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnuOperacoes;
@@ -97,6 +102,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.mdiCalculadora_Load);
             this.mnuOperacoes.ResumeLayout(false);
             this.mnuOperacoes.PerformLayout();
             this.ResumeLayout(false);
