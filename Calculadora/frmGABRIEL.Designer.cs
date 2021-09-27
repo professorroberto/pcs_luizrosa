@@ -40,11 +40,12 @@
             this.LBLR = new System.Windows.Forms.Label();
             this.BNT4 = new System.Windows.Forms.Button();
             this.BNT5 = new System.Windows.Forms.Button();
+            this.LBLT = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BNT1
             // 
-            this.BNT1.Location = new System.Drawing.Point(53, 86);
+            this.BNT1.Location = new System.Drawing.Point(53, 154);
             this.BNT1.Name = "BNT1";
             this.BNT1.Size = new System.Drawing.Size(92, 37);
             this.BNT1.TabIndex = 0;
@@ -54,7 +55,7 @@
             // 
             // BNT2
             // 
-            this.BNT2.Location = new System.Drawing.Point(151, 86);
+            this.BNT2.Location = new System.Drawing.Point(151, 154);
             this.BNT2.Name = "BNT2";
             this.BNT2.Size = new System.Drawing.Size(92, 37);
             this.BNT2.TabIndex = 1;
@@ -64,7 +65,7 @@
             // 
             // BNT3
             // 
-            this.BNT3.Location = new System.Drawing.Point(249, 86);
+            this.BNT3.Location = new System.Drawing.Point(249, 154);
             this.BNT3.Name = "BNT3";
             this.BNT3.Size = new System.Drawing.Size(92, 37);
             this.BNT3.TabIndex = 2;
@@ -75,7 +76,7 @@
             // TXTB1
             // 
             this.TXTB1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TXTB1.Location = new System.Drawing.Point(53, 45);
+            this.TXTB1.Location = new System.Drawing.Point(53, 113);
             this.TXTB1.Name = "TXTB1";
             this.TXTB1.Size = new System.Drawing.Size(92, 39);
             this.TXTB1.TabIndex = 3;
@@ -84,7 +85,7 @@
             // TXTB3
             // 
             this.TXTB3.Font = new System.Drawing.Font("Lucida Sans", 20.25F);
-            this.TXTB3.Location = new System.Drawing.Point(249, 45);
+            this.TXTB3.Location = new System.Drawing.Point(249, 113);
             this.TXTB3.Name = "TXTB3";
             this.TXTB3.Size = new System.Drawing.Size(92, 39);
             this.TXTB3.TabIndex = 4;
@@ -94,7 +95,7 @@
             // TXTB2
             // 
             this.TXTB2.Font = new System.Drawing.Font("Lucida Sans", 20.25F);
-            this.TXTB2.Location = new System.Drawing.Point(151, 45);
+            this.TXTB2.Location = new System.Drawing.Point(151, 113);
             this.TXTB2.Name = "TXTB2";
             this.TXTB2.Size = new System.Drawing.Size(92, 39);
             this.TXTB2.TabIndex = 5;
@@ -103,7 +104,7 @@
             // LBL1
             // 
             this.LBL1.AutoSize = true;
-            this.LBL1.Location = new System.Drawing.Point(50, 29);
+            this.LBL1.Location = new System.Drawing.Point(50, 97);
             this.LBL1.Name = "LBL1";
             this.LBL1.Size = new System.Drawing.Size(50, 13);
             this.LBL1.TabIndex = 6;
@@ -112,7 +113,7 @@
             // LBL2
             // 
             this.LBL2.AutoSize = true;
-            this.LBL2.Location = new System.Drawing.Point(148, 29);
+            this.LBL2.Location = new System.Drawing.Point(148, 97);
             this.LBL2.Name = "LBL2";
             this.LBL2.Size = new System.Drawing.Size(50, 13);
             this.LBL2.TabIndex = 8;
@@ -121,7 +122,7 @@
             // LBL3
             // 
             this.LBL3.AutoSize = true;
-            this.LBL3.Location = new System.Drawing.Point(246, 29);
+            this.LBL3.Location = new System.Drawing.Point(246, 97);
             this.LBL3.Name = "LBL3";
             this.LBL3.Size = new System.Drawing.Size(50, 13);
             this.LBL3.TabIndex = 10;
@@ -131,7 +132,7 @@
             // 
             this.LBLR.AutoSize = true;
             this.LBLR.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBLR.Location = new System.Drawing.Point(9, 177);
+            this.LBLR.Location = new System.Drawing.Point(9, 245);
             this.LBLR.Name = "LBLR";
             this.LBLR.Size = new System.Drawing.Size(189, 31);
             this.LBLR.TabIndex = 11;
@@ -139,7 +140,7 @@
             // 
             // BNT4
             // 
-            this.BNT4.Location = new System.Drawing.Point(375, 128);
+            this.BNT4.Location = new System.Drawing.Point(375, 196);
             this.BNT4.Name = "BNT4";
             this.BNT4.Size = new System.Drawing.Size(92, 37);
             this.BNT4.TabIndex = 12;
@@ -149,7 +150,7 @@
             // 
             // BNT5
             // 
-            this.BNT5.Location = new System.Drawing.Point(375, 171);
+            this.BNT5.Location = new System.Drawing.Point(375, 239);
             this.BNT5.Name = "BNT5";
             this.BNT5.Size = new System.Drawing.Size(92, 37);
             this.BNT5.TabIndex = 13;
@@ -157,12 +158,23 @@
             this.BNT5.UseVisualStyleBackColor = true;
             this.BNT5.Click += new System.EventHandler(this.BNT5_Click);
             // 
+            // LBLT
+            // 
+            this.LBLT.AutoSize = true;
+            this.LBLT.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBLT.Location = new System.Drawing.Point(12, 9);
+            this.LBLT.Name = "LBLT";
+            this.LBLT.Size = new System.Drawing.Size(442, 37);
+            this.LBLT.TabIndex = 14;
+            this.LBLT.Text = "ALUNO GABRIEL - RA: 2190028-9";
+            // 
             // frmGABRIEL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(479, 217);
+            this.ClientSize = new System.Drawing.Size(479, 288);
+            this.Controls.Add(this.LBLT);
             this.Controls.Add(this.BNT5);
             this.Controls.Add(this.BNT4);
             this.Controls.Add(this.LBLR);
@@ -197,5 +209,6 @@
         private System.Windows.Forms.Label LBLR;
         private System.Windows.Forms.Button BNT4;
         private System.Windows.Forms.Button BNT5;
+        private System.Windows.Forms.Label LBLT;
     }
 }

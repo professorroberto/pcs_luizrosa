@@ -37,6 +37,8 @@ namespace Calculadora
             BNT4.BackColor = Color.LightSteelBlue;
             BNT5.BackColor = Color.LightSteelBlue;
 
+
+            LBLT.BackColor = Color.Fuchsia;
             LBLR.BackColor = Color.DarkGreen;
         }
 
@@ -64,11 +66,11 @@ namespace Calculadora
             int v2 = Convert.ToInt32(TXTB2.Text);
             int v3 = Convert.ToInt32(TXTB3.Text);
 
-            if (v1 > v2)
+            if (v1 >= v2)
             {
                 LBLR.Text = Convert.ToString(v1);
             }
-            if (v2 < v3) {
+            if (v2 <= v3) {
                 LBLR.Text = Convert.ToString(v3);
             }
             else {
@@ -83,7 +85,22 @@ namespace Calculadora
 
         private void BNT5_Click(object sender, EventArgs e)
         {
+            int v1 = Convert.ToInt32(TXTB1.Text);
+            int v2 = Convert.ToInt32(TXTB2.Text);
+            int v3 = Convert.ToInt32(TXTB3.Text);
 
+            if (v1 <= v2)
+            {
+                LBLR.Text = Convert.ToString(v1);
+            }
+            if (v2 >= v3)
+            {
+                LBLR.Text = Convert.ToString(v3);
+            }
+            else
+            {
+                LBLR.Text = Convert.ToString(v2);
+            }
         }
     }
 }
