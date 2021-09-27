@@ -130,7 +130,7 @@
             // 
             this.LBLR.AutoSize = true;
             this.LBLR.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBLR.Location = new System.Drawing.Point(12, 177);
+            this.LBLR.Location = new System.Drawing.Point(9, 177);
             this.LBLR.Name = "LBLR";
             this.LBLR.Size = new System.Drawing.Size(189, 31);
             this.LBLR.TabIndex = 11;
@@ -150,6 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(399, 217);
             this.Controls.Add(this.BNT4);
             this.Controls.Add(this.LBLR);
