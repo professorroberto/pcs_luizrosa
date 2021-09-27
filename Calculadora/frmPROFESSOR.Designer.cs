@@ -158,6 +158,7 @@
             this.btnMenor.TabIndex = 11;
             this.btnMenor.Text = "MENOR";
             this.btnMenor.UseVisualStyleBackColor = false;
+            this.btnMenor.Click += new System.EventHandler(this.btnMenor_Click);
             // 
             // label4
             // 

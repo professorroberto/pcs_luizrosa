@@ -36,5 +36,11 @@ namespace Calculadora
             List<int> numeros = new List<int>() { int.Parse(txtNumero1.Text), int.Parse(txtNumero2.Text), int.Parse(txtNumero3.Text) };
             lblResultado.Text = numeros.Max().ToString();
         }
+
+        private void btnMenor_Click(object sender, EventArgs e)
+        {
+            List<int> numeros = new List<int>() { int.Parse(txtNumero1.Text), int.Parse(txtNumero2.Text), int.Parse(txtNumero3.Text) };
+            lblResultado.Text = numeros.Min().ToString();
+        }
     }
 }
