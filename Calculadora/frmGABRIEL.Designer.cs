@@ -48,6 +48,7 @@
             this.BNT1.TabIndex = 0;
             this.BNT1.Text = "SOMAR";
             this.BNT1.UseVisualStyleBackColor = true;
+            this.BNT1.Click += new System.EventHandler(this.BNT1_Click);
             // 
             // BNT2
             // 
