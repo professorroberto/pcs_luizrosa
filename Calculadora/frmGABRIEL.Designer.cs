@@ -42,7 +42,7 @@
             // 
             // BNT1
             // 
-            this.BNT1.Location = new System.Drawing.Point(59, 105);
+            this.BNT1.Location = new System.Drawing.Point(53, 86);
             this.BNT1.Name = "BNT1";
             this.BNT1.Size = new System.Drawing.Size(92, 37);
             this.BNT1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             // BNT2
             // 
-            this.BNT2.Location = new System.Drawing.Point(157, 105);
+            this.BNT2.Location = new System.Drawing.Point(151, 86);
             this.BNT2.Name = "BNT2";
             this.BNT2.Size = new System.Drawing.Size(92, 37);
             this.BNT2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             // BNT3
             // 
-            this.BNT3.Location = new System.Drawing.Point(255, 105);
+            this.BNT3.Location = new System.Drawing.Point(249, 86);
             this.BNT3.Name = "BNT3";
             this.BNT3.Size = new System.Drawing.Size(92, 37);
             this.BNT3.TabIndex = 2;
@@ -71,21 +71,21 @@
             // 
             // TXTB1
             // 
-            this.TXTB1.Location = new System.Drawing.Point(59, 79);
+            this.TXTB1.Location = new System.Drawing.Point(53, 60);
             this.TXTB1.Name = "TXTB1";
             this.TXTB1.Size = new System.Drawing.Size(92, 20);
             this.TXTB1.TabIndex = 3;
             // 
             // TXTB3
             // 
-            this.TXTB3.Location = new System.Drawing.Point(255, 79);
+            this.TXTB3.Location = new System.Drawing.Point(249, 60);
             this.TXTB3.Name = "TXTB3";
             this.TXTB3.Size = new System.Drawing.Size(92, 20);
             this.TXTB3.TabIndex = 4;
             // 
             // TXTB2
             // 
-            this.TXTB2.Location = new System.Drawing.Point(157, 79);
+            this.TXTB2.Location = new System.Drawing.Point(151, 60);
             this.TXTB2.Name = "TXTB2";
             this.TXTB2.Size = new System.Drawing.Size(92, 20);
             this.TXTB2.TabIndex = 5;
@@ -93,7 +93,7 @@
             // LBL1
             // 
             this.LBL1.AutoSize = true;
-            this.LBL1.Location = new System.Drawing.Point(56, 63);
+            this.LBL1.Location = new System.Drawing.Point(50, 44);
             this.LBL1.Name = "LBL1";
             this.LBL1.Size = new System.Drawing.Size(50, 13);
             this.LBL1.TabIndex = 6;
@@ -102,7 +102,7 @@
             // LBL2
             // 
             this.LBL2.AutoSize = true;
-            this.LBL2.Location = new System.Drawing.Point(154, 63);
+            this.LBL2.Location = new System.Drawing.Point(148, 44);
             this.LBL2.Name = "LBL2";
             this.LBL2.Size = new System.Drawing.Size(50, 13);
             this.LBL2.TabIndex = 8;
@@ -111,7 +111,7 @@
             // LBL3
             // 
             this.LBL3.AutoSize = true;
-            this.LBL3.Location = new System.Drawing.Point(252, 63);
+            this.LBL3.Location = new System.Drawing.Point(246, 44);
             this.LBL3.Name = "LBL3";
             this.LBL3.Size = new System.Drawing.Size(50, 13);
             this.LBL3.TabIndex = 10;

@@ -30,6 +30,10 @@ namespace Calculadora
             int v1 = 0;
             int v2 = 0;
             int v3 = 0;
+
+            BNT1.ForeColor = Color.LightSteelBlue;
+            BNT2.ForeColor = Color.LightSteelBlue;
+            BNT3.ForeColor = Color.LightSteelBlue;
         }
 
         private void BNT1_Click(object sender, EventArgs e)
