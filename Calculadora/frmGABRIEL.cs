@@ -62,5 +62,10 @@ namespace Calculadora
         {
 
         }
+
+        private void TXTB3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
