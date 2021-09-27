@@ -106,6 +106,7 @@
             this.btnSomar.TabIndex = 7;
             this.btnSomar.Text = "SOMAR";
             this.btnSomar.UseVisualStyleBackColor = true;
+            this.btnSomar.Click += new System.EventHandler(this.btnSomar_Click);
             // 
             // btnSubtrair
             // 
