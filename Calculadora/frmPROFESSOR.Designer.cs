@@ -71,7 +71,8 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(118, 155);
+            this.lblResultado.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblResultado.Location = new System.Drawing.Point(12, 159);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(181, 31);
             this.lblResultado.TabIndex = 3;
