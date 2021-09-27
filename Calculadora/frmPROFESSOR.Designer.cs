@@ -46,7 +46,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(107, 135);
+            this.label1.Location = new System.Drawing.Point(85, 101);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 13);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(213, 135);
+            this.label2.Location = new System.Drawing.Point(191, 101);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 1;
@@ -64,7 +64,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(319, 135);
+            this.label3.Location = new System.Drawing.Point(297, 101);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 2;
@@ -85,7 +85,7 @@
             // txtNumero1
             // 
             this.txtNumero1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero1.Location = new System.Drawing.Point(110, 152);
+            this.txtNumero1.Location = new System.Drawing.Point(88, 118);
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(100, 39);
             this.txtNumero1.TabIndex = 4;
@@ -93,7 +93,7 @@
             // txtNumero2
             // 
             this.txtNumero2.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero2.Location = new System.Drawing.Point(216, 152);
+            this.txtNumero2.Location = new System.Drawing.Point(194, 118);
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(100, 39);
             this.txtNumero2.TabIndex = 5;
@@ -101,7 +101,7 @@
             // txtNumero3
             // 
             this.txtNumero3.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero3.Location = new System.Drawing.Point(322, 151);
+            this.txtNumero3.Location = new System.Drawing.Point(300, 117);
             this.txtNumero3.Name = "txtNumero3";
             this.txtNumero3.Size = new System.Drawing.Size(100, 39);
             this.txtNumero3.TabIndex = 6;
@@ -109,9 +109,10 @@
             // btnSomar
             // 
             this.btnSomar.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnSomar.Location = new System.Drawing.Point(110, 192);
+            this.btnSomar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSomar.Location = new System.Drawing.Point(12, 192);
             this.btnSomar.Name = "btnSomar";
-            this.btnSomar.Size = new System.Drawing.Size(100, 44);
+            this.btnSomar.Size = new System.Drawing.Size(195, 44);
             this.btnSomar.TabIndex = 7;
             this.btnSomar.Text = "SOMAR";
             this.btnSomar.UseVisualStyleBackColor = false;
@@ -120,9 +121,10 @@
             // btnSubtrair
             // 
             this.btnSubtrair.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnSubtrair.Location = new System.Drawing.Point(216, 192);
+            this.btnSubtrair.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubtrair.Location = new System.Drawing.Point(12, 242);
             this.btnSubtrair.Name = "btnSubtrair";
-            this.btnSubtrair.Size = new System.Drawing.Size(100, 44);
+            this.btnSubtrair.Size = new System.Drawing.Size(195, 44);
             this.btnSubtrair.TabIndex = 8;
             this.btnSubtrair.Text = "SUBTRAIR";
             this.btnSubtrair.UseVisualStyleBackColor = false;
@@ -131,9 +133,10 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMultiplicar.Location = new System.Drawing.Point(322, 192);
+            this.btnMultiplicar.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMultiplicar.Location = new System.Drawing.Point(12, 292);
             this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(100, 44);
+            this.btnMultiplicar.Size = new System.Drawing.Size(195, 44);
             this.btnMultiplicar.TabIndex = 9;
             this.btnMultiplicar.Text = "MULTIPLICAR";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
@@ -142,9 +145,10 @@
             // btnMaior
             // 
             this.btnMaior.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMaior.Location = new System.Drawing.Point(166, 242);
+            this.btnMaior.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaior.Location = new System.Drawing.Point(252, 192);
             this.btnMaior.Name = "btnMaior";
-            this.btnMaior.Size = new System.Drawing.Size(100, 44);
+            this.btnMaior.Size = new System.Drawing.Size(195, 44);
             this.btnMaior.TabIndex = 10;
             this.btnMaior.Text = "MAIOR";
             this.btnMaior.UseVisualStyleBackColor = false;
@@ -153,9 +157,10 @@
             // btnMenor
             // 
             this.btnMenor.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMenor.Location = new System.Drawing.Point(272, 242);
+            this.btnMenor.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenor.Location = new System.Drawing.Point(252, 242);
             this.btnMenor.Name = "btnMenor";
-            this.btnMenor.Size = new System.Drawing.Size(100, 44);
+            this.btnMenor.Size = new System.Drawing.Size(195, 44);
             this.btnMenor.TabIndex = 11;
             this.btnMenor.Text = "MENOR";
             this.btnMenor.UseVisualStyleBackColor = false;
