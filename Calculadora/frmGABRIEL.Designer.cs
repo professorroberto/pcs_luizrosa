@@ -91,7 +91,7 @@
             this.TXTB3.Font = new System.Drawing.Font("Lucida Sans", 20.25F);
             this.TXTB3.Location = new System.Drawing.Point(251, 113);
             this.TXTB3.Name = "TXTB3";
-            this.TXTB3.Size = new System.Drawing.Size(92, 39);
+            this.TXTB3.Size = new System.Drawing.Size(144, 39);
             this.TXTB3.TabIndex = 4;
             this.TXTB3.Text = "0";
             this.TXTB3.TextChanged += new System.EventHandler(this.TXTB3_TextChanged);
