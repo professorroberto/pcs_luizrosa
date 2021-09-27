@@ -155,6 +155,7 @@
             this.BNT5.TabIndex = 13;
             this.BNT5.Text = "MENOR";
             this.BNT5.UseVisualStyleBackColor = true;
+            this.BNT5.Click += new System.EventHandler(this.BNT5_Click);
             // 
             // frmGABRIEL
             // 

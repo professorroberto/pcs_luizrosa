@@ -60,10 +60,28 @@ namespace Calculadora
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int v1 = Convert.ToInt32(TXTB1.Text);
+            int v2 = Convert.ToInt32(TXTB2.Text);
+            int v3 = Convert.ToInt32(TXTB3.Text);
 
+            if (v1 > v2)
+            {
+                LBLR.Text = Convert.ToString(v1);
+            }
+            if (v2 < v3) {
+                LBLR.Text = Convert.ToString(v3);
+            }
+            else {
+                LBLR.Text = Convert.ToString(v2);
+            }
         }
 
         private void TXTB3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BNT5_Click(object sender, EventArgs e)
         {
 
         }
