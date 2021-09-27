@@ -15,5 +15,10 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void btnMultiplicar_Click(object sender, EventArgs e)
+        {
+            lblResultado.Text = (int.Parse(txtNumero1.Text) * int.Parse(txtNumero2.Text) * int.Parse(txtNumero3.Text)).ToString();
+        }
     }
 }
