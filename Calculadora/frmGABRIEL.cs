@@ -22,8 +22,7 @@ namespace Calculadora
             int v2 = Convert.ToInt32(TXTB2.Text);
             int v3 = Convert.ToInt32(TXTB3.Text);
 
-            LBLR.Text = Convert.ToString(v1 * v2 * v3);
-            
+            LBLR.Text = Convert.ToString(v1 * v2 * v3);       
         }
 
         private void frmGABRIEL_Load(object sender, EventArgs e)
