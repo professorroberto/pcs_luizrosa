@@ -81,23 +81,26 @@
             // 
             // txtNumero1
             // 
+            this.txtNumero1.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero1.Location = new System.Drawing.Point(15, 41);
             this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero1.Size = new System.Drawing.Size(100, 39);
             this.txtNumero1.TabIndex = 4;
             // 
             // txtNumero2
             // 
+            this.txtNumero2.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero2.Location = new System.Drawing.Point(121, 41);
             this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero2.Size = new System.Drawing.Size(100, 39);
             this.txtNumero2.TabIndex = 5;
             // 
             // txtNumero3
             // 
+            this.txtNumero3.Font = new System.Drawing.Font("Lucida Sans", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero3.Location = new System.Drawing.Point(227, 40);
             this.txtNumero3.Name = "txtNumero3";
-            this.txtNumero3.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero3.Size = new System.Drawing.Size(100, 39);
             this.txtNumero3.TabIndex = 6;
             // 
             // btnSomar
