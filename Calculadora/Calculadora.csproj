@@ -66,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmPROFESSOR.resx">
+      <DependentUpon>frmPROFESSOR.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mdiCalculadora.resx">
       <DependentUpon>mdiCalculadora.cs</DependentUpon>
     </EmbeddedResource>
