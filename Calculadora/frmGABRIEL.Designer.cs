@@ -39,6 +39,7 @@
             this.LBL3 = new System.Windows.Forms.Label();
             this.LBLR = new System.Windows.Forms.Label();
             this.BNT4 = new System.Windows.Forms.Button();
+            this.BNT5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BNT1
@@ -138,7 +139,7 @@
             // 
             // BNT4
             // 
-            this.BNT4.Location = new System.Drawing.Point(249, 171);
+            this.BNT4.Location = new System.Drawing.Point(375, 128);
             this.BNT4.Name = "BNT4";
             this.BNT4.Size = new System.Drawing.Size(92, 37);
             this.BNT4.TabIndex = 12;
@@ -146,12 +147,22 @@
             this.BNT4.UseVisualStyleBackColor = true;
             this.BNT4.Click += new System.EventHandler(this.button1_Click);
             // 
+            // BNT5
+            // 
+            this.BNT5.Location = new System.Drawing.Point(375, 171);
+            this.BNT5.Name = "BNT5";
+            this.BNT5.Size = new System.Drawing.Size(92, 37);
+            this.BNT5.TabIndex = 13;
+            this.BNT5.Text = "MENOR";
+            this.BNT5.UseVisualStyleBackColor = true;
+            // 
             // frmGABRIEL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(399, 217);
+            this.ClientSize = new System.Drawing.Size(479, 217);
+            this.Controls.Add(this.BNT5);
             this.Controls.Add(this.BNT4);
             this.Controls.Add(this.LBLR);
             this.Controls.Add(this.LBL3);
@@ -184,5 +195,6 @@
         private System.Windows.Forms.Label LBL3;
         private System.Windows.Forms.Label LBLR;
         private System.Windows.Forms.Button BNT4;
+        private System.Windows.Forms.Button BNT5;
     }
 }
