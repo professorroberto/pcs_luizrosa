@@ -46,119 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmBRUNO.cs">
+    <Compile Include="frmGABRIEL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBRUNO.Designer.cs">
-      <DependentUpon>frmBRUNO.cs</DependentUpon>
+    <Compile Include="frmGABRIEL.Designer.cs">
+      <DependentUpon>frmGABRIEL.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmENZO.cs">
+    <Compile Include="frmPROFESSOR.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmENZO.Designer.cs">
-      <DependentUpon>frmENZO.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmFELIPPO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmFELIPPO.Designer.cs">
-      <DependentUpon>frmFELIPPO.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmGUILHERME.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmGUILHERME.Designer.cs">
-      <DependentUpon>frmGUILHERME.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmHEITOR.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmHEITOR.Designer.cs">
-      <DependentUpon>frmHEITOR.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmJONAS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmJONAS.Designer.cs">
-      <DependentUpon>frmJONAS.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmKAUA.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmKAUA.Designer.cs">
-      <DependentUpon>frmKAUA.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLEONARDO_FERREIRA.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLEONARDO_FERREIRA.Designer.cs">
-      <DependentUpon>frmLEONARDO_FERREIRA.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLEONARDO_TEIXEIRA.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLEONARDO_TEIXEIRA.Designer.cs">
-      <DependentUpon>frmLEONARDO_TEIXEIRA.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLUCAS_DE_PAULA.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLUCAS_DE_PAULA.Designer.cs">
-      <DependentUpon>frmLUCAS_DE_PAULA.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLUCAS_PANICO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLUCAS_PANICO.Designer.cs">
-      <DependentUpon>frmLUCAS_PANICO.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLUIS_FELIPE.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLUIS_FELIPE.Designer.cs">
-      <DependentUpon>frmLUIS_FELIPE.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLUIS_HENRIQUE.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLUIS_HENRIQUE.Designer.cs">
-      <DependentUpon>frmLUIS_HENRIQUE.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMATHEUS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMATHEUS.Designer.cs">
-      <DependentUpon>frmMATHEUS.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmNICOLAS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmNICOLAS.Designer.cs">
-      <DependentUpon>frmNICOLAS.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmPEDRO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmPEDRO.Designer.cs">
-      <DependentUpon>frmPEDRO.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRENAN.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRENAN.Designer.cs">
-      <DependentUpon>frmRENAN.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSAMUEL.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSAMUEL.Designer.cs">
-      <DependentUpon>frmSAMUEL.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmTIAGO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTIAGO.Designer.cs">
-      <DependentUpon>frmTIAGO.cs</DependentUpon>
+    <Compile Include="frmPROFESSOR.Designer.cs">
+      <DependentUpon>frmPROFESSOR.cs</DependentUpon>
     </Compile>
     <Compile Include="mdiCalculadora.cs">
       <SubType>Form</SubType>
@@ -168,9 +66,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmBRUNO.resx">
-      <DependentUpon>frmBRUNO.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="mdiCalculadora.resx">
       <DependentUpon>mdiCalculadora.cs</DependentUpon>
     </EmbeddedResource>

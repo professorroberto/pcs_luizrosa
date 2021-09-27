@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Calculadora
 {
-    public partial class frmLEONARDO_TEIXEIRA : Form
+    public partial class frmGABRIEL : Form
     {
-        public frmLEONARDO_TEIXEIRA()
+        public frmGABRIEL()
         {
             InitializeComponent();
         }

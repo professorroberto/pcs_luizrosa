@@ -1,6 +1,6 @@
 ﻿namespace Calculadora
 {
-    partial class frmRENAN
+    partial class frmPROFESSOR
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "frmRENAN";
+            this.Text = "frmPROFESSOR";
         }
 
         #endregion

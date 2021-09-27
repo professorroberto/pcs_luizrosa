@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Calculadora
 {
-    public partial class frmRENAN : Form
+    public partial class frmPROFESSOR : Form
     {
-        public frmRENAN()
+        public frmPROFESSOR()
         {
             InitializeComponent();
         }
