@@ -45,6 +45,7 @@
             // 
             // BNT1
             // 
+            this.BNT1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNT1.Location = new System.Drawing.Point(53, 154);
             this.BNT1.Name = "BNT1";
             this.BNT1.Size = new System.Drawing.Size(92, 37);
@@ -55,6 +56,7 @@
             // 
             // BNT2
             // 
+            this.BNT2.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNT2.Location = new System.Drawing.Point(151, 154);
             this.BNT2.Name = "BNT2";
             this.BNT2.Size = new System.Drawing.Size(92, 37);
@@ -65,9 +67,10 @@
             // 
             // BNT3
             // 
+            this.BNT3.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BNT3.Location = new System.Drawing.Point(249, 154);
             this.BNT3.Name = "BNT3";
-            this.BNT3.Size = new System.Drawing.Size(92, 37);
+            this.BNT3.Size = new System.Drawing.Size(146, 37);
             this.BNT3.TabIndex = 2;
             this.BNT3.Text = "MULTIPLICAR";
             this.BNT3.UseVisualStyleBackColor = true;
@@ -85,7 +88,7 @@
             // TXTB3
             // 
             this.TXTB3.Font = new System.Drawing.Font("Lucida Sans", 20.25F);
-            this.TXTB3.Location = new System.Drawing.Point(249, 113);
+            this.TXTB3.Location = new System.Drawing.Point(251, 113);
             this.TXTB3.Name = "TXTB3";
             this.TXTB3.Size = new System.Drawing.Size(92, 39);
             this.TXTB3.TabIndex = 4;
@@ -132,7 +135,7 @@
             // 
             this.LBLR.AutoSize = true;
             this.LBLR.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBLR.Location = new System.Drawing.Point(9, 224);
+            this.LBLR.Location = new System.Drawing.Point(64, 218);
             this.LBLR.Name = "LBLR";
             this.LBLR.Size = new System.Drawing.Size(331, 55);
             this.LBLR.TabIndex = 11;
@@ -140,7 +143,8 @@
             // 
             // BNT4
             // 
-            this.BNT4.Location = new System.Drawing.Point(375, 196);
+            this.BNT4.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BNT4.Location = new System.Drawing.Point(510, 194);
             this.BNT4.Name = "BNT4";
             this.BNT4.Size = new System.Drawing.Size(92, 37);
             this.BNT4.TabIndex = 12;
@@ -150,7 +154,8 @@
             // 
             // BNT5
             // 
-            this.BNT5.Location = new System.Drawing.Point(375, 239);
+            this.BNT5.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BNT5.Location = new System.Drawing.Point(510, 237);
             this.BNT5.Name = "BNT5";
             this.BNT5.Size = new System.Drawing.Size(92, 37);
             this.BNT5.TabIndex = 13;
@@ -173,7 +178,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(479, 288);
+            this.ClientSize = new System.Drawing.Size(614, 288);
             this.Controls.Add(this.LBLT);
             this.Controls.Add(this.BNT5);
             this.Controls.Add(this.BNT4);
