@@ -104,5 +104,12 @@ namespace Calculadora
                 LBLR.Text = Convert.ToString(v2);
             }
         }
+
+        private void BNTL_Click(object sender, EventArgs e)
+        {
+            TXTB1.Text = "";
+            TXTB2.Text = "";
+            TXTB3.Text = "";
+        }
     }
 }
