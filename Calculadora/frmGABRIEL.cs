@@ -34,6 +34,8 @@ namespace Calculadora
             BNT1.BackColor = Color.LightSteelBlue;
             BNT2.BackColor = Color.LightSteelBlue;
             BNT3.BackColor = Color.LightSteelBlue;
+
+            LBLR.BackColor = Color.DarkGreen;
         }
 
         private void BNT1_Click(object sender, EventArgs e)
