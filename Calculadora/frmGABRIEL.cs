@@ -38,7 +38,7 @@ namespace Calculadora
             BNT5.BackColor = Color.LightSteelBlue;
 
 
-            LBLT.BackColor = Color.Fuchsia;
+            LBLT.ForeColor = Color.Fuchsia;
             LBLR.BackColor = Color.DarkGreen;
         }
 
