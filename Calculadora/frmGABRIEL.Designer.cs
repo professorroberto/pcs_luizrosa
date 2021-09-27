@@ -41,6 +41,7 @@
             this.BNT4 = new System.Windows.Forms.Button();
             this.BNT5 = new System.Windows.Forms.Button();
             this.LBLT = new System.Windows.Forms.Label();
+            this.BNTL = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BNT1
@@ -173,12 +174,24 @@
             this.LBLT.TabIndex = 14;
             this.LBLT.Text = "ALUNO GABRIEL - RA: 2190028-9";
             // 
+            // BNTL
+            // 
+            this.BNTL.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BNTL.Location = new System.Drawing.Point(510, 14);
+            this.BNTL.Name = "BNTL";
+            this.BNTL.Size = new System.Drawing.Size(92, 37);
+            this.BNTL.TabIndex = 15;
+            this.BNTL.Text = "LIMPAR";
+            this.BNTL.UseVisualStyleBackColor = true;
+            this.BNTL.Click += new System.EventHandler(this.BNTL_Click);
+            // 
             // frmGABRIEL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(614, 288);
+            this.Controls.Add(this.BNTL);
             this.Controls.Add(this.LBLT);
             this.Controls.Add(this.BNT5);
             this.Controls.Add(this.BNT4);
@@ -215,5 +228,6 @@
         private System.Windows.Forms.Button BNT4;
         private System.Windows.Forms.Button BNT5;
         private System.Windows.Forms.Label LBLT;
+        private System.Windows.Forms.Button BNTL;
     }
 }
