@@ -38,6 +38,7 @@
             this.LBL2 = new System.Windows.Forms.Label();
             this.LBL3 = new System.Windows.Forms.Label();
             this.LBLR = new System.Windows.Forms.Label();
+            this.BNT4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BNT1
@@ -128,11 +129,22 @@
             this.LBLR.TabIndex = 11;
             this.LBLR.Text = "RESULTADO:";
             // 
+            // BNT4
+            // 
+            this.BNT4.Location = new System.Drawing.Point(249, 171);
+            this.BNT4.Name = "BNT4";
+            this.BNT4.Size = new System.Drawing.Size(92, 37);
+            this.BNT4.TabIndex = 12;
+            this.BNT4.Text = "MAIOR";
+            this.BNT4.UseVisualStyleBackColor = true;
+            this.BNT4.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmGABRIEL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 217);
+            this.Controls.Add(this.BNT4);
             this.Controls.Add(this.LBLR);
             this.Controls.Add(this.LBL3);
             this.Controls.Add(this.LBL2);
@@ -163,5 +175,6 @@
         private System.Windows.Forms.Label LBL2;
         private System.Windows.Forms.Label LBL3;
         private System.Windows.Forms.Label LBLR;
+        private System.Windows.Forms.Button BNT4;
     }
 }
