@@ -131,10 +131,10 @@
             // LBLR
             // 
             this.LBLR.AutoSize = true;
-            this.LBLR.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBLR.Location = new System.Drawing.Point(9, 245);
+            this.LBLR.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBLR.Location = new System.Drawing.Point(9, 224);
             this.LBLR.Name = "LBLR";
-            this.LBLR.Size = new System.Drawing.Size(189, 31);
+            this.LBLR.Size = new System.Drawing.Size(331, 55);
             this.LBLR.TabIndex = 11;
             this.LBLR.Text = "RESULTADO:";
             // 

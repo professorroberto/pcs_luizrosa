@@ -39,7 +39,9 @@ namespace Calculadora
 
 
             LBLT.ForeColor = Color.Fuchsia;
+
             LBLR.BackColor = Color.DarkGreen;
+            LBLR.ForeColor = Color.PaleTurquoise;
         }
 
         private void BNT1_Click(object sender, EventArgs e)
