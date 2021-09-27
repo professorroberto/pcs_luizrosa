@@ -57,14 +57,14 @@
             // gABRIELToolStripMenuItem
             // 
             this.gABRIELToolStripMenuItem.Name = "gABRIELToolStripMenuItem";
-            this.gABRIELToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.gABRIELToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.gABRIELToolStripMenuItem.Text = "GABRIEL";
             this.gABRIELToolStripMenuItem.Click += new System.EventHandler(this.gABRIELToolStripMenuItem_Click);
             // 
             // pROFESSORToolStripMenuItem
             // 
             this.pROFESSORToolStripMenuItem.Name = "pROFESSORToolStripMenuItem";
-            this.pROFESSORToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pROFESSORToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.pROFESSORToolStripMenuItem.Text = "PROFESSOR";
             this.pROFESSORToolStripMenuItem.Click += new System.EventHandler(this.pROFESSORToolStripMenuItem_Click);
             // 
@@ -72,6 +72,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Calculadora.Properties.Resources.images;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(396, 368);
             this.Controls.Add(this.mnuOperacoes);
             this.IsMdiContainer = true;
