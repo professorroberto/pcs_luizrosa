@@ -110,6 +110,8 @@ namespace Calculadora
             TXTB1.Text = "";
             TXTB2.Text = "";
             TXTB3.Text = "";
+
+            LBLR.Text = "";
         }
     }
 }
