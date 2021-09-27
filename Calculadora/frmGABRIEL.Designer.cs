@@ -58,6 +58,7 @@
             this.BNT2.TabIndex = 1;
             this.BNT2.Text = "SUBTRAIR";
             this.BNT2.UseVisualStyleBackColor = true;
+            this.BNT2.Click += new System.EventHandler(this.BNT2_Click);
             // 
             // BNT3
             // 

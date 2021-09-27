@@ -44,5 +44,14 @@ namespace Calculadora
 
             LBLR.Text = Convert.ToString(v1 + v2 + v3);
         }
+
+        private void BNT2_Click(object sender, EventArgs e)
+        {
+            int v1 = Convert.ToInt32(TXTB1.Text);
+            int v2 = Convert.ToInt32(TXTB2.Text);
+            int v3 = Convert.ToInt32(TXTB3.Text);
+
+            LBLR.Text = Convert.ToString(v1 - v2 - v3);
+        }
     }
 }
