@@ -66,6 +66,7 @@
             this.BNT3.TabIndex = 2;
             this.BNT3.Text = "MULTIPLICAR";
             this.BNT3.UseVisualStyleBackColor = true;
+            this.BNT3.Click += new System.EventHandler(this.BNT3_Click);
             // 
             // TXTB1
             // 
@@ -141,6 +142,7 @@
             this.Controls.Add(this.BNT1);
             this.Name = "frmGABRIEL";
             this.Text = "2190028-9";
+            this.Load += new System.EventHandler(this.frmGABRIEL_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
