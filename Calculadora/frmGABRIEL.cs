@@ -22,7 +22,9 @@ namespace Calculadora
             int v2 = Convert.ToInt32(TXTB2.Text);
             int v3 = Convert.ToInt32(TXTB3.Text);
 
-            LBLR.Text = Convert.ToString(v1 * v2 * v3);       
+            LBLR.Text = Convert.ToString(v1 * v2 * v3);
+
+            MessageBox.Show("PARABÉNS, VOCÊ ACABA DE EXECUTAR A OPERAÇÃO MULTIPLICAR COM SUCESSO! FICAMOS MUITO FELIZES POR UTILIZAR OS NOSSOS SITEMAS! CONTE SEMPRE CONOSCO! E O RESULTADO DA SUA OPERAÇÃO É " + LBLR.Text);
         }
 
         private void frmGABRIEL_Load(object sender, EventArgs e)
@@ -51,6 +53,8 @@ namespace Calculadora
             int v3 = Convert.ToInt32(TXTB3.Text);
 
             LBLR.Text = Convert.ToString(v1 + v2 + v3);
+
+            MessageBox.Show("PARABÉNS, VOCÊ ACABA DE EXECUTAR A OPERAÇÃO SOMAR COM SUCESSO! FICAMOS MUITO FELIZES POR UTILIZAR OS NOSSOS SITEMAS! CONTE SEMPRE CONOSCO! E O RESULTADO DA SUA OPERAÇÃO É " + LBLR.Text);
         }
 
         private void BNT2_Click(object sender, EventArgs e)
@@ -60,6 +64,9 @@ namespace Calculadora
             int v3 = Convert.ToInt32(TXTB3.Text);
 
             LBLR.Text = Convert.ToString(v1 - v2 - v3);
+
+            MessageBox.Show("PARABÉNS, VOCÊ ACABA DE EXECUTAR A OPERAÇÃO SUBTRAÇÃO COM SUCESSO! FICAMOS MUITO FELIZES POR UTILIZAR OS NOSSOS SITEMAS! CONTE SEMPRE CONOSCO! E O RESULTADO DA SUA OPERAÇÃO É " + LBLR.Text);
+
         }
 
         private void button1_Click(object sender, EventArgs e)
