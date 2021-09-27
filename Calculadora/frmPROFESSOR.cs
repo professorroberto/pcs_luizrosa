@@ -42,5 +42,13 @@ namespace Calculadora
             List<int> numeros = new List<int>() { int.Parse(txtNumero1.Text), int.Parse(txtNumero2.Text), int.Parse(txtNumero3.Text) };
             lblResultado.Text = numeros.Min().ToString();
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtNumero1.Clear();
+            txtNumero2.Clear();
+            txtNumero3.Clear();
+            lblResultado.Text = "";
+        }
     }
 }
